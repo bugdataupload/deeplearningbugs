@@ -1,4 +1,4 @@
-# deep learning bugs
-In this paper, we conduct an empirical study to analyze the bugs inside a typical deep learning library TensorFlow. We analyze 202 bugs that are repaired between December 2017 and March 2019.
+# Deep Learning Bugs
+In this paper, we we constructed 1,820 bugs of 3 implementations of a deep learning application. 
 
-In dataset, we provide the URL, summary, evidence and other extracted information of collected bug reports and fixes.
+In dataset, we provide the program logs and a database storing the link between a buggy version and its mutation operator, mutated file and modified line number.
