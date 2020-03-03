@@ -16,3 +16,25 @@ Keras version: https://github.com/alexander-rakhlin/CNN-for-Sentence-Classificat
 Mutation tool: https://github.com/bugdataupload/deeplearningbugs
 
 Coverage tool: https://github.com/nedbat/coveragepy
+
+A bug example in Keras is shown as following:
+
+The original code is
+
+```Python
+def result(self):
+        if self.reduction == metrics_utils.Reduction.SUM:
+            return self.total
+        elif self.reduction in [metrics_utils.Reduction.WEIGHTED_MEAN, metrics_utils.Reduction.SUM_OVER_BATCH_SIZE]:
+            return self.total / self.count
+```
+The mutated code is
+
+```Python
+def result(self):
+        if self.reduction == metrics_utils.Reduction.SUM:
+            return self.total
+        elif self.reduction in [metrics_utils.Reduction.WEIGHTED_MEAN, metrics_utils.Reduction.SUM_OVER_BATCH_SIZE]:
+            return self.total * self.count
+```
+Our mutation tool replaces the arithmetic operator from “/” to “*”, the modification causes a wrong calculation of a metric accuracy.
