@@ -1,9 +1,9 @@
 # What are the Impacts of Bugs in Deep Learning Software
-In this paper, we we constructed 1,820 bugs of 3 implementations of a deep learning application. 
+In this paper, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. 
 
-We provide logs and the summary of a buggy version and its mutation operator, mutated file and modified line number.
+We provide logs and summary of buggy versions and corresponding mutation operators, mutated files and modified line numbers.
 
-The entries of Excel file are mutation node type, accuarcy, training time mutation line number and related code.
+The entries of summary are mutation node type, accuarcy, training time mutation line number and related code.
 
 Dataset: www.cs.cornell.edu/people/pabo/movie-review-data/
 
