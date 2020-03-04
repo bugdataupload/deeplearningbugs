@@ -1,4 +1,4 @@
-# What are the Impacts of Bugs in Deep Learning Software
+# How can bugs affect deep learning? A mutation-based analysis
 In this paper, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. 
 
 We provide logs and summary of buggy versions and corresponding mutation operators, mutated files and modified line numbers.
