@@ -1,0 +1,53 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 324, in _AssertCompatible
+    fn(values)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 263, in inner
+    _ = [_check_failed(v) for v in nest.flatten(values)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 264, in <listcomp>
+    if not isinstance(v, expected_types)]
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 248, in _check_failed
+    raise ValueError(v)
+ValueError: Tensor("dense_2/Sigmoid:0", shape=(?, 1), dtype=float32)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 157, in <module>
+    model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 229, in compile
+    self.total_loss = self._prepare_total_loss(masks)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 692, in _prepare_total_loss
+    y_true, y_pred, sample_weight=sample_weight)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/losses.py", line 71, in __call__
+    losses = self.call(y_true, y_pred)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/losses.py", line 132, in call
+    return self.fn(y_true, y_pred, **self._fn_kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/losses.py", line 700, in binary_crossentropy
+    y_pred = K.constant(y_pred) if  K.is_tensor(y_pred) else y_pred
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 649, in constant
+    value, dtype=dtype, shape=shape, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/keras/backend.py", line 929, in constant
+    return constant_op.constant(value, dtype=dtype, shape=shape, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py", line 227, in constant
+    allow_broadcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py", line 265, in _constant_impl
+    allow_broadcast=allow_broadcast))
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 449, in make_tensor_proto
+    _AssertCompatible(values, dtype)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 331, in _AssertCompatible
+    (dtype.name, repr(mismatch), type(mismatch).__name__))
+TypeError: Expected float32, got <tf.Tensor 'dense_2/Sigmoid:0' shape=(?, 1) dtype=float32> of type 'Tensor' instead.
