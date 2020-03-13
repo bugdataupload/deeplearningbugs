@@ -1,0 +1,77 @@
+WARNING:tensorflow:From train.py:196: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0207 21:51:44.626461 4623015360 deprecation.py:323] From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0207 21:51:44.626672 4623015360 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0207 21:51:44.626774 4623015360 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0207 21:51:45.148913 4623015360 module_wrapper.py:139] From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0207 21:51:45.149304 4623015360 module_wrapper.py:139] From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-07 21:51:45.149562: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-07 21:51:45.162915: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7facc5798b80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-07 21:51:45.162945: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0207 21:51:45.163378 4623015360 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Loading data...
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/eager/execute.py", line 206, in make_shape
+    shape = tensor_shape.as_shape(v)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_shape.py", line 1216, in as_shape
+    return TensorShape(shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_shape.py", line 776, in __init__
+    self._dims = [as_dimension(d) for d in dims_iter]
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_shape.py", line 776, in <listcomp>
+    self._dims = [as_dimension(d) for d in dims_iter]
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_shape.py", line 718, in as_dimension
+    return Dimension(value)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_shape.py", line 193, in __init__
+    self._value = int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    tf.app.run()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 193, in main
+    train(x_train, y_train, vocab_processor, x_dev, y_dev)
+  File "train.py", line 92, in train
+    l2_reg_lambda=FLAGS.l2_reg_lambda)
+  File "/Volumes/Transcend/Mutation/CNN-TF/text_cnn.py", line 15, in __init__
+    self.input_x = tf.placeholder(tf.int32, [None, sequence_length], name="input_x")
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py", line 2619, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_array_ops.py", line 6667, in placeholder
+    shape = _execute.make_shape(shape, "shape")
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/eager/execute.py", line 208, in make_shape
+    raise TypeError("Error converting %s to a TensorShape: %s." % (arg_name, e))
+TypeError: Error converting shape to a TensorShape: int() argument must be a string, a bytes-like object or a number, not 'NoneType'.
