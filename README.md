@@ -13,11 +13,11 @@ The three versions are built upon the three famous deep learning libraries: [The
 
 ## Our dataset
 
-The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-data/. We use sentence polarity dataset v1.0, which contains 5,331 positive reviews and 5,331 negative reviews. I. 
+The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-data/. We use sentence polarity dataset v1.0, which contains 5,331 positive reviews and 5,331 negative reviews. 
 
 ## Our tools
 
-In our study, we choose [mutmut](https://github.com/boxed/mutmut) Mutmut is a mutation testing system for Python 3 with small and simple implementation.
+In our study, we choose [mutmut](https://github.com/boxed/mutmut). Mutmut is a mutation testing system for Python 3 with small and simple implementation.
 
 Coverage tool: https://github.com/nedbat/coveragepy
 
@@ -55,3 +55,6 @@ Our mutation tool replaces the arithmetic operator from “/” to “*”, the 
 The entries of summary are mutation node type, accuarcy, training time mutation line number and related code.
 
 Show an example of the entries.
+
+operator	0.7732	57.39143395423889	(502, 20)	<Operator: +=>        self.seen += batch_size
+
