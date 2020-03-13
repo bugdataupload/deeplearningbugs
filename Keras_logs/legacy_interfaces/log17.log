@@ -1,0 +1,14 @@
+Using TensorFlow backend.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 135, in <module>
+    z = Embedding(len(vocabulary_inv), embedding_dim, input_length=sequence_length, name="embedding")(model_input)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 46, in wrapper
+    str(list(args[1:])))
+TypeError: `Embedding` can accept only 2 positional arguments ('input_dim', 'output_dim'), but you passed the following positional arguments: [18779, 50]
