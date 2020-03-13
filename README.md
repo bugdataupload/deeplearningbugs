@@ -54,9 +54,10 @@ Our mutation tool replaces the arithmetic operator from “/” to “*”, the 
 
 The entries of summary are mutation node type, accuarcy, training time mutation line number and related code.
 
-Show an example of the entries.
+For example
+
 
 mutation node type  | accuracy  | training time|line number |mutation node|related code
----- | ----- | ------ |
+---- | ----- | ------ |---- | ----- | 
 operator|0.7732|57.39143395423889|(502, 20)|<Operator: +=>|self.seen += batch_size
 
