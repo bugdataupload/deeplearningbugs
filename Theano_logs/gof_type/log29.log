@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 14, in <module>
+    import theano
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/__init__.py", line 124, in <module>
+    from theano.scan_module import (scan, map, reduce, foldl, foldr, clone,
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/scan_module/__init__.py", line 41, in <module>
+    from theano.scan_module import scan_opt
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/scan_module/scan_opt.py", line 60, in <module>
+    from theano import tensor, scalar
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/__init__.py", line 38, in <module>
+    from theano.tensor import nnet  # used for softmax, sigmoid, etc.
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/__init__.py", line 2, in <module>
+    from .nnet import (
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 24, in <module>
+    from theano.tensor import extra_ops, as_tensor_variable
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/extra_ops.py", line 247, in <module>
+    class CumOp(theano.Op):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/extra_ops.py", line 254, in CumOp
+    ('MODE_MUL', 'mul')))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/type.py", line 1199, in __init__
+    super(EnumList, self).__init__(**kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/type.py", line 940, in __init__
+    self.__init_ctype(kwargs.pop('ctype', 'double'))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/type.py", line 932, in __init_ctype
+    self.ctype = ' '.join(ctype_parts)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/type.py", line 1006, in __setattr__
+    raise NotImplementedError('constant values are immutable.')
+NotImplementedError: constant values are immutable.
