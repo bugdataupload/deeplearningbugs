@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "train.py", line 3, in <module>
+    import tensorflow as tf
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 99, in <module>
+    from tensorflow_core import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 36, in <module>
+    from tensorflow._api.v1 import compat
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/__init__.py", line 23, in <module>
+    from tensorflow._api.v1.compat import v1
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/v1/__init__.py", line 49, in <module>
+    from tensorflow._api.v1.compat.v1 import lite
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/v1/lite/__init__.py", line 11, in <module>
+    from tensorflow._api.v1.compat.v1.lite import experimental
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/v1/lite/experimental/__init__.py", line 10, in <module>
+    from tensorflow._api.v1.compat.v1.lite.experimental import nn
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/v1/lite/experimental/nn/__init__.py", line 10, in <module>
+    from tensorflow.lite.python.lite import TFLiteLSTMCell
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/lite/python/lite.py", line 31, in <module>
+    from tensorflow.lite.experimental.microfrontend.python.ops import audio_microfrontend_op  # pylint: disable=unused-import
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/lite/experimental/microfrontend/python/ops/audio_microfrontend_op.py", line 30, in <module>
+    resource_loader.get_path_to_datafile("_audio_microfrontend_op.so"))
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/load_library.py", line 78, in load_op_library
+    exec(wrappers, module.__dict__)
+  File "<string>", line 409, in <module>
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 2601, in __call__
+    _shape_registry.register(f, self._op_type)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/registry.py", line 61, in register
+    (self._name, name, frame.name, frame.filename, frame.lineno))
+KeyError: "Registering two shape functions with name 'AudioMicrofrontend'! (Previous registration was in register /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/registry.py:66)"

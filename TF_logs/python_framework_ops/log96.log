@@ -1,0 +1,102 @@
+WARNING:tensorflow:From train.py:196: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0216 16:00:58.707546 4473937344 deprecation.py:323] From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0216 16:00:58.707847 4473937344 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0216 16:00:58.708024 4473937344 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0216 16:00:59.353804 4473937344 module_wrapper.py:139] From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0216 16:00:59.354191 4473937344 module_wrapper.py:139] From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-16 16:00:59.354541: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-16 16:00:59.370302: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7ff137a418e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-16 16:00:59.370323: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0216 16:00:59.370943 4473937344 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:25: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0216 16:00:59.377578 4473937344 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:25: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:36: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+W0216 16:00:59.395498 4473937344 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:36: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:47: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0216 16:00:59.410326 4473937344 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:47: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:62: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0216 16:00:59.447197 4473937344 deprecation.py:506] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:62: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:66: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0216 16:00:59.460683 4473937344 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:66: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0216 16:00:59.460975 4473937344 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+Loading data...
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    tf.app.run()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 193, in main
+    train(x_train, y_train, vocab_processor, x_dev, y_dev)
+  File "train.py", line 92, in train
+    l2_reg_lambda=FLAGS.l2_reg_lambda)
+  File "/Volumes/Transcend/Mutation/CNN-TF/text_cnn.py", line 69, in __init__
+    initializer=tf.contrib.layers.xavier_initializer())
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variable_scope.py", line 1500, in get_variable
+    aggregation=aggregation)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variable_scope.py", line 1243, in get_variable
+    aggregation=aggregation)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variable_scope.py", line 399, in get_variable
+    with ops.init_scope():
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 5591, in init_scope
+    if scope or scope[-1] != "/":
+TypeError: 'NoneType' object is not subscriptable

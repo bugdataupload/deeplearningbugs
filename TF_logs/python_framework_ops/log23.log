@@ -1,0 +1,60 @@
+WARNING:tensorflow:From train.py:196: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 03:30:14.090010 4727086528 deprecation.py:323] From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 03:30:14.090225 4727086528 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 03:30:14.090331 4727086528 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0208 03:30:14.600815 4727086528 module_wrapper.py:139] From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0208 03:30:14.601126 4727086528 module_wrapper.py:139] From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-08 03:30:14.601430: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-08 03:30:14.616670: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fced17e7820 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-08 03:30:14.616693: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0208 03:30:14.617058 4727086528 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Loading data...
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    tf.app.run()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 193, in main
+    train(x_train, y_train, vocab_processor, x_dev, y_dev)
+  File "train.py", line 92, in train
+    l2_reg_lambda=FLAGS.l2_reg_lambda)
+  File "/Volumes/Transcend/Mutation/CNN-TF/text_cnn.py", line 23, in __init__
+    with tf.device('/cpu:0'), tf.name_scope("embedding"):
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 5130, in device
+    elif executing_eagerly_outside_functions():
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 5641, in executing_eagerly_outside_functions
+    outer_context, _ = _get_outer_context_and_inner_device_stack()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 5524, in _get_outer_context_and_inner_device_stack
+    raise RuntimeError("All graphs are building functions, and no "
+RuntimeError: All graphs are building functions, and no eager context was previously active.
