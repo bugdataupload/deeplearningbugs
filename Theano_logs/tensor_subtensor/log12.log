@@ -1,0 +1,14 @@
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 325, in <module>
+    dropout_rate=[0.5])
+  File "conv_net_sentence.py", line 84, in train_conv_net
+    set_zero = theano.function([zero_vec_tensor], updates=[(Words, T.set_subtensor(Words[0,:], zero_vec_tensor))], allow_input_downcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 1035, in set_subtensor
+    tolerate_inplace_aliasing=tolerate_inplace_aliasing)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 1076, in inc_subtensor
+    y.ndim))
+TypeError: Trying to increment a 1-dimensional subtensor with a 1-dimensional value.

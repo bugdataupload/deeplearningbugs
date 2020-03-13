@@ -1,0 +1,183 @@
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(Shape_i{1}.0, Shape_i{0}.0, Shape_i{2}.0, Shape_i{3}.0), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(Shape_i{1}.0, Shape_i{0}.0, Shape_i{2}.0, Shape_i{3}.0), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(Shape_i{1}.0, Shape_i{0}.0, Shape_i{2}.0, Shape_i{3}.0), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{50}, TensorConstant{62}, TensorConstant{1}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{1}, TensorConstant{3}, TensorConstant{300}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{50}, TensorConstant{61}, TensorConstant{1}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{1}, TensorConstant{4}, TensorConstant{300}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{50}, TensorConstant{60}, TensorConstant{1}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+WARNING (theano.tensor.opt): Failed to infer_shape from Op Subtensor{::, ::, ::int64, ::int64}.
+Input shapes: [(TensorConstant{100}, TensorConstant{1}, TensorConstant{5}, TensorConstant{300}), (), ()]
+Exception encountered during infer_shape: <class 'theano.tensor.var.AsTensorError'>
+Exception message: ('Cannot convert None to TensorType', <type 'NoneType'>)
+Traceback: Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 946, in get_node_infer_shape
+    [self.shape_of[r] for r in node.inputs])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 555, in infer_shape
+    cnf = get_canonical_form_slice(idx, xl)[0]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/subtensor.py", line 231, in get_canonical_form_slice
+    stop = switch(lt(stop, 0), stop + length, stop)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 615, in __call__
+    node = self.make_node(*inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/elemwise.py", line 480, in make_node
+    inputs = list(map(as_tensor_variable, inputs))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 200, in as_tensor_variable
+    raise AsTensorError("Cannot convert %s to TensorType" % str_x, type(x))
+AsTensorError: ('Cannot convert None to TensorType', <type 'NoneType'>)
+
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 298.60 secs, train perf: 81.55 %, val perf: 78.11 %
+epoch: 2, training time: 298.95 secs, train perf: 82.68 %, val perf: 74.42 %
+epoch: 3, training time: 298.02 secs, train perf: 91.78 %, val perf: 81.79 %
+epoch: 4, training time: 297.66 secs, train perf: 95.87 %, val perf: 80.42 %
+epoch: 5, training time: 298.30 secs, train perf: 96.24 %, val perf: 82.74 %
+cv: 0, perf: 0.800186741363212
+0.800186741363212
