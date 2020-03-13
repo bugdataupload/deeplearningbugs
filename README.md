@@ -17,7 +17,7 @@ The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-d
 
 ## Our tools
 
-In our study, we choose [mutmut](https://github.com/boxed/mutmut). Mutmut is a mutation testing system for Python 3 with small and simple implementation. It generates mutants by analyzing the AST nodes of a program.
+In our study, we choose [mutmut](https://github.com/boxed/mutmut) for mutation. Mutmut is a mutation testing system for Python 3 with small and simple implementation. It generates mutants by analyzing the AST nodes of a program.
 
 Coverage tool: https://github.com/nedbat/coveragepy
 
@@ -52,11 +52,11 @@ Our mutation tool replaces the arithmetic operator from “/” to “*”, the 
 
 ## Our logs
 
-The entries of summary are mutation node type, accuarcy, training time mutation line number and related code.
+The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
 For example:
 
 
-mutation node type  | accuracy | training time | line number |mutation node|related code
+mutation node type  | accuracy | training time | line number | node content|related code
   ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
  operator|0.7732|57.39143395423889|(502, 20)|<Operator: +=>|self.seen += batch_size
