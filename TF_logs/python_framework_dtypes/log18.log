@@ -1,0 +1,82 @@
+WARNING:tensorflow:From train.py:196: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 19:01:57.428253 4612984256 deprecation.py:323] From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 19:01:57.428602 4612984256 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0208 19:01:57.428791 4612984256 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0208 19:01:58.134138 4612984256 module_wrapper.py:139] From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0208 19:01:58.134376 4612984256 module_wrapper.py:139] From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-08 19:01:58.134580: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-08 19:01:58.156056: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fe0cac91ca0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-08 19:01:58.156111: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0208 19:01:58.156780 4612984256 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:15: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:25: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0208 19:01:58.163725 4612984256 module_wrapper.py:139] From /Volumes/Transcend/Mutation/CNN-TF/text_cnn.py:25: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+Loading data...
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    tf.app.run()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 193, in main
+    train(x_train, y_train, vocab_processor, x_dev, y_dev)
+  File "train.py", line 92, in train
+    l2_reg_lambda=FLAGS.l2_reg_lambda)
+  File "/Volumes/Transcend/Mutation/CNN-TF/text_cnn.py", line 26, in __init__
+    name="W")
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 258, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 219, in _variable_v1_call
+    shape=shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 197, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variable_scope.py", line 2519, in default_variable_creator
+    shape=shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 262, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 1688, in __init__
+    shape=shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/variables.py", line 1862, in _init_from_args
+    validate_shape=validate_shape).op
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/state_ops.py", line 227, in assign
+    validate_shape=validate_shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_state_ops.py", line 66, in assign
+    use_locking=use_locking, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 568, in _apply_op_helper
+    base_types = [x.base_dtype for x in types]
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 568, in <listcomp>
+    base_types = [x.base_dtype for x in types]
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/dtypes.py", line 104, in base_dtype
+    return _INTERN_TABLE[self._type_enum + 100]
+KeyError: 201

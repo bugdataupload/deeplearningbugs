@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "train.py", line 3, in <module>
+    import tensorflow as tf
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 99, in <module>
+    from tensorflow_core import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 50, in __getattr__
+    module = self._load()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 44, in _load
+    module = _importlib.import_module(self.__name__)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/__init__.py", line 73, in <module>
+    from tensorflow.python.ops.standard_ops import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/standard_ops.py", line 25, in <module>
+    from tensorflow.python import autograph
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/autograph/__init__.py", line 35, in <module>
+    from tensorflow.python.autograph import operators
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/autograph/__init__.py", line 35, in <module>
+    from tensorflow.python.autograph import operators
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/__init__.py", line 40, in <module>
+    from tensorflow.python.autograph.operators.control_flow import for_stmt
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/control_flow.py", line 65, in <module>
+    from tensorflow.python.autograph.operators import py_builtins
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/py_builtins.py", line 30, in <module>
+    from tensorflow.python.data.ops import dataset_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/__init__.py", line 25, in <module>
+    from tensorflow.python.data import experimental
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/experimental/__init__.py", line 89, in <module>
+    from tensorflow.python.data.experimental.ops.batching import dense_to_sparse_batch
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/experimental/ops/batching.py", line 20, in <module>
+    from tensorflow.python.data.ops import dataset_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/ops/dataset_ops.py", line 39, in <module>
+    from tensorflow.python.data.ops import iterator_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/ops/iterator_ops.py", line 23, in <module>
+    from tensorflow.python.data.ops import optional_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/ops/optional_ops.py", line 24, in <module>
+    from tensorflow.python.data.util import structure
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/data/util/structure.py", line 33, in <module>
+    from tensorflow.python.ops.ragged import ragged_tensor
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/ragged/__init__.py", line 52, in <module>
+    __doc__ += ragged_dispatch.ragged_op_list()  # pylint: disable=redefined-builtin
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/ragged/ragged_dispatch.py", line 560, in ragged_op_list
+    lines.append(_ragged_op_signature(op, [0]))
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/ragged/ragged_dispatch.py", line 534, in _ragged_op_signature
+    arg_names[pos] += '=`{!r}`'.format(argspec.defaults[pos])
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/dtypes.py", line 283, in __repr__
+    return "tf." - self.name
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
