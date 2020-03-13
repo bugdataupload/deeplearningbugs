@@ -1,0 +1,16 @@
+Using TensorFlow backend.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 129, in <module>
+    model_input = Input(shape=input_shape)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/input_layer.py", line 182, in Input
+    return unpack_singleton(outputs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/generic_utils.py", line 511, in unpack_singleton
+    return x[1]
+IndexError: list index out of range
