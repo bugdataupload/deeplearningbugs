@@ -1,0 +1,52 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1607, in _create_c_op
+    c_op = c_api.TF_FinishOperation(op_desc)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Depth of input (50) is not a multiple of input depth of filter (56) for 'conv1d_1/convolution' (op: 'Conv2D') with input shapes: [?,1,56,50], [1,3,56,10].
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 146, in <module>
+    strides=1)(z)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/base_layer.py", line 489, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/layers/convolutional.py", line 163, in call
+    dilation_rate=self.dilation_rate[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 3671, in conv1d
+    **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 898, in convolution
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 1009, in convolution_internal
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 574, in new_func
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 574, in new_func
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 1681, in conv1d
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_nn_ops.py", line 1071, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+    op_def=op_def)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+    attrs, op_def, compute_device)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+    op_def=op_def)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1770, in __init__
+    control_input_ops)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1610, in _create_c_op
+    raise ValueError(str(e))
+ValueError: Depth of input (50) is not a multiple of input depth of filter (56) for 'conv1d_1/convolution' (op: 'Conv2D') with input shapes: [?,1,56,50], [1,3,56,10].

@@ -1,0 +1,48 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py:574: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_impl.py:183: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-02-02 17:34:30.072978: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-02 17:34:30.086338: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fee80a05f80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-02 17:34:30.086360: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Initializing embedding layer with word2vec weights, shape (18779, 50)
+Train on 9595 samples, validate on 1067 samples
+Epoch 1/10
+ - 6s - loss: 0.7020 - accuracy: 0.4925 - val_loss: 0.6933 - val_accuracy: 0.4845
+Epoch 2/10
+ - 5s - loss: 0.6935 - accuracy: 0.5077 - val_loss: 0.6913 - val_accuracy: 0.5801
+Epoch 3/10
+ - 7s - loss: 0.6902 - accuracy: 0.5291 - val_loss: 0.6866 - val_accuracy: 0.6054
+Epoch 4/10
+ - 5s - loss: 0.6792 - accuracy: 0.5601 - val_loss: 0.6670 - val_accuracy: 0.6354
+Epoch 5/10
+ - 5s - loss: 0.6551 - accuracy: 0.6040 - val_loss: 0.6342 - val_accuracy: 0.6739
+Epoch 6/10
+ - 5s - loss: 0.6004 - accuracy: 0.6770 - val_loss: 0.5665 - val_accuracy: 0.7582
+Epoch 7/10
+ - 5s - loss: 0.5097 - accuracy: 0.7490 - val_loss: 0.4983 - val_accuracy: 0.7807
+Epoch 8/10
+ - 5s - loss: 0.4318 - accuracy: 0.8053 - val_loss: 0.4850 - val_accuracy: 0.7788
+Epoch 9/10
+ - 5s - loss: 0.3716 - accuracy: 0.8357 - val_loss: 0.4821 - val_accuracy: 0.7835
+Epoch 10/10
+ - 5s - loss: 0.3173 - accuracy: 0.8578 - val_loss: 0.5040 - val_accuracy: 0.7779
+Training time:54.85674691200256

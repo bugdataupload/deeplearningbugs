@@ -1,0 +1,31 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 146, in <module>
+    strides=1)(z)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/base_layer.py", line 489, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/layers/convolutional.py", line 179, in call
+    dilation_rate=self.dilation_rate)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 3980, in conv3d
+    **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 898, in convolution
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 1009, in convolution_internal
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 574, in new_func
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 574, in new_func
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_ops.py", line 1667, in conv1d
+    raise ValueError("data_format must be \"NWC\" or \"NCW\".")
+ValueError: data_format must be "NWC" or "NCW".
