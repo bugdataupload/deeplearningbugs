@@ -1,0 +1,45 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_impl.py:183: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-02-04 19:45:52.907860: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-04 19:45:52.934974: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f7f00ee2e00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-04 19:45:52.935003: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Initializing embedding layer with word2vec weights, shape (18779, 50)
+Train on 9595 samples, validate on 1067 samples
+Epoch 1/10
+ - 8s - loss: 0.7018 - accuracy: inf - val_loss: 0.6933 - val_accuracy: inf
+Epoch 2/10
+ - 7s - loss: 0.6933 - accuracy: inf - val_loss: 0.6911 - val_accuracy: inf
+Epoch 3/10
+ - 7s - loss: 0.6903 - accuracy: inf - val_loss: 0.6865 - val_accuracy: inf
+Epoch 4/10
+ - 7s - loss: 0.6796 - accuracy: inf - val_loss: 0.6688 - val_accuracy: inf
+Epoch 5/10
+ - 7s - loss: 0.6536 - accuracy: inf - val_loss: 0.6309 - val_accuracy: inf
+Epoch 6/10
+ - 7s - loss: 0.5975 - accuracy: inf - val_loss: 0.5654 - val_accuracy: inf
+Epoch 7/10
+ - 7s - loss: 0.5076 - accuracy: inf - val_loss: 0.4937 - val_accuracy: inf
+Epoch 8/10
+ - 8s - loss: 0.4310 - accuracy: inf - val_loss: 0.4805 - val_accuracy: inf
+Epoch 9/10
+ - 7s - loss: 0.3671 - accuracy: inf - val_loss: 0.4822 - val_accuracy: inf
+Epoch 10/10
+ - 7s - loss: 0.3131 - accuracy: inf - val_loss: 0.4881 - val_accuracy: inf
+Training time:72.6073911190033

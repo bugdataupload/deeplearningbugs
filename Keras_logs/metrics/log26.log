@@ -1,0 +1,52 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 157, in <module>
+    model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 222, in compile
+    masks=masks)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 871, in _handle_metrics
+    self._per_output_metrics[i], target, output, output_mask)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 842, in _handle_per_output_metrics
+    metric_fn, y_true, y_pred, weights=weights, mask=mask)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training_utils.py", line 1033, in call_metric_function
+    update_ops = metric_fn.update_state(y_true, y_pred, sample_weight=weights)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/metrics_utils.py", line 42, in decorated
+    update_op = update_state_fn(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/metrics.py", line 320, in update_state
+    matches, sample_weight=sample_weight)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/metrics.py", line 174, in update_state
+    sample_weight = K.cast(sample_weight, self.dtype)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 1239, in cast
+    return tf.cast(x, dtype)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py", line 702, in cast
+    x = ops.convert_to_tensor(x, name="x")
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1184, in convert_to_tensor
+    return convert_to_tensor_v2(value, dtype, preferred_dtype, name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1242, in convert_to_tensor_v2
+    as_ref=False)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1297, in internal_convert_to_tensor
+    ret = conversion_func(value, dtype=dtype, name=name, as_ref=as_ref)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py", line 286, in _constant_tensor_conversion_function
+    return constant(v, dtype=dtype, name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py", line 227, in constant
+    allow_broadcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py", line 265, in _constant_impl
+    allow_broadcast=allow_broadcast))
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/tensor_util.py", line 437, in make_tensor_proto
+    raise ValueError("None values not supported.")
+ValueError: None values not supported.
