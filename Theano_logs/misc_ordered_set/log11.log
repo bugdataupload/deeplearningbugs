@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 14, in <module>
+    import theano
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/__init__.py", line 110, in <module>
+    from theano.compile import (
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/__init__.py", line 12, in <module>
+    from theano.compile.mode import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/mode.py", line 52, in <module>
+    OPT_FAST_RUN_STABLE = OPT_FAST_RUN.requiring('stable')
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/optdb.py", line 218, in requiring
+    self.require.union(tags),
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/misc/ordered_set.py", line 118, in union
+    n = self.copy()
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/misc/ordered_set.py", line 142, in copy
+    n.update(self)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/misc/ordered_set.py", line 90, in update
+    self |= iterable
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/_abcoll.py", line 329, in __ior__
+    for value in it:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/misc/ordered_set.py", line 158, in __iter__
+    yield curr.key
+AttributeError: key
