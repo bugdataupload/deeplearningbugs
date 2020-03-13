@@ -1,0 +1,38 @@
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 325, in <module>
+    dropout_rate=[0.5])
+  File "conv_net_sentence.py", line 136, in train_conv_net
+    allow_input_downcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function.py", line 317, in function
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/pfunc.py", line 486, in pfunc
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1841, in orig_function
+    fn = m.create(defaults)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1715, in create
+    input_storage=input_storage_lists, storage_map=storage_map)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/link.py", line 699, in make_thunk
+    storage_map=storage_map)[:3]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/vm.py", line 1091, in make_all
+    impl=impl))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 955, in make_thunk
+    no_recycling)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 858, in make_c_thunk
+    output_storage=node_output_storage)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1217, in make_thunk
+    keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1157, in __compile__
+    keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1624, in cthunk_factory
+    key=key, lnk=self, keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1155, in module_from_key
+    module = self._get_from_hash(module_hash, key, keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1065, in _get_from_hash
+    self.check_key(key, key_data.key_pkl)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1263, in check_key
+    "Ops. The file is: %s. The key is: %s" % (msg, key_pkl, key))
+AssertionError: ('The following error happened while compiling the node', ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv), '\n', "Key not found in unpickled KeyData file. Verify the __eq__ and __hash__ functions of your Ops. The file is: /Users/insanelung/.theano/compiledir_Darwin-19.2.0-x86_64-i386-64bit-i386-2.7.17-64/tmp4dgQ0r/key.pkl. The key is: (((15, False, (9, 1)), (11, 13, '1.16.1'), (11, 13, '1.16.1'), (11, 13, '1.16.1')), ('CLinker.cmodule_key', ('-DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION', '-O3', '-Wno-unused-label', '-Wno-unused-variable', '-Wno-write-strings', '-fPIC', '-fno-math-errno', '-m64', '-march=broadwell', '-undefined', 'dynamic_lookup'), (), (), 'NPY_ABI_VERSION=0x1000009', u'c_compiler_str=/usr/bin/clang++ 4.2.1', 'md5:3fe5f6b75f65dee10cae0b3e408c8e509e7d3eb0b2a22c06f0599dd22da59906', (<theano.tensor.nnet.conv.ConvOp object at 0x12d511c90>, ((TensorType(float32, (False, True, False, False)), ((-1, 0), False)), (TensorType(float32, 4D), ((-1, 1), False))), (1, (False,)))))")

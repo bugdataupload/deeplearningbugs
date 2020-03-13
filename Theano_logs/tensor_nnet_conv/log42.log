@@ -1,0 +1,567 @@
+ERROR (theano.gof.opt): Optimization failure due to: local_IncSubtensor_serialize
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(Reshape{4}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 3304, in local_IncSubtensor_serialize
+    if node.op == T.add:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_IncSubtensor_serialize
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(Reshape{4}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 3304, in local_IncSubtensor_serialize
+    if node.op == T.add:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_IncSubtensor_serialize
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(Reshape{4}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 3304, in local_IncSubtensor_serialize
+    if node.op == T.add:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_sink
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1676, in local_fill_sink
+    if input.owner and input.owner.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_add_canonizer
+ERROR (theano.gof.opt): node: Elemwise{add,no_inplace}(ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}.0, InplaceDimShuffle{x,0,x,x}.0)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4988, in transform
+    orig_num, orig_denum = self.get_num_denum(node.outputs[0])
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4730, in get_num_denum
+    pairs = [self.get_num_denum(input2) for input2 in parent.inputs]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 4682, in get_num_denum
+    self.main, self.inverse, self.reciprocal]:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.gof.opt.EquilibriumOptimizer object at 0x1332e1d90>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 97, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2460, in apply
+    sub_prof = gopt.apply(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1508, in crossentropy_to_crossentropy_with_softmax_with_bias
+    while search_make_one_sub():
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1494, in search_make_one_sub
+    if node.op == crossentropy_categorical_1hot:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'CrossentropyCategorical1Hot' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_to_alloc
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1721, in local_fill_to_alloc
+    if node.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_to_alloc
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1721, in local_fill_to_alloc
+    if node.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_fill_to_alloc
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 1721, in local_fill_to_alloc
+    if node.op == T.fill:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_log_sum_exp
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 6281, in local_log_sum_exp
+    if node.op != T.log:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_log_sum_exp
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 6281, in local_log_sum_exp
+    if node.op != T.log:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_log_sum_exp
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/opt.py", line 6281, in local_log_sum_exp
+    if node.op != T.log:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_dot22_to_dot22scalar
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas.py", line 1911, in local_dot22_to_dot22scalar
+    if node.op != T.mul:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_dot22_to_dot22scalar
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas.py", line 1911, in local_dot22_to_dot22scalar
+    if node.op != T.mul:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: local_dot22_to_dot22scalar
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas.py", line 1911, in local_dot22_to_dot22scalar
+    if node.op != T.mul:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/utils.py", line 220, in __ne__
+    return not self == other
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Elemwise' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: use_scipy_ger
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 60, in use_scipy_ger
+    if node.op == ger:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Ger' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: use_scipy_ger
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 60, in use_scipy_ger
+    if node.op == ger:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Ger' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: use_scipy_ger
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 60, in use_scipy_ger
+    if node.op == ger:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'Ger' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.gof.opt.EquilibriumOptimizer object at 0x1332e1cd0>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 97, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2460, in apply
+    sub_prof = gopt.apply(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1508, in crossentropy_to_crossentropy_with_softmax_with_bias
+    while search_make_one_sub():
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1494, in search_make_one_sub
+    if node.op == crossentropy_categorical_1hot:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'CrossentropyCategorical1Hot' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): SeqOptimizer apply crossentropy_to_crossentropy_with_softmax
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 97, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1555, in crossentropy_to_crossentropy_with_softmax
+    while search_make_one_sub():
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/nnet.py", line 1533, in search_make_one_sub
+    if node.op == crossentropy_categorical_1hot:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'CrossentropyCategorical1Hot' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: make_ger_destructive
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 66, in make_ger_destructive
+    if node.op == scipy_ger_no_inplace:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'ScipyGer' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: make_ger_destructive
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (4, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (4, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 66, in make_ger_destructive
+    if node.op == scipy_ger_no_inplace:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'ScipyGer' object has no attribute 'imshp'
+
+ERROR (theano.gof.opt): Optimization failure due to: make_ger_destructive
+ERROR (theano.gof.opt): node: ConvOp{('imshp', (1, 64, 300)),('kshp', (3, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (3, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv)
+ERROR (theano.gof.opt): TRACEBACK:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 2034, in process_node
+    replacements = lopt.transform(node)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/blas_scipy.py", line 66, in make_ger_destructive
+    if node.op == scipy_ger_no_inplace:
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/nnet/conv.py", line 591, in __eq__
+    if getattr(self, a) != getattr(other, a):
+AttributeError: 'ScipyGer' object has no attribute 'imshp'
+
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 325, in <module>
+    dropout_rate=[0.5])
+  File "conv_net_sentence.py", line 136, in train_conv_net
+    allow_input_downcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function.py", line 317, in function
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/pfunc.py", line 486, in pfunc
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1841, in orig_function
+    fn = m.create(defaults)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1715, in create
+    input_storage=input_storage_lists, storage_map=storage_map)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/link.py", line 699, in make_thunk
+    storage_map=storage_map)[:3]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/vm.py", line 1091, in make_all
+    impl=impl))
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 955, in make_thunk
+    no_recycling)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/op.py", line 858, in make_c_thunk
+    output_storage=node_output_storage)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1217, in make_thunk
+    keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1157, in __compile__
+    keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cc.py", line 1624, in cthunk_factory
+    key=key, lnk=self, keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1155, in module_from_key
+    module = self._get_from_hash(module_hash, key, keep_lock=keep_lock)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1065, in _get_from_hash
+    self.check_key(key, key_data.key_pkl)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1263, in check_key
+    "Ops. The file is: %s. The key is: %s" % (msg, key_pkl, key))
+AssertionError: ('The following error happened while compiling the node', ConvOp{('imshp', (1, 64, 300)),('kshp', (5, 300)),('nkern', 100),('bsize', 50),('dx', 1),('dy', 1),('out_mode', 'valid'),('unroll_batch', 5),('unroll_kern', 2),('unroll_patch', False),('imshp_logical', (1, 64, 300)),('kshp_logical', (5, 300)),('kshp_logical_top_aligned', True)}(InplaceDimShuffle{0,x,1,2}.0, W_conv), '\n', "Key not found in unpickled KeyData file. Verify the __eq__ and __hash__ functions of your Ops. The file is: /Users/insanelung/.theano/compiledir_Darwin-19.2.0-x86_64-i386-64bit-i386-2.7.17-64/tmp4dgQ0r/key.pkl. The key is: (((15, False, (9, 1)), (11, 13, '1.16.1'), (11, 13, '1.16.1'), (11, 13, '1.16.1')), ('CLinker.cmodule_key', ('-DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION', '-O3', '-Wno-unused-label', '-Wno-unused-variable', '-Wno-write-strings', '-fPIC', '-fno-math-errno', '-m64', '-march=broadwell', '-undefined', 'dynamic_lookup'), (), (), 'NPY_ABI_VERSION=0x1000009', u'c_compiler_str=/usr/bin/clang++ 4.2.1', 'md5:3fe5f6b75f65dee10cae0b3e408c8e509e7d3eb0b2a22c06f0599dd22da59906', (<theano.tensor.nnet.conv.ConvOp object at 0x12c554810>, ((TensorType(float32, (False, True, False, False)), ((-1, 0), False)), (TensorType(float32, 4D), ((-1, 1), False))), (1, (False,)))))")
