@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "train.py", line 3, in <module>
+    import tensorflow as tf
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 99, in <module>
+    from tensorflow_core import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 50, in __getattr__
+    module = self._load()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 44, in _load
+    module = _importlib.import_module(self.__name__)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/__init__.py", line 70, in <module>
+    from tensorflow.python.client.client_lib import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/client_lib.py", line 26, in <module>
+    from tensorflow.python.client.session import InteractiveSession
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 375
+    self._mappers = [_FetchMapper.for_fetch(fetch) for fetch not in fetches]
+                                                               ^
+SyntaxError: invalid syntax

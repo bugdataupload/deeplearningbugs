@@ -1,0 +1,53 @@
+WARNING:tensorflow:From train.py:196: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0213 00:33:19.829737 4426677696 deprecation.py:323] From train.py:54: VocabularyProcessor.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0213 00:33:19.829985 4426677696 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:154: CategoricalVocabulary.__init__ (from tensorflow.contrib.learn.python.learn.preprocessing.categorical_vocabulary) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+W0213 00:33:19.830131 4426677696 deprecation.py:323] From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/preprocessing/text.py:170: tokenizer (from tensorflow.contrib.learn.python.learn.preprocessing.text) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tensorflow/transform or tf.data.
+WARNING:tensorflow:From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0213 00:33:20.365157 4426677696 module_wrapper.py:139] From train.py:80: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0213 00:33:20.365394 4426677696 module_wrapper.py:139] From train.py:83: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+Loading data...
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    tf.app.run()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 193, in main
+    train(x_train, y_train, vocab_processor, x_dev, y_dev)
+  File "train.py", line 83, in train
+    sess = tf.Session(config=session_conf)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1585, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 678, in __init__
+    type(config))
+TypeError: config must be a tf.ConfigProto, but got <class 'tensorflow.core.protobuf.config_pb2.ConfigProto'>
+Exception ignored in: <bound method BaseSession.__del__ of <tensorflow.python.client.session.Session object at 0x12f4e0be0>>
+Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 761, in __del__
+AttributeError: 'Session' object has no attribute '_session'

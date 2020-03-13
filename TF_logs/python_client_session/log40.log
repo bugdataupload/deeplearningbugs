@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from tensorflow.contrib import learn
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 50, in __getattr__
+    module = self._load()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 44, in _load
+    module = _importlib.import_module(self.__name__)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/__init__.py", line 47, in <module>
+    from tensorflow.contrib import distributions
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/distributions/__init__.py", line 29, in <module>
+    from tensorflow.contrib.distributions.python.ops import bijectors
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/distributions/__init__.py", line 44, in <module>
+    from tensorflow.contrib.distributions.python.ops.estimator import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/distributions/python/ops/estimator.py", line 21, in <module>
+    from tensorflow.contrib.learn.python.learn.estimators.head import _compute_weighted_loss
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/__init__.py", line 93, in <module>
+    from tensorflow.contrib.learn.python.learn import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/__init__.py", line 28, in <module>
+    from tensorflow.contrib.learn.python.learn import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/__init__.py", line 40, in <module>
+    from tensorflow.contrib.learn.python.learn.experiment import Experiment
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/learn/python/learn/experiment.py", line 39, in <module>
+    from tensorflow.contrib.tpu.python.tpu import tpu_estimator
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/tpu/__init__.py", line 73, in <module>
+    from tensorflow.contrib.tpu.python.tpu.keras_support import tpu_model as keras_to_tpu_model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/tpu/python/tpu/keras_support.py", line 59, in <module>
+    from tensorflow.contrib.tpu.python.tpu import keras_tpu_variables
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/tpu/python/tpu/keras_tpu_variables.py", line 258, in <module>
+    ReplicatedVariable, replicated_fetch_function)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 191, in register_session_run_conversion_functions
+    if issubclass(conversion_function[1], tensor_type):
+TypeError: issubclass() arg 1 must be a class
