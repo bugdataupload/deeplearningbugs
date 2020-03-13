@@ -7,17 +7,17 @@ In this project, we analyze how bugs can affect the results of deep learning. To
 
 ## Our analyzed deep learning software
 
-Our deep learning software is ...  It has three versions: [Theano version](https://github.com/yoonkim/CNN_sentence), [TensorFlow version](https://github.com/dennybritz/cnn-text-classification-tf), and [Keras version](https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras)
+Our deep learning software is an application of sentence sentiment classification based on CNN. It has three versions: [Theano version](https://github.com/yoonkim/CNN_sentence), [TensorFlow version](https://github.com/dennybritz/cnn-text-classification-tf), and [Keras version](https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras)
 
-The three versions are built upon the three famous deep learning libraries. [Theano](https://github.com/Theano/Theano),[TensorFlow](https://github.com/tensorflow/tensorflow) and [Keras](https://github.com/keras-team/keras).
+The three versions are built upon the three famous deep learning libraries: [Theano](https://github.com/Theano/Theano),[TensorFlow](https://github.com/tensorflow/tensorflow) and [Keras](https://github.com/keras-team/keras).
 
 ## Our dataset
 
-The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-data/. Please add more descriptions. 
+The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-data/. We use sentence polarity dataset v1.0, which contains 5,331 positive reviews and 5,331 negative reviews. I. 
 
 ## Our tools
 
-In our study, we choose ... [Mutation tool](https://github.com/bugdataupload/deeplearningbugs) More details.
+In our study, we choose [mutmut](https://github.com/boxed/mutmut) Mutmut is a mutation testing system for Python 3 with small and simple implementation.
 
 Coverage tool: https://github.com/nedbat/coveragepy
 
