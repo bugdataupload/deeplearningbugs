@@ -1,0 +1,26 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 156, in <module>
+    model = Model(model_input, model_output)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/network.py", line 94, in __init__
+    self._init_graph_network(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/network.py", line 241, in _init_graph_network
+    self.inputs, self.outputs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/network.py", line 1472, in _map_graph_network
+    layers_by_depth[depth].append(layer)
+KeyError: 0

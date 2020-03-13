@@ -1,0 +1,18 @@
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 26, in <module>
+    from keras.models import Sequential, Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/__init__.py", line 3, in <module>
+    from . import utils
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/__init__.py", line 26, in <module>
+    from .vis_utils import model_to_dot
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/vis_utils.py", line 7, in <module>
+    from ..models import Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/models.py", line 10, in <module>
+    from .engine.input_layer import Input
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/__init__.py", line 7, in <module>
+    from .network import get_source_inputs
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/network.py", line 1518
+    all_names = [layer.name for layer not in layers]
+                                        ^
+SyntaxError: invalid syntax
