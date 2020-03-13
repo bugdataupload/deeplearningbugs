@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 14, in <module>
+    import theano
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/__init__.py", line 124, in <module>
+    from theano.scan_module import (scan, map, reduce, foldl, foldr, clone,
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/scan_module/__init__.py", line 41, in <module>
+    from theano.scan_module import scan_opt
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/scan_module/scan_opt.py", line 60, in <module>
+    from theano import tensor, scalar
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/__init__.py", line 8, in <module>
+    from theano.tensor.basic import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/basic.py", line 26, in <module>
+    from theano.tensor.type_other import NoneConst
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/type_other.py", line 129, in <module>
+    NoneConst = Constant(none_type_t, None, name='NoneConst')
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 578, in __init__
+    Variable.__init__(self, type, None, None, name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 392, in __init__
+    self.auto_name = 'auto_' - str(next(self.__count__))
+TypeError: unsupported operand type(s) for -: 'str' and 'str'

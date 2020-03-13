@@ -1,0 +1,51 @@
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.scan_module.scan_opt.ScanInplaceOptimizer object at 0x11a9445d0>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 97, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/scan_module/scan_opt.py", line 1013, in apply
+    nodes = fgraph.toposort()[::-1]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/fg.py", line 639, in toposort
+    order = graph.io_toposort(fg.inputs, fg.outputs, ords)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 1102, in io_toposort
+    deps_cache=deps_cache, clients=clients)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 986, in general_toposort
+    'dfs', True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 673, in stack_search
+    expand_l = expand(l)
+TypeError: 'NoneType' object is not callable
+
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 325, in <module>
+    dropout_rate=[0.5])
+  File "conv_net_sentence.py", line 136, in train_conv_net
+    allow_input_downcast=True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function.py", line 317, in function
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/pfunc.py", line 486, in pfunc
+    output_keys=output_keys)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1841, in orig_function
+    fn = m.create(defaults)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 1715, in create
+    input_storage=input_storage_lists, storage_map=storage_map)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/link.py", line 699, in make_thunk
+    storage_map=storage_map)[:3]
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/vm.py", line 1054, in make_all
+    order = self.schedule(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/link.py", line 410, in schedule
+    return fgraph.toposort()
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/fg.py", line 639, in toposort
+    order = graph.io_toposort(fg.inputs, fg.outputs, ords)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 1102, in io_toposort
+    deps_cache=deps_cache, clients=clients)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 986, in general_toposort
+    'dfs', True)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/graph.py", line 673, in stack_search
+    expand_l = expand(l)
+TypeError: 'NoneType' object is not callable
