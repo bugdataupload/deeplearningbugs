@@ -1,6 +1,6 @@
 # How can bugs affect deep learning? A mutation-based analysis
 
-Please visit our anonymous [GitHub project website](https://github.com/bugdataupload/deeplearningbugs) directly, because there is downloading issue on this site.
+Please visit our anonymous [GitHub project website](https://github.com/bugdataupload/deeplearningbugs/blob/master/Summary.zip) directly, because there is downloading issue on this site.
 
 ## Project summary
 
