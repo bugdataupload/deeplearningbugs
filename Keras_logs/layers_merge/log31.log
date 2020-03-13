@@ -1,0 +1,26 @@
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 26, in <module>
+    from keras.models import Sequential, Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/__init__.py", line 3, in <module>
+    from . import utils
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/__init__.py", line 26, in <module>
+    from .vis_utils import model_to_dot
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/vis_utils.py", line 7, in <module>
+    from ..models import Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/models.py", line 10, in <module>
+    from .engine.input_layer import Input
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/__init__.py", line 8, in <module>
+    from .training import Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 14, in <module>
+    from . import training_utils
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training_utils.py", line 17, in <module>
+    from .. import metrics as metrics_module
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/metrics.py", line 13, in <module>
+    from .layers import Layer
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/layers/__init__.py", line 9, in <module>
+    from .merge import Add
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/layers/merge.py", line 351
+    if all([shape is None for shape not in input_shape]):
+                                      ^
+SyntaxError: invalid syntax
