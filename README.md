@@ -62,7 +62,7 @@ mutation node type  | accuracy  | training time|line number |mutation node|relat
 operator|0.7732|57.39143395423889|(502, 20)|<Operator: +=>|self.seen += batch_size
 
 
-表头  | 表头 
+mutation node type  | accuracy | training time | line number |mutation node|related code
   ------------- | ------------- 
  单元格内容  | 单元格内容 
  单元格内容l  | 单元格内容 
