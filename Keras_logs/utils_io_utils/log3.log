@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 26, in <module>
+    from keras.models import Sequential, Model
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/__init__.py", line 3, in <module>
+    from . import utils
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/__init__.py", line 5, in <module>
+    from . import io_utils
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/io_utils.py", line 23, in <module>
+    import cPickle as pickle
+ModuleNotFoundError: No module named 'cPickle'
