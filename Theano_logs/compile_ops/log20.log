@@ -1,0 +1,69 @@
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.compile.mode.AddDestroyHandler object at 0x10eb02b50>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 93, in optimize
+    self.add_requirements(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/mode.py", line 128, in add_requirements
+    fgraph.attach_feature(gof.DestroyHandler())
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/fg.py", line 546, in attach_feature
+    attach(self)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 386, in on_attach
+    toolbox.Bookkeeper.on_attach(self, fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/toolbox.py", line 303, in on_attach
+    self.on_import(fgraph, node, "on_attach")
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 526, in on_import
+    o = app.outputs[o_idx]
+IndexError: list index out of range
+
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.compile.mode.AddDestroyHandler object at 0x10eb02b50>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 93, in optimize
+    self.add_requirements(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/mode.py", line 128, in add_requirements
+    fgraph.attach_feature(gof.DestroyHandler())
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/fg.py", line 546, in attach_feature
+    attach(self)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 386, in on_attach
+    toolbox.Bookkeeper.on_attach(self, fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/toolbox.py", line 303, in on_attach
+    self.on_import(fgraph, node, "on_attach")
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 526, in on_import
+    o = app.outputs[o_idx]
+IndexError: list index out of range
+
+ERROR (theano.gof.opt): SeqOptimizer apply <theano.compile.mode.AddDestroyHandler object at 0x10eb02b50>
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 251, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/opt.py", line 93, in optimize
+    self.add_requirements(fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/mode.py", line 128, in add_requirements
+    fgraph.attach_feature(gof.DestroyHandler())
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/fg.py", line 546, in attach_feature
+    attach(self)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 386, in on_attach
+    toolbox.Bookkeeper.on_attach(self, fgraph)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/toolbox.py", line 303, in on_attach
+    self.on_import(fgraph, node, "on_attach")
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/gof/destroyhandler.py", line 526, in on_import
+    o = app.outputs[o_idx]
+IndexError: list index out of range
+
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 295.44 secs, train perf: 49.73 %, val perf: 50.32 %
+epoch: 2, training time: 294.99 secs, train perf: 49.73 %, val perf: 50.32 %
+epoch: 3, training time: 297.09 secs, train perf: 91.78 %, val perf: 81.79 %
+epoch: 4, training time: 296.12 secs, train perf: 95.87 %, val perf: 80.42 %
+epoch: 5, training time: 296.71 secs, train perf: 96.24 %, val perf: 82.74 %
+cv: 0, perf: 0.800186741363212
+0.800186741363212

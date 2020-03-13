@@ -1,0 +1,15 @@
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 325, in <module>
+    dropout_rate=[0.5])
+  File "conv_net_sentence.py", line 172, in train_conv_net
+    cost_epoch = train_model(minibatch_index)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/function_module.py", line 813, in __call__
+    allow_downcast=s.allow_downcast)
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/tensor/type.py", line 108, in filter
+    data, type(data))
+TypeError: ('Bad input argument to theano function with name "conv_net_sentence.py:148" at index 0 (0-based).  \nBacktrace when that variable is created:\n\n  File "conv_net_sentence.py", line 325, in <module>\n    dropout_rate=[0.5])\n  File "conv_net_sentence.py", line 78, in train_conv_net\n    index = T.lscalar()\n', 'TensorType(int64, scalar) expected a ndarray object.', 62, <type 'numpy.int64'>)

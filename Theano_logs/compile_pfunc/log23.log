@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "conv_net_sentence.py", line 14, in <module>
+    import theano
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/__init__.py", line 110, in <module>
+    from theano.compile import (
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/__init__.py", line 24, in <module>
+    from theano.compile.pfunc import pfunc, Param, rebuild_collect_shared
+  File "/Volumes/Transcend/opt/anaconda3/envs/theano/lib/python2.7/site-packages/theano/compile/pfunc.py", line 367
+    config.profile and config.print_global_stats
+                                               ^
+IndentationError: unindent does not match any outer indentation level
