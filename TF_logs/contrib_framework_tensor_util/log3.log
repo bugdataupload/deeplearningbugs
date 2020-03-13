@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from tensorflow.contrib import learn
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 50, in __getattr__
+    module = self._load()
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow/__init__.py", line 44, in _load
+    module = _importlib.import_module(self.__name__)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/__init__.py", line 43, in <module>
+    from tensorflow.contrib import cudnn_rnn
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/cudnn_rnn/__init__.py", line 38, in <module>
+    from tensorflow.contrib.cudnn_rnn.python.layers import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/cudnn_rnn/__init__.py", line 38, in <module>
+    from tensorflow.contrib.cudnn_rnn.python.layers import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/cudnn_rnn/python/layers/__init__.py", line 23, in <module>
+    from tensorflow.contrib.cudnn_rnn.python.layers.cudnn_rnn import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/cudnn_rnn/python/layers/cudnn_rnn.py", line 20, in <module>
+    from tensorflow.contrib.cudnn_rnn.python.ops import cudnn_rnn_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/cudnn_rnn/python/ops/cudnn_rnn_ops.py", line 22, in <module>
+    from tensorflow.contrib.rnn.python.ops import lstm_ops
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/rnn/__init__.py", line 93, in <module>
+    from tensorflow.contrib.rnn.python.ops.rnn_cell import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/rnn/python/ops/rnn_cell.py", line 24, in <module>
+    from tensorflow.contrib.layers.python.layers import layers
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/layers/__init__.py", line 116, in <module>
+    from tensorflow.contrib.layers.python.layers import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/__init__.py", line 22, in <module>
+    from tensorflow.contrib.layers.python.layers.embedding_ops import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/embedding_ops.py", line 22, in <module>
+    from tensorflow.contrib.framework.python.framework import tensor_util as contrib_tensor_util
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/framework/__init__.py", line 108, in <module>
+    from tensorflow.contrib.framework.python.framework import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/framework/python/framework/__init__.py", line 25, in <module>
+    from tensorflow.contrib.framework.python.framework.tensor_util import *
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/contrib/framework/python/framework/tensor_util.py", line 76
+    math_ops.reduce_sum(t, name='%s/sum' % t.op.name) for t not in tensors]
+                                                              ^
+SyntaxError: invalid syntax
