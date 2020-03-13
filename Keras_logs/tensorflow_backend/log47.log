@@ -1,0 +1,46 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:Large dropout rate: 0.8 (>0.5). In TensorFlow 2.x, dropout() uses dropout rate instead of keep_prob. Please ensure that this is intended.
+Load data...
+Adjusting sequence length for actual size
+x_train shape: (9595, 56)
+x_test shape: (1067, 56)
+Vocabulary Size: 18779
+Model type is CNN-non-static
+Load existing Word2Vec model '50features_1minwords_10context'
+Traceback (most recent call last):
+  File "sentiment_cnn.py", line 157, in <module>
+    model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 222, in compile
+    masks=masks)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 871, in _handle_metrics
+    self._per_output_metrics[i], target, output, output_mask)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training.py", line 842, in _handle_per_output_metrics
+    metric_fn, y_true, y_pred, weights=weights, mask=mask)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/engine/training_utils.py", line 1033, in call_metric_function
+    update_ops = metric_fn.update_state(y_true, y_pred, sample_weight=weights)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/utils/metrics_utils.py", line 42, in decorated
+    update_op = update_state_fn(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/metrics.py", line 318, in update_state
+    matches = self._fn(y_true, y_pred, **self._fn_kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/metrics.py", line 1902, in binary_accuracy
+    return K.mean(K.equal(y_true, K.round(y_pred)), axis=-1)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 1812, in mean
+    return tf.reduce_mean(x, axis, keepdims)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py", line 1812, in reduce_mean_v1
+    return reduce_mean(input_tensor, axis, keepdims, name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py", line 1870, in reduce_mean
+    name=name))
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_math_ops.py", line 6391, in mean
+    name=name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 632, in _apply_op_helper
+    param_name=input_name)
+  File "/Volumes/Transcend/opt/anaconda3/envs/keras/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 61, in _SatisfiesTypeConstraint
+    ", ".join(dtypes.as_dtype(x).name for x in allowed_list)))
+TypeError: Value passed to parameter 'input' has DataType bool not in list of allowed values: float32, float64, int32, uint8, int16, int8, complex64, int64, qint8, quint8, qint32, bfloat16, uint16, complex128, float16, uint32, uint64
