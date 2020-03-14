@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "59.480217933654785\n",
+    "line number": "(58, 36)",
+    "node content": "<Number: 0.>",
+    "related code": "    def __init__(self, mask_value=0., **kwargs):\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "",
     "training time": "",
@@ -285,6 +293,14 @@
     "training time": "53.96902799606323\n",
     "line number": "(904, 55)",
     "node content": "<Operator: ->",
+    "related code": "        self.input_spec = InputSpec(min_ndim=2, axes={-1: input_dim})\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "59.94282603263855\n",
+    "line number": "(904, 56)",
+    "node content": "<Number: 1>",
     "related code": "        self.input_spec = InputSpec(min_ndim=2, axes={-1: input_dim})\n"
   }
 ]

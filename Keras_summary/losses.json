@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "72.29767179489136\n",
+    "line number": "(671, 40)",
+    "node content": "<Number: 1.0>",
+    "related code": "def huber_loss(y_true, y_pred, delta=1.0):\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.7835\n",
     "training time": "66.95657515525818\n",
@@ -110,5 +118,13 @@
     "line number": "(700, 38)",
     "node content": "<Keyword: not>",
     "related code": "    y_pred = K.constant(y_pred) if not K.is_tensor(y_pred) else y_pred\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "58.68052887916565\n",
+    "line number": "(69, 45)",
+    "node content": "<Operator: ==>",
+    "related code": "        scope_name = 'lambda' if self.name == '<lambda>' else self.name\n"
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(172, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if identifier is None:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.7779\n",
     "training time": "59.45309591293335\n",
@@ -45,6 +53,14 @@
     "training time": "53.822080850601196\n",
     "line number": "(127, 61)",
     "node content": "<Number: 1.0>",
+    "related code": "    def __init__(self, min_value=0.0, max_value=1.0, rate=1.0, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "53.492339849472046\n",
+    "line number": "(127, 69)",
+    "node content": "<Number: 0>",
     "related code": "    def __init__(self, min_value=0.0, max_value=1.0, rate=1.0, axis=0):\n"
   }
 ]

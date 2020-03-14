@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(20, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "if sys.version_info[0] == 3:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "",
     "training time": "",
@@ -22,5 +30,13 @@
     "line number": "(20, 21)",
     "node content": "<Number: 0>",
     "related code": "if sys.version_info[0] == 3:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "60.846747159957886\n",
+    "line number": "(54, 49)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, datapath, dataset, start=0, end=None, normalizer=None):\n"
   }
 ]

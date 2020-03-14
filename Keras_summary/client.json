@@ -1,6 +1,14 @@
 [
   {
     "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "57.33613324165344\n",
+    "line number": "(43, 18)",
+    "node content": "<Number: 50>",
+    "related code": "embedding_dim = 50\n"
+  },
+  {
+    "node type": "number",
     "accuracy": "0.7807\n",
     "training time": "53.916983127593994\n",
     "line number": "(45, 16)",
@@ -358,5 +366,13 @@
     "line number": "(113, 73)",
     "node content": "<Keyword: in>",
     "related code": "        x_train = np.stack([np.stack([embedding_weights[word] for word in sentence]) for sentence in x_train])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(114, 72)",
+    "node content": "<Keyword: in>",
+    "related code": "        x_test = np.stack([np.stack([embedding_weights[word] for word in sentence]) for sentence in x_test])\n"
   }
 ]

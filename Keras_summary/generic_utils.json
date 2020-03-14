@@ -1,6 +1,14 @@
 [
   {
     "node type": "keyword",
+    "accuracy": "0.7741\n",
+    "training time": "56.28247928619385\n",
+    "line number": "(273, 38)",
+    "node content": "<Keyword: False>",
+    "related code": "def has_arg(fn, name, accept_all=False):\n"
+  },
+  {
+    "node type": "keyword",
     "accuracy": "",
     "training time": "",
     "line number": "(476, 32)",
@@ -382,5 +390,13 @@
     "line number": "(362, 20)",
     "node content": "<Keyword: not>",
     "related code": "            if k not in self.stateful_metrics:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "58.97559928894043\n",
+    "line number": "(377, 34)",
+    "node content": "<Operator: ->",
+    "related code": "        info = ' - %.0fs' % (now - self._start)\n"
   }
 ]

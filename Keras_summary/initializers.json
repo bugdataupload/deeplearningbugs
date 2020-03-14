@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.4883\n",
+    "training time": "54.172316789627075\n",
+    "line number": "(478, 20)",
+    "node content": "<Operator: ==>",
+    "related code": "    if len(shape) == 2:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.5211\n",
     "training time": "50.689969062805176\n",
@@ -374,5 +382,13 @@
     "line number": "(490, 52)",
     "node content": "<Number: 2>",
     "related code": "            receptive_field_size = np.prod(shape[:-2])\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7826\n",
+    "training time": "59.68367099761963\n",
+    "line number": "(218, 43)",
+    "node content": "<Operator: +>",
+    "related code": "            scale /= max(1., float(fan_in + fan_out) / 2)\n"
   }
 ]

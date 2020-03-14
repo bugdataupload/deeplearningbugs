@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.5080\n",
+    "training time": "8.963424921035767\n",
+    "line number": "(99, 50)",
+    "node content": "<Keyword: True>",
+    "related code": "    def _base_init(self, name=None, trainable=True, dtype=None):\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "0.7751\n",
     "training time": "58.57226014137268\n",
@@ -382,5 +390,13 @@
     "line number": "(1470, 20)",
     "node content": "<Keyword: not>",
     "related code": "        if depth not in layers_by_depth:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1518, 40)",
+    "node content": "<Keyword: in>",
+    "related code": "    all_names = [layer.name for layer in layers]\n"
   }
 ]

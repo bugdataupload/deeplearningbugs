@@ -1,5 +1,13 @@
 [
   {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(66, 16)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: names@66,11>])",
+    "related code": "    if not names:\n"
+  },
+  {
     "node type": "and_test",
     "accuracy": "",
     "training time": "",
@@ -382,5 +390,13 @@
     "line number": "(985, 17)",
     "node content": "<Keyword: not>",
     "related code": "    if metric not in ['accuracy', 'acc', 'crossentropy', 'ce']:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7732\n",
+    "training time": "69.32214117050171\n",
+    "line number": "(999, 58)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: output_shape@999,11>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: ==>, <Number: 1>]), <Keyword: or>, <Name: is_binary_crossentropy@999,36>])",
+    "related code": "        if output_shape[-1] == 1 or is_binary_crossentropy:\n"
   }
 ]

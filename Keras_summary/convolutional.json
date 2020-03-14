@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.7826\n",
+    "training time": "62.07464385032654\n",
+    "line number": "(2144, 32)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, padding=1, **kwargs):\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "",
     "training time": "",
@@ -366,5 +374,13 @@
     "line number": "(193, 36)",
     "node content": "<Number: 1>",
     "related code": "            space = input_shape[1:-1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "59.05535125732422\n",
+    "line number": "(206, 33)",
+    "node content": "<Number: 0>",
+    "related code": "            return (input_shape[0],) + tuple(new_space) + (self.filters,)\n"
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "52.04846405982971\n",
+    "line number": "(45, 54)",
+    "node content": "<Number: 10>",
+    "related code": "    def __init__(self, callbacks=None, queue_length=10):\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "",
     "training time": "",
@@ -382,5 +390,13 @@
     "line number": "(509, 37)",
     "node content": "<Operator: +=>",
     "related code": "                    self.totals[k] += v * batch_size\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7798\n",
+    "training time": "56.25812387466431\n",
+    "line number": "(518, 27)",
+    "node content": "<Keyword: in>",
+    "related code": "                    if k in self.stateful_metrics:\n"
   }
 ]

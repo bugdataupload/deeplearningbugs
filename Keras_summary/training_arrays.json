@@ -1,5 +1,13 @@
 [
   {
+    "node type": "and_test",
+    "accuracy": "0.7798\n",
+    "training time": "51.442771196365356\n",
+    "line number": "(73, 34)",
+    "node content": "PythonNode(and_test, [<Name: val_function@73,7>, <Keyword: and>, <Name: val_inputs@73,24>])",
+    "related code": "    if val_function and val_inputs:\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "",
     "training time": "49.61115503311157\n",
@@ -381,6 +389,14 @@
     "training time": "",
     "line number": "(441, 70)",
     "node content": "<Operator: ->",
+    "related code": "                ins_batch = slice_arrays(ins[:-1], batch_ids) + [ins[-1]]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(441, 71)",
+    "node content": "<Number: 1>",
     "related code": "                ins_batch = slice_arrays(ins[:-1], batch_ids) + [ins[-1]]\n"
   }
 ]

@@ -1,6 +1,14 @@
 [
   {
     "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "63.47421979904175\n",
+    "line number": "(42, 32)",
+    "node content": "<Number: 0.3>",
+    "related code": "    def __init__(self, alpha=0.3, **kwargs):\n"
+  },
+  {
+    "node type": "number",
     "accuracy": "0.7807\n",
     "training time": "65.76200699806213\n",
     "line number": "(176, 32)",
@@ -29,6 +37,14 @@
     "training time": "69.30384516716003\n",
     "line number": "(248, 29)",
     "node content": "<Operator: ->",
+    "related code": "    def __init__(self, axis=-1, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "65.41118001937866\n",
+    "line number": "(248, 30)",
+    "node content": "<Number: 1>",
     "related code": "    def __init__(self, axis=-1, **kwargs):\n"
   }
 ]

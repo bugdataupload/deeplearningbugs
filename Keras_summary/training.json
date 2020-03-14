@@ -1,6 +1,14 @@
 [
   {
     "node type": "not_test",
+    "accuracy": "0.7769\n",
+    "training time": "54.69264888763428\n",
+    "line number": "(291, 60)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@291,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: self@291,23>, <Operator: ,>, <String: '_collected_trainable_weights'>]), <Operator: )>])])])",
+    "related code": "        if not hasattr(self, '_collected_trainable_weights'):\n"
+  },
+  {
+    "node type": "not_test",
     "accuracy": "",
     "training time": "",
     "line number": "(302, 46)",
@@ -382,5 +390,13 @@
     "line number": "(511, 18)",
     "node content": "<Keyword: not>",
     "related code": "            if not self._is_compiled:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(582, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not self._is_graph_network:\n"
   }
 ]

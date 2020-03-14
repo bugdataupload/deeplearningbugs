@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "57.14775824546814\n",
+    "line number": "(54, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    if K.backend() == 'theano':\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "",
     "training time": "",
@@ -133,6 +141,14 @@
     "training time": "",
     "line number": "(102, 40)",
     "node content": "<Operator: ->",
+    "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 42)",
+    "node content": "<Number: 1>",
     "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
   }
 ]

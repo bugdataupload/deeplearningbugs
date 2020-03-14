@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.7816\n",
+    "training time": "57.43063998222351\n",
+    "line number": "(40, 28)",
+    "node content": "<Keyword: True>",
+    "related code": "_SYMBOLIC_SCOPE.value = True\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "",
     "training time": "",
@@ -381,6 +389,14 @@
     "training time": "58.27008819580078\n",
     "line number": "(1851, 20)",
     "node content": "<Operator: ->",
+    "related code": "def argmax(x, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "57.06507873535156\n",
+    "line number": "(1851, 21)",
+    "node content": "<Number: 1>",
     "related code": "def argmax(x, axis=-1):\n"
   }
 ]

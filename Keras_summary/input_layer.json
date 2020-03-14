@@ -1,6 +1,14 @@
 [
   {
     "node type": "and_test",
+    "accuracy": "0.7769\n",
+    "training time": "58.676198959350586\n",
+    "line number": "(166, 41)",
+    "node content": "PythonNode(and_test, [PythonNode(not_test, [<Keyword: not>, <Name: batch_shape@166,11>]), <Keyword: and>, PythonNode(comparison, [<Name: tensor@166,27>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "    if not batch_shape and tensor is None:\n"
+  },
+  {
+    "node type": "and_test",
     "accuracy": "",
     "training time": "",
     "line number": "(171, 44)",
@@ -244,6 +252,14 @@
     "accuracy": "",
     "training time": "",
     "line number": "(39, 27)",
+    "node content": "<Operator: +>",
+    "related code": "            name = prefix + '_' + str(K.get_uid(prefix))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(39, 33)",
     "node content": "<Operator: +>",
     "related code": "            name = prefix + '_' + str(K.get_uid(prefix))\n"
   }

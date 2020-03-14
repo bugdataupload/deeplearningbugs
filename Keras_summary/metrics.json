@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.7788\n",
+    "training time": "72.51956105232239\n",
+    "line number": "(1847, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "if K.backend() == 'tensorflow':\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.5127\n",
     "training time": "69.23443102836609\n",
@@ -245,6 +253,14 @@
     "training time": "",
     "line number": "(105, 42)",
     "node content": "<Keyword: in>",
+    "related code": "        K.batch_set_value([(v, 0) for v in self.weights])\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7715\n",
+    "training time": "79.29237604141235\n",
+    "line number": "(105, 32)",
+    "node content": "<Number: 0>",
     "related code": "        K.batch_set_value([(v, 0) for v in self.weights])\n"
   }
 ]

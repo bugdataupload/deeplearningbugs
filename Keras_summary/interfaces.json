@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(18, 33)",
+    "node content": "<Keyword: is>",
+    "related code": "    if allowed_positional_args is None:\n"
+  },
+  {
     "node type": "or_test",
     "accuracy": "",
     "training time": "",
@@ -142,5 +150,13 @@
     "line number": "(38, 63)",
     "node content": "<Number: 1>",
     "related code": "                if len(args) > len(allowed_positional_args) + 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(30, 36)",
+    "node content": "<Number: 0>",
+    "related code": "                object_name = args[0].__class__.__name__\n"
   }
 ]

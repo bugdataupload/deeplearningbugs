@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.7788\n",
+    "training time": "64.62546801567078\n",
+    "line number": "(12, 11)",
+    "node content": "<Operator: ->",
+    "related code": "NEG_INF = -1e10\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.7694\n",
     "training time": "77.88880014419556\n",
@@ -14,5 +22,13 @@
     "line number": "(105, 59)",
     "node content": "<Number: 0.5>",
     "related code": "def parse_init_thresholds(thresholds, default_threshold=0.5):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7798\n",
+    "training time": "60.838043212890625\n",
+    "line number": "(65, 34)",
+    "node content": "<Keyword: True>",
+    "related code": "        result_t._is_metric = True\n"
   }
 ]

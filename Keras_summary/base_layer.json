@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "52.295336961746216\n",
+    "line number": "(22, 31)",
+    "node content": "<Keyword: False>",
+    "related code": "_DISABLE_TRACKING.value = False\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "0.7723\n",
     "training time": "52.12230920791626\n",
@@ -382,5 +390,13 @@
     "line number": "(692, 41)",
     "node content": "<Operator: >>",
     "related code": "        if not len(self._inbound_nodes) > node_index:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "48.71968603134155\n",
+    "line number": "(814, 37)",
+    "node content": "<Operator: >>",
+    "related code": "        if len(self._inbound_nodes) > 1:\n"
   }
 ]

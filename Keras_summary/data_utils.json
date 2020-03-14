@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.7732\n",
+    "training time": "55.22973608970642\n",
+    "line number": "(34, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "if sys.version_info[0] == 2:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.7769\n",
     "training time": "51.77447199821472\n",
@@ -70,5 +78,13 @@
     "line number": "(541, 73)",
     "node content": "<Keyword: False>",
     "related code": "    def __init__(self, sequence, use_multiprocessing=False, shuffle=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7788\n",
+    "training time": "49.78203296661377\n",
+    "line number": "(669, 58)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, sequence, use_multiprocessing=False, wait_time=None,\n"
   }
 ]

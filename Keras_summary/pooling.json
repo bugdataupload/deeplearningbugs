@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "64.63888096809387\n",
+    "line number": "(19, 34)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=2, strides=None,\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "",
     "training time": "",
@@ -222,5 +230,13 @@
     "line number": "(36, 36)",
     "node content": "<Number: 2>",
     "related code": "            features = input_shape[2]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(44, 33)",
+    "node content": "<Number: 0>",
+    "related code": "            return (input_shape[0], length, features)\n"
   }
 ]

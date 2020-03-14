@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(68, 23)",
+    "node content": "<Keyword: is>",
+    "related code": "    if sample_weight is None:\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "0.7854\n",
     "training time": "62.927112340927124\n",
@@ -326,5 +334,13 @@
     "line number": "(65, 66)",
     "node content": "<Number: 1>",
     "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7704\n",
+    "training time": "54.67084288597107\n",
+    "line number": "(121, 43)",
+    "node content": "<Keyword: not>",
+    "related code": "                if (weights_shape[i] is not None and\n"
   }
 ]

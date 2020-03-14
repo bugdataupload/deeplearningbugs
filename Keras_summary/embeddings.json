@@ -1,5 +1,13 @@
 [
   {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(116, 29)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@116,15>, PythonNode(trailer, [<Operator: .>, <Name: mask_zero@116,20>])])])",
+    "related code": "        if not self.mask_zero:\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.7760\n",
     "training time": "57.139132022857666\n",
@@ -134,5 +142,13 @@
     "line number": "(133, 32)",
     "node content": "<Keyword: not>",
     "related code": "                    if s1 is not None and s2 is  None and s1 != s2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7826\n",
+    "training time": "53.51685404777527\n",
+    "line number": "(132, 71)",
+    "node content": "<Number: 1>",
+    "related code": "                for i, (s1, s2) in enumerate(zip(in_lens, input_shape[1:])):\n"
   }
 ]
