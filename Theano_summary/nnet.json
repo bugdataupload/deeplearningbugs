@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.99,
+    "line number": "(1641, 62)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: rows@1641,7>, PythonNode(trailer, [<Operator: .>, <Name: owner@1641,12>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@1641,22>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: rows@1641,33>, PythonNode(trailer, [<Operator: .>, <Name: owner@1641,38>]), PythonNode(trailer, [<Operator: .>, <Name: op@1641,44>])]), <Operator: ,>, PythonNode(atom_expr, [<Name: tensor@1641,48>, PythonNode(trailer, [<Operator: .>, <Name: ARange@1641,55>])])]), <Operator: )>])])])",
+    "related code": "    if rows.owner and isinstance(rows.owner.op, tensor.ARange):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.07,
+    "line number": "(1664, 34)",
+    "node content": "<Keyword: False>",
+    "related code": "def _is_const(z, val, approx=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1483.04,
+    "line number": "(2209, 19)",
+    "node content": "<Number: 0>",
+    "related code": "def relu(x, alpha=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1482.63,
+    "line number": "(2432, 18)",
+    "node content": "<Number: 1>",
+    "related code": "def elu(x, alpha=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1491.88,
+    "line number": "(57, 11)",
+    "node content": "<Number: 2>",
+    "related code": "    nin = 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1486.97,
+    "line number": "(58, 12)",
+    "node content": "<Number: 1>",
+    "related code": "    nout = 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1484.51,
+    "line number": "(298, 11)",
+    "node content": "<Number: 2>",
+    "related code": "    nin = 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.9,
+    "line number": "(299, 12)",
+    "node content": "<Number: 1>",
+    "related code": "    nout = 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.86,
+    "line number": "(421, 11)",
+    "node content": "<Number: 1>",
+    "related code": "    nin = 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1485.32,
+    "line number": "(422, 12)",
+    "node content": "<Number: 1>",
+    "related code": "    nout = 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1488.84,
+    "line number": "(961, 11)",
+    "node content": "<Number: 3>",
+    "related code": "    nin = 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1492.46,
+    "line number": "(962, 12)",
+    "node content": "<Number: 3>",
+    "related code": "    nout = 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1491.53,
+    "line number": "(1188, 11)",
+    "node content": "<Number: 3>",
+    "related code": "    nin = 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1497.09,
+    "line number": "(1189, 12)",
+    "node content": "<Number: 1>",
+    "related code": "    nout = 1\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1505.4,
+    "line number": "(1722, 36)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: node@1722,12>, PythonNode(trailer, [<Operator: .>, <Name: op@1722,17>])]), <Operator: ==>, <Name: softmax_grad@1722,23>]), <Operator: )>])])",
+    "related code": "    if not (node.op == softmax_grad):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1503.03,
+    "line number": "(1769, 79)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: d_sm@1769,7>, PythonNode(trailer, [<Operator: .>, <Name: owner@1769,12>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@1769,22>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: d_sm@1769,33>, PythonNode(trailer, [<Operator: .>, <Name: owner@1769,38>]), PythonNode(trailer, [<Operator: .>, <Name: op@1769,44>])]), <Operator: ,>, PythonNode(atom_expr, [<Name: subtensor@1769,48>, PythonNode(trailer, [<Operator: .>, <Name: AdvancedIncSubtensor@1769,58>])])]), <Operator: )>])])])",
+    "related code": "    if d_sm.owner and isinstance(d_sm.owner.op, subtensor.AdvancedIncSubtensor):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.38,
+    "line number": "(1863, 56)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: d_sm@1863,9>, PythonNode(trailer, [<Operator: .>, <Name: owner@1863,14>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: d_sm@1863,24>, PythonNode(trailer, [<Operator: .>, <Name: owner@1863,29>]), PythonNode(trailer, [<Operator: .>, <Name: op@1863,35>])]), <Operator: ==>, PythonNode(atom_expr, [<Name: tensor@1863,41>, PythonNode(trailer, [<Operator: .>, <Name: true_div@1863,48>])])])])",
+    "related code": "    elif d_sm.owner and d_sm.owner.op == tensor.true_div:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1496.89,
+    "line number": "(2205, 62)",
+    "node content": "<Number: 0.>",
+    "related code": "prepend_0_to_each_row = Prepend_scalar_constant_to_each_row(0.)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1487.3,
+    "line number": "(2206, 62)",
+    "node content": "<Number: 1.>",
+    "related code": "prepend_1_to_each_row = Prepend_scalar_constant_to_each_row(1.)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1487.45,
+    "line number": "(829, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "    if node.op == softmax_op:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1523.89,
+    "line number": "(891, 55)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: numerator@891,15>, PythonNode(trailer, [<Operator: .>, <Name: type@891,25>]), PythonNode(trailer, [<Operator: .>, <Name: dtype@891,30>]), PythonNode(trailer, [<Operator: .>, <Name: startswith@891,36>]), PythonNode(trailer, [<Operator: (>, <String: 'float'>, <Operator: )>])])])",
+    "related code": "        if not numerator.type.dtype.startswith('float'):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1623.69,
+    "line number": "(896, 63)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: numerator@896,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@896,21>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: numerator@896,31>, PythonNode(trailer, [<Operator: .>, <Name: owner@896,41>]), PythonNode(trailer, [<Operator: .>, <Name: op@896,47>])]), <Operator: ==>, PythonNode(atom_expr, [<Name: tensor@896,53>, PythonNode(trailer, [<Operator: .>, <Name: exp@896,60>])])])])",
+    "related code": "        if numerator.owner and numerator.owner.op == tensor.exp:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1614.48,
+    "line number": "(1569, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "    if node.op == softmax_grad:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1606.4,
+    "line number": "(1638, 75)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: len@1638,11>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: shape_of@1638,15>, PythonNode(trailer, [<Operator: [>, <Name: labels@1638,24>, <Operator: ]>])]), <Operator: )>])]), <Operator: ==>, <Number: 1>]), <Keyword: and>, PythonNode(atom_expr, [<Name: _is_const@1638,42>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: shape_of@1638,52>, PythonNode(trailer, [<Operator: [>, <Name: labels@1638,61>, <Operator: ]>]), PythonNode(trailer, [<Operator: [>, <Number: 0>, <Operator: ]>])]), <Operator: ,>, <Number: 1>]), <Operator: )>])])])",
+    "related code": "        if len(shape_of[labels]) == 1 and _is_const(shape_of[labels][0], 1):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1551.61,
+    "line number": "(1647, 25)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: stop@1647,15>, PythonNode(trailer, [<Operator: .>, <Name: owner@1647,20>])])])",
+    "related code": "        if not stop.owner:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1669.67,
+    "line number": "(1722, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not (node.op == softmax_grad):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1573.04,
+    "line number": "(1934, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "    if node.op == softmax_with_bias:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1632.7,
+    "line number": "(2108, 28)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, val=0):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(309, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "        if dy.ndim == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(309, 23)",
+    "node content": "<Number: 1>",
+    "related code": "        if dy.ndim == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(311, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "        if sm.ndim == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(311, 23)",
+    "node content": "<Number: 1>",
+    "related code": "        if sm.ndim == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(431, 20)",
+    "node content": "<Operator: ==>",
+    "related code": "        if x.ndim == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(431, 22)",
+    "node content": "<Number: 1>",
+    "related code": "        if x.ndim == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(813, 24)",
+    "node content": "<Operator: ->",
+    "related code": "    if c.broadcastable[-1]:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(813, 25)",
+    "node content": "<Number: 1>",
+    "related code": "    if c.broadcastable[-1]:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(831, 47)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: x@831,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@831,13>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: x@831,23>, PythonNode(trailer, [<Operator: .>, <Name: owner@831,25>]), PythonNode(trailer, [<Operator: .>, <Name: op@831,31>])]), <Operator: ==>, PythonNode(atom_expr, [<Name: tensor@831,37>, PythonNode(trailer, [<Operator: .>, <Name: add@831,44>])])])])",
+    "related code": "        if x.owner and x.owner.op == tensor.add:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(891, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not numerator.type.dtype.startswith('float'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(894, 28)",
+    "node content": "<Operator: !=>",
+    "related code": "        if numerator.ndim != 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(894, 30)",
+    "node content": "<Number: 2>",
+    "related code": "        if numerator.ndim != 2:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1609, 54)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: x@1609,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@1609,13>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: x@1609,23>, PythonNode(trailer, [<Operator: .>, <Name: owner@1609,25>]), PythonNode(trailer, [<Operator: .>, <Name: op@1609,31>])]), <Operator: ==>, <Name: softmax_with_bias@1609,37>])])",
+    "related code": "        if x.owner and x.owner.op == softmax_with_bias:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1643, 42)",
+    "node content": "<Operator: !=>",
+    "related code": "        if getattr(start, 'data', None) != 0:  # constants will have data\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1643, 44)",
+    "node content": "<Number: 0>",
+    "related code": "        if getattr(start, 'data', None) != 0:  # constants will have data\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1645, 41)",
+    "node content": "<Operator: !=>",
+    "related code": "        if getattr(step, 'data', None) != 1:  # constant step will have data\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1645, 43)",
+    "node content": "<Number: 1>",
+    "related code": "        if getattr(step, 'data', None) != 1:  # constant step will have data\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1647, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not stop.owner:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1668, 20)",
+    "node content": "<Keyword: False>",
+    "related code": "        return False\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1686, 59)",
+    "node content": "PythonNode(and_test, [<Name: log@1686,11>, <Keyword: and>, PythonNode(atom_expr, [<Name: log@1686,19>, PythonNode(trailer, [<Operator: .>, <Name: owner@1686,23>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: log@1686,33>, PythonNode(trailer, [<Operator: .>, <Name: owner@1686,37>]), PythonNode(trailer, [<Operator: .>, <Name: op@1686,43>])]), <Operator: ==>, PythonNode(atom_expr, [<Name: tensor@1686,49>, PythonNode(trailer, [<Operator: .>, <Name: log@1686,56>])])])])",
+    "related code": "        if log and log.owner and log.owner.op == tensor.log:\n"
+  }
+]

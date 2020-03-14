@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1838.18,
+    "line number": "(281, 34)",
+    "node content": "<Operator: >>",
+    "related code": "if int(config.tensor.cmp_sloppy) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1473.93,
+    "line number": "(281, 36)",
+    "node content": "<Number: 1>",
+    "related code": "if int(config.tensor.cmp_sloppy) > 1:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1487.54,
+    "line number": "(78, 62)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@78,7>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: x@78,18>, <Operator: ,>, PythonNode(atom_expr, [<Name: np@78,21>, PythonNode(trailer, [<Operator: .>, <Name: ndarray@78,24>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@78,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: y@78,48>, <Operator: ,>, PythonNode(atom_expr, [<Name: np@78,51>, PythonNode(trailer, [<Operator: .>, <Name: ndarray@78,54>])])]), <Operator: )>])])])",
+    "related code": "    if isinstance(x, np.ndarray) and isinstance(y, np.ndarray):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1484.7,
+    "line number": "(329, 61)",
+    "node content": "PythonNode(or_test, [PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: str@329,10>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: a@329,14>, PythonNode(trailer, [<Operator: .>, <Name: dtype@329,16>])]), <Operator: )>])]), <Keyword: in>, <Name: narrow@329,26>]), <Operator: )>]), <Keyword: or>, PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: str@329,38>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: b@329,42>, PythonNode(trailer, [<Operator: .>, <Name: dtype@329,44>])]), <Operator: )>])]), <Keyword: in>, <Name: narrow@329,54>]), <Operator: )>])])",
+    "related code": "    elif (str(a.dtype) in narrow) or (str(b.dtype) in narrow):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1483.94,
+    "line number": "(397, 51)",
+    "node content": "<Keyword: True>",
+    "related code": "def get_scalar_constant_value(orig_v, elemwise=True,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1665.52,
+    "line number": "(398, 58)",
+    "node content": "<Keyword: False>",
+    "related code": "                              only_process_constants=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(429, 14)",
+    "node content": "<Keyword: True>",
+    "related code": "    while True:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1483.59,
+    "line number": "(1908, 29)",
+    "node content": "<Number: 1.e-5>",
+    "related code": "def allclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1484.64,
+    "line number": "(1908, 41)",
+    "node content": "<Number: 1.e-8>",
+    "related code": "def allclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1484.51,
+    "line number": "(1908, 58)",
+    "node content": "<Keyword: False>",
+    "related code": "def allclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1490.32,
+    "line number": "(1942, 28)",
+    "node content": "<Number: 1.e-5>",
+    "related code": "def isclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1483.5,
+    "line number": "(1942, 40)",
+    "node content": "<Number: 1.e-8>",
+    "related code": "def isclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1486.83,
+    "line number": "(1942, 57)",
+    "node content": "<Keyword: False>",
+    "related code": "def isclose(a, b, rtol=1.e-5, atol=1.e-8, equal_nan=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1486.35,
+    "line number": "(2214, 30)",
+    "node content": "<Keyword: True>",
+    "related code": "def cov(m, y=None, rowvar=True, bias=False, ddof=None, fweights=None, aweights=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1485.55,
+    "line number": "(2214, 42)",
+    "node content": "<Keyword: False>",
+    "related code": "def cov(m, y=None, rowvar=True, bias=False, ddof=None, fweights=None, aweights=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.05,
+    "line number": "(2628, 34)",
+    "node content": "<Keyword: False>",
+    "related code": "def nonzero(a, return_matrix=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.41,
+    "line number": "(2769, 22)",
+    "node content": "<Number: 0>",
+    "related code": "def tri(N, M=None, k=0, dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1591.68,
+    "line number": "(2802, 15)",
+    "node content": "<Number: 0>",
+    "related code": "def tril(m, k=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1678.4,
+    "line number": "(2829, 15)",
+    "node content": "<Number: 0>",
+    "related code": "def triu(m, k=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1729.52,
+    "line number": "(2880, 22)",
+    "node content": "<Number: 0>",
+    "related code": "def eye(n, m=None, k=0, dtype=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1619.25,
+    "line number": "(3675, 37)",
+    "node content": "<Keyword: True>",
+    "related code": "def extract_constant(x, elemwise=True, only_process_constants=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.31,
+    "line number": "(3675, 67)",
+    "node content": "<Keyword: False>",
+    "related code": "def extract_constant(x, elemwise=True, only_process_constants=False):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(3711, 59)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: x@3711,7>, PythonNode(trailer, [<Operator: .>, <Name: name@3711,9>])]), <Keyword: and>, PythonNode(comparison, [<Name: axes@3711,18>, <Operator: ==>, PythonNode(atom_expr, [<Name: list@3711,26>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: range@3711,31>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom, [<Operator: (>, PythonNode(arith_expr, [PythonNode(atom_expr, [<Name: x@3711,38>, PythonNode(trailer, [<Operator: .>, <Name: ndim@3711,40>])]), <Operator: ->, <Number: 1>]), <Operator: )>]), <Operator: ,>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ,>, PythonNode(factor, [<Operator: ->, <Number: 1>])]), <Operator: )>])]), <Operator: )>])])])])",
+    "related code": "    if x.name and axes == list(range((x.ndim - 1), -1, -1)):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1635.99,
+    "line number": "(3755, 34)",
+    "node content": "<Number: 2>",
+    "related code": "def batched_tensordot(x, y, axes=2):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1693.43,
+    "line number": "(3794, 42)",
+    "node content": "<Number: 0>",
+    "related code": "def split(x, splits_size, n_splits, axis=0):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(4783, 71)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: v@4783,7>, PythonNode(trailer, [<Operator: .>, <Name: owner@4783,9>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@4783,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: v@4783,30>, PythonNode(trailer, [<Operator: .>, <Name: owner@4783,32>]), PythonNode(trailer, [<Operator: .>, <Name: op@4783,38>])]), <Operator: ,>, PythonNode(atom_expr, [<Name: theano@4783,42>, PythonNode(trailer, [<Operator: .>, <Name: tensor@4783,49>]), PythonNode(trailer, [<Operator: .>, <Name: opt@4783,56>]), PythonNode(trailer, [<Operator: .>, <Name: MakeVector@4783,60>])])]), <Operator: )>])])])",
+    "related code": "    if v.owner and isinstance(v.owner.op, theano.tensor.opt.MakeVector):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1709.88,
+    "line number": "(4785, 48)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: v@4785,7>, PythonNode(trailer, [<Operator: .>, <Name: owner@4785,9>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@4785,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: v@4785,30>, PythonNode(trailer, [<Operator: .>, <Name: owner@4785,32>]), PythonNode(trailer, [<Operator: .>, <Name: op@4785,38>])]), <Operator: ,>, <Name: Shape@4785,42>]), <Operator: )>])])])",
+    "related code": "    if v.owner and isinstance(v.owner.op, Shape):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5275, 38)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: outdim@5275,7>, <Keyword: is>, <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: ndim@5275,26>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "    if outdim is None and ndim is None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5277, 48)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: outdim@5277,9>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: ndim@5277,32>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    elif outdim is not None and ndim is not None:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1703.99,
+    "line number": "(5287, 47)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [<Name: ndim@5287,7>, <Operator: <>, <Number: 1>]), <Keyword: or>, PythonNode(atom, [<Operator: (>, PythonNode(and_test, [PythonNode(comparison, [<Name: ndim@5287,20>, <Operator: >>, <Number: 1>]), <Keyword: and>, PythonNode(comparison, [<Name: ndim@5287,33>, <Operator: >>, PythonNode(atom_expr, [<Name: x@5287,40>, PythonNode(trailer, [<Operator: .>, <Name: ndim@5287,42>])])])]), <Operator: )>])])",
+    "related code": "    if ndim < 1 or (ndim > 1 and ndim > x.ndim):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5575, 35)",
+    "node content": "<Number: 1>",
+    "related code": "def arange(start, stop=None, step=1, dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1672.96,
+    "line number": "(5888, 40)",
+    "node content": "<Number: 0>",
+    "related code": "def permute_row_elements(x, y, inverse=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1779.02,
+    "line number": "(6235, 26)",
+    "node content": "<Number: 2>",
+    "related code": "def tensordot(a, b, axes=2):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1750.57,
+    "line number": "(6353, 36)",
+    "node content": "<Keyword: False>",
+    "related code": "def any(x, axis=None, keepdims=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1611.92,
+    "line number": "(6361, 36)",
+    "node content": "<Keyword: False>",
+    "related code": "def all(x, axis=None, keepdims=False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1582.62,
+    "line number": "(6514, 24)",
+    "node content": "<Number: 0>",
+    "related code": "def diagonal(a, offset=0, axis1=0, axis2=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1592.67,
+    "line number": "(6514, 33)",
+    "node content": "<Number: 0>",
+    "related code": "def diagonal(a, offset=0, axis1=0, axis2=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1569.01,
+    "line number": "(6514, 42)",
+    "node content": "<Number: 1>",
+    "related code": "def diagonal(a, offset=0, axis1=0, axis2=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1700.43,
+    "line number": "(6657, 15)",
+    "node content": "<Number: 0>",
+    "related code": "def diag(v, k=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1900.72,
+    "line number": "(290, 23)",
+    "node content": "<Number: 1e-2>",
+    "related code": "    float16_atol = 1e-2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1709.11,
+    "line number": "(291, 23)",
+    "node content": "<Number: 5e-2>",
+    "related code": "    float16_rtol = 5e-2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1697.09,
+    "line number": "(294, 23)",
+    "node content": "<Number: 1e-3>",
+    "related code": "    float32_rtol = 1e-3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1629.73,
+    "line number": "(306, 23)",
+    "node content": "<Number: 1e-3>",
+    "related code": "    float64_atol = 1e-3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1808.23,
+    "line number": "(310, 23)",
+    "node content": "<Number: 1e-3>",
+    "related code": "    float16_atol = 1e-3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1698.38,
+    "line number": "(311, 23)",
+    "node content": "<Number: 1e-3>",
+    "related code": "    float16_rtol = 1e-3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1917.95,
+    "line number": "(313, 23)",
+    "node content": "<Number: 1e-5>",
+    "related code": "    float32_atol = 1e-5\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1994.62,
+    "line number": "(314, 23)",
+    "node content": "<Number: 1e-5>",
+    "related code": "    float32_rtol = 1e-5\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1953.29,
+    "line number": "(319, 41)",
+    "node content": "<Number: 1.0000000000000001e-05>",
+    "related code": "    float64_rtol = 1.0000000000000001e-05\n"
+  }
+]

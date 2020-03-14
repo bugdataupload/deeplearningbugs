@@ -1,0 +1,378 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1936.78,
+    "line number": "(124, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1488.71,
+    "line number": "(153, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1494.05,
+    "line number": "(155, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1495.39,
+    "line number": "(238, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1494.19,
+    "line number": "(245, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1495.75,
+    "line number": "(329, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1491.08,
+    "line number": "(336, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.67,
+    "line number": "(669, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.18,
+    "line number": "(675, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1495.63,
+    "line number": "(677, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1497.33,
+    "line number": "(839, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1496.24,
+    "line number": "(251, 45)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@251,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: x@251,26>, <Operator: ,>, PythonNode(atom_expr, [<Name: theano@251,29>, PythonNode(trailer, [<Operator: .>, <Name: Variable@251,36>])])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(x, theano.Variable):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.796451914098973\n",
+    "training time": 1554.49,
+    "line number": "(368, 45)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@368,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: x@368,26>, <Operator: ,>, PythonNode(atom_expr, [<Name: theano@368,29>, PythonNode(trailer, [<Operator: .>, <Name: Variable@368,36>])])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(x, theano.Variable):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(710, 65)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@710,11>, PythonNode(trailer, [<Operator: .>, <Name: axis@710,16>]), PythonNode(trailer, [<Operator: .>, <Name: keys@710,21>]), PythonNode(trailer, [<Operator: (>, <Operator: )>])]), <Keyword: and>, PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: x@710,33>, PythonNode(trailer, [<Operator: .>, <Name: ndim@710,35>])]), <Operator: <=>, PythonNode(atom_expr, [<Name: max@710,43>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: self@710,47>, PythonNode(trailer, [<Operator: .>, <Name: axis@710,52>]), PythonNode(trailer, [<Operator: .>, <Name: keys@710,57>]), PythonNode(trailer, [<Operator: (>, <Operator: )>])]), <Operator: )>])])]), <Operator: )>])])",
+    "related code": "        if self.axis.keys() and (x.ndim <= max(self.axis.keys())):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1771.44,
+    "line number": "(47, 17)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1974.51,
+    "line number": "(122, 20)",
+    "node content": "<Number: 0>",
+    "related code": "    destroy_map = {0: [0]}\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2045.64,
+    "line number": "(251, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(x, theano.Variable):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.795333118171134\n",
+    "training time": 1503.8,
+    "line number": "(368, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(x, theano.Variable):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1508.03,
+    "line number": "(370, 20)",
+    "node content": "<Operator: <=>",
+    "related code": "        if x.ndim <= self.i:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.5030258899881376\n",
+    "training time": 1481.04,
+    "line number": "(668, 17)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1530.86,
+    "line number": "(699, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if len(self.axis) == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1524.91,
+    "line number": "(699, 30)",
+    "node content": "<Number: 0>",
+    "related code": "        if len(self.axis) == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1505.87,
+    "line number": "(833, 17)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1506.37,
+    "line number": "(47, 21)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1505.74,
+    "line number": "(122, 24)",
+    "node content": "<Number: 0>",
+    "related code": "    destroy_map = {0: [0]}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(345, 19)",
+    "node content": "<Operator: ==>",
+    "related code": "        assert i == int(i)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1805.99,
+    "line number": "(362, 25)",
+    "node content": "<Operator: %>",
+    "related code": "        return '%s{%i}' % (self.__class__.__name__, self.i)\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1867.23,
+    "line number": "(389, 20)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: v@389,19>])",
+    "related code": "            if not v:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(668, 21)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(684, 64)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@684,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: axis@684,30>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [PythonNode(atom_expr, [<Name: np@684,37>, PythonNode(trailer, [<Operator: .>, <Name: integer@684,40>])]), <Operator: ,>, <Name: integer_types@684,49>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "            if not isinstance(axis, (np.integer, integer_types)):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(688, 54)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@688,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: broad@688,30>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [PythonNode(atom_expr, [<Name: np@688,38>, PythonNode(trailer, [<Operator: .>, <Name: bool_@688,41>])]), <Operator: ,>, <Name: bool@688,48>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "            if not isinstance(broad, (np.bool_, bool)):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(706, 25)",
+    "node content": "<Operator: %>",
+    "related code": "        return '%s{%s}' % (self.__class__.__name__,\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(735, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        assert len(ishapes) == 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(735, 32)",
+    "node content": "<Number: 1>",
+    "related code": "        assert len(ishapes) == 1\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(776, 20)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: v@776,19>])",
+    "related code": "            if not v:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(833, 21)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(269, 22)",
+    "node content": "<Keyword: False>",
+    "related code": "        return [[False]]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(389, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not v:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(684, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not isinstance(axis, (np.integer, integer_types)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(688, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not isinstance(broad, (np.bool_, bool)):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(737, 44)",
+    "node content": "<Number: 1>",
+    "related code": "        one = theano.tensor.basic.constant(1)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(776, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not v:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(398, 28)",
+    "node content": "<Number: 2>",
+    "related code": "            version.append(2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(786, 28)",
+    "node content": "<Number: 1>",
+    "related code": "            version.append(1)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(739, 38)",
+    "node content": "<Keyword: False>",
+    "related code": "            if self.axis.get(ax, False):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(738, 38)",
+    "node content": "<Number: 0>",
+    "related code": "        for ax in xrange(len(ishapes[0])):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(261, 32)",
+    "node content": "<Number: 0>",
+    "related code": "        return [[len(in_shapes[0])]]\n"
+  }
+]

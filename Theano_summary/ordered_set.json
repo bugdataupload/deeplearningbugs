@@ -1,0 +1,114 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(22, 22)",
+    "node content": "<Keyword: not>",
+    "related code": "    if iterable is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.13,
+    "line number": "(169, 27)",
+    "node content": "<Keyword: True>",
+    "related code": "    def pop(self, last=True):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(170, 19)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: self@170,15>])",
+    "related code": "        if not self:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(23, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(iterable, (\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(90, 15)",
+    "node content": "<Operator: |=>",
+    "related code": "        self |= iterable\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(148, 17)",
+    "node content": "<Keyword: in>",
+    "related code": "        if key in self.__map:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(170, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not self:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(98, 26)",
+    "node content": "<Keyword: not>",
+    "related code": "        if iterable is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(105, 21)",
+    "node content": "<Keyword: in>",
+    "related code": "        return key in self.__map\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(109, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "        if key not in self.__map:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(157, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "        while curr is not root:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(165, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "        while curr is not root:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(99, 19)",
+    "node content": "<Operator: |=>",
+    "related code": "            self |= iterable\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.29,
+    "line number": "(136, 22)",
+    "node content": "<Keyword: in>",
+    "related code": "            if elem in self:\n"
+  }
+]

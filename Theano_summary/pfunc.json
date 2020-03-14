@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(489, 42)",
+    "node content": "<Keyword: False>",
+    "related code": "def _pfunc_param_to_in(param, strict=False, allow_downcast=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(131, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if replace is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(156, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "    if inputs is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(179, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if updates is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(254, 9)",
+    "node content": "<Number: 0>",
+    "related code": "    i = 0\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(255, 13)",
+    "node content": "<Operator: <>",
+    "related code": "    while i < len(update_expr):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(362, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if updates is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(364, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "    if givens is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1588.6,
+    "line number": "(366, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if profile is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1514.96,
+    "line number": "(371, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if profile is True:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1516.79,
+    "line number": "(371, 22)",
+    "node content": "<Keyword: True>",
+    "related code": "    if profile is True:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1519.16,
+    "line number": "(374, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif type(profile) == str:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(380, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(params, (list, tuple)):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(384, 47)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@384,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: no_default_updates@384,22>, <Operator: ,>, <Name: bool@384,42>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(no_default_updates, bool)\\\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(434, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if outputs is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(455, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if outputs is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(139, 43)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@139,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: v_orig@139,26>, <Operator: ,>, <Name: Variable@139,34>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(v_orig, Variable):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(141, 43)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@141,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: v_repl@141,26>, <Operator: ,>, <Name: Variable@141,34>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(v_repl, Variable):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(160, 31)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: copy_inputs_over@160,15>])",
+    "related code": "        if not copy_inputs_over:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(182, 53)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@182,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: store_into@182,26>, <Operator: ,>, <Name: SharedVariable@182,38>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(store_into, SharedVariable):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(260, 67)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@260,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: v@260,22>, <Operator: ,>, <Name: SharedVariable@260,25>]), <Operator: )>])]), <Keyword: and>, PythonNode(comparison, [<Name: v@260,45>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: shared_inputs@260,54>])])",
+    "related code": "        if isinstance(v, SharedVariable) and v not in shared_inputs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1518.03,
+    "line number": "(270, 71)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, variable, default=None, name=None, mutable=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(384, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(no_default_updates, bool)\\\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1513.78,
+    "line number": "(389, 21)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(updates) > 0 and any(isinstance(v, Variable)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.73,
+    "line number": "(389, 23)",
+    "node content": "<Number: 0>",
+    "related code": "    if len(updates) > 0 and any(isinstance(v, Variable)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(441, 33)",
+    "node content": "<Operator: +>",
+    "related code": "    extended_outputs = out_list + additional_outputs\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(87, 15)",
+    "node content": "<Keyword: in>",
+    "related code": "        if v in clone_d:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(122, 31)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: copy_inputs_over@122,15>])",
+    "related code": "        if not copy_inputs_over or (isinstance(v, Constant) and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(139, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(v_orig, Variable):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(141, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(v_repl, Variable):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(144, 20)",
+    "node content": "<Keyword: in>",
+    "related code": "        if v_orig in clone_d:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(160, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not copy_inputs_over:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(182, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(store_into, SharedVariable):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(185, 24)",
+    "node content": "<Keyword: in>",
+    "related code": "        if store_into in update_d:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(262, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "        i += 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(262, 14)",
+    "node content": "<Number: 1>",
+    "related code": "        i += 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1807.96,
+    "line number": "(369, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "        if profile is False:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1777.37,
+    "line number": "(369, 27)",
+    "node content": "<Keyword: False>",
+    "related code": "        if profile is False:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(402, 15)",
+    "node content": "<Keyword: in>",
+    "related code": "        if v in in_variables[(i + 1):]:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(418, 15)",
+    "node content": "<Keyword: in>",
+    "related code": "        if x in in_var_set:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(475, 16)",
+    "node content": "<Keyword: in>",
+    "related code": "        if sv in update_d:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(122, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not copy_inputs_over or (isinstance(v, Constant) and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(165, 47)",
+    "node content": "<Keyword: in>",
+    "related code": "    input_variables = [clone_inputs(i) for i in inputs]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(209, 33)",
+    "node content": "<Operator: ==>",
+    "related code": "        assert update_val.type == store_into.type\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(400, 47)",
+    "node content": "<Keyword: in>",
+    "related code": "    in_variables = [input.variable for input in inputs]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(433, 43)",
+    "node content": "<Keyword: in>",
+    "related code": "    additional_outputs = [i.update for i in inputs if i.update]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(86, 23)",
+    "node content": "<Keyword: not>",
+    "related code": "        assert v is not None\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(91, 24)",
+    "node content": "<Keyword: not>",
+    "related code": "            if owner not in clone_d:\n"
+  }
+]

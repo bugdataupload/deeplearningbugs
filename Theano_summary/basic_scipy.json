@@ -1,0 +1,274 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1503.45,
+    "line number": "(22, 33)",
+    "node content": "<Keyword: True>",
+    "related code": "    imported_scipy_special = True\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1506.35,
+    "line number": "(30, 40)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erf', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1507.5,
+    "line number": "(30, 43)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erf', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1506.23,
+    "line number": "(64, 41)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfc', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1507.27,
+    "line number": "(64, 44)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfc', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1505.94,
+    "line number": "(113, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfcx', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1504.39,
+    "line number": "(113, 45)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfcx', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1502.53,
+    "line number": "(150, 43)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfinv', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1502.86,
+    "line number": "(150, 46)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfinv', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1503.86,
+    "line number": "(185, 44)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfcinv', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1506.18,
+    "line number": "(185, 47)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.erfcinv', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1508.31,
+    "line number": "(220, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gamma', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1503.3,
+    "line number": "(220, 45)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gamma', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1506.75,
+    "line number": "(259, 44)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gammaln', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1509.48,
+    "line number": "(259, 47)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gammaln', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1587.22,
+    "line number": "(305, 40)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.psi', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1621.35,
+    "line number": "(305, 43)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.psi', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1736.98,
+    "line number": "(487, 42)",
+    "node content": "<Number: 2>",
+    "related code": "    nfunc_spec = ('scipy.stats.chi2.sf', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1905.23,
+    "line number": "(487, 45)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.stats.chi2.sf', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1722.49,
+    "line number": "(530, 45)",
+    "node content": "<Number: 2>",
+    "related code": "    nfunc_spec = ('scipy.special.gammainc', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1680.04,
+    "line number": "(530, 48)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gammainc', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1572.2,
+    "line number": "(573, 46)",
+    "node content": "<Number: 2>",
+    "related code": "    nfunc_spec = ('scipy.special.gammaincc', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1538.11,
+    "line number": "(573, 49)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.gammaincc', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1569.42,
+    "line number": "(702, 39)",
+    "node content": "<Number: 2>",
+    "related code": "    nfunc_spec = ('scipy.special.jv', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1749.91,
+    "line number": "(702, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.jv', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1927.13,
+    "line number": "(727, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.j1', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1645.58,
+    "line number": "(727, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.j1', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1597.79,
+    "line number": "(759, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.j0', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1751.49,
+    "line number": "(759, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.j0', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1602.03,
+    "line number": "(791, 39)",
+    "node content": "<Number: 2>",
+    "related code": "    nfunc_spec = ('scipy.special.iv', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1727.24,
+    "line number": "(791, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.iv', 2, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1532.19,
+    "line number": "(816, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.i1', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1776.02,
+    "line number": "(816, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.i1', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1678.72,
+    "line number": "(840, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.i0', 1, 1)\n"
+  }
+]

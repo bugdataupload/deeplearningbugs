@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.519140989729225\n",
+    "training time": 1709.95,
+    "line number": "(78, 20)",
+    "node content": "<Operator: *>",
+    "related code": "    output = layer * T.cast(mask, theano.config.floatX)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1655.71,
+    "line number": "(92, 83)",
+    "node content": "<Keyword: True>",
+    "related code": "    def __init__(self,rng,input,layer_sizes,dropout_rates,activations,use_bias=True):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.803921568627451\n",
+    "training time": 1663.02,
+    "line number": "(380, 61)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@380,11>, PythonNode(trailer, [<Operator: .>, <Name: non_linear@380,16>])]), <Operator: ==>, <String: \"none\">]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@380,38>, PythonNode(trailer, [<Operator: .>, <Name: non_linear@380,43>])]), <Operator: ==>, <String: \"relu\">])])",
+    "related code": "        if self.non_linear==\"none\" or self.non_linear==\"relu\":\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1687.2,
+    "line number": "(43, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "        if W is None:            \n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1742.38,
+    "line number": "(50, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "        if b is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1628.56,
+    "line number": "(105, 25)",
+    "node content": "<Number: 0>",
+    "related code": "        layer_counter = 0\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(266, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "        if W is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(274, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "        if b is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(330, 20)",
+    "node content": "<Operator: !=>",
+    "related code": "        if y.ndim != self.y_pred.ndim:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.8011204481792717\n",
+    "training time": 1702.39,
+    "line number": "(392, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.non_linear==\"tanh\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.8095238095238095\n",
+    "training time": 1765.57,
+    "line number": "(395, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif self.non_linear==\"relu\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1762.41,
+    "line number": "(409, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.non_linear==\"tanh\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.8020541549953315\n",
+    "training time": 1670.45,
+    "line number": "(412, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.non_linear==\"relu\":\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.519140989729225\n",
+    "training time": 1887.63,
+    "line number": "(21, 21)",
+    "node content": "<Number: 0.0>",
+    "related code": "    y = T.maximum(0.0, x)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1751.44,
+    "line number": "(237, 47)",
+    "node content": "<Operator: +>",
+    "related code": "        self.params = self.hiddenLayer.params + self.logRegressionLayer.params\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(318, 16)",
+    "node content": "<Operator: ->",
+    "related code": "        return -T.mean(T.log(self.p_y_given_x)[T.arange(y.shape[0]), y])\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1747.87,
+    "line number": "(344, 73)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, rng, input, filter_shape, image_shape, poolsize=(2, 2), non_linear=\"tanh\"):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1884.38,
+    "line number": "(344, 76)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, rng, input, filter_shape, image_shape, poolsize=(2, 2), non_linear=\"tanh\"):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(366, 32)",
+    "node content": "<Operator: ==>",
+    "related code": "        assert image_shape[1] == filter_shape[1]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1884.36,
+    "line number": "(380, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.non_linear==\"none\" or self.non_linear==\"relu\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.803921568627451\n",
+    "training time": 1986.37,
+    "line number": "(380, 55)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.non_linear==\"none\" or self.non_linear==\"relu\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1868.55,
+    "line number": "(44, 38)",
+    "node content": "<Operator: ==>",
+    "related code": "            if activation.func_name == \"ReLU\":\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1661.47,
+    "line number": "(73, 78)",
+    "node content": "<Number: 999999>",
+    "related code": "    srng = theano.tensor.shared_randomstreams.RandomStreams(rng.randint(999999))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7973856209150327\n",
+    "training time": 1681.68,
+    "line number": "(75, 28)",
+    "node content": "<Number: 1>",
+    "related code": "    mask = srng.binomial(n=1, p=1-p, size=layer.shape)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1766.45,
+    "line number": "(128, 28)",
+    "node content": "<Operator: +=>",
+    "related code": "            layer_counter += 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1768.29,
+    "line number": "(128, 30)",
+    "node content": "<Number: 1>",
+    "related code": "            layer_counter += 1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(160, 17)",
+    "node content": "<Operator: <>",
+    "related code": "            if i<len(self.layers)+1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2396.32,
+    "line number": "(170, 17)",
+    "node content": "<Operator: <>",
+    "related code": "            if i<len(self.layers)-1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1936.15,
+    "line number": "(378, 36)",
+    "node content": "<Operator: *>",
+    "related code": "        fan_out = (filter_shape[0] * numpy.prod(filter_shape[2:]) /numpy.prod(poolsize))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1561.38,
+    "line number": "(378, 67)",
+    "node content": "<Operator: />",
+    "related code": "        fan_out = (filter_shape[0] * numpy.prod(filter_shape[2:]) /numpy.prod(poolsize))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(407, 34)",
+    "node content": "<Number: 1>",
+    "related code": "        img_shape = (batch_size, 1, self.image_shape[2], self.image_shape[3])\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1584.97,
+    "line number": "(58, 47)",
+    "node content": "<Operator: +>",
+    "related code": "            lin_output = T.dot(input, self.W) + self.b\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2082.23,
+    "line number": "(62, 50)",
+    "node content": "<Keyword: is>",
+    "related code": "        self.output = (lin_output if activation is None else activation(lin_output))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(75, 33)",
+    "node content": "<Number: 1>",
+    "related code": "    mask = srng.binomial(n=1, p=1-p, size=layer.shape)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(75, 34)",
+    "node content": "<Operator: ->",
+    "related code": "    mask = srng.binomial(n=1, p=1-p, size=layer.shape)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 54)",
+    "node content": "<Operator: ->",
+    "related code": "        for n_in, n_out in self.weight_matrix_sizes[:-1]:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1846.73,
+    "line number": "(106, 55)",
+    "node content": "<Number: 1>",
+    "related code": "        for n_in, n_out in self.weight_matrix_sizes[:-1]:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(131, 48)",
+    "node content": "<Operator: ->",
+    "related code": "        n_in, n_out = self.weight_matrix_sizes[-1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(131, 49)",
+    "node content": "<Number: 1>",
+    "related code": "        n_in, n_out = self.weight_matrix_sizes[-1]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(148, 68)",
+    "node content": "<Operator: ->",
+    "related code": "        self.dropout_negative_log_likelihood = self.dropout_layers[-1].negative_log_likelihood\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(148, 69)",
+    "node content": "<Number: 1>",
+    "related code": "        self.dropout_negative_log_likelihood = self.dropout_layers[-1].negative_log_likelihood\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(149, 51)",
+    "node content": "<Operator: ->",
+    "related code": "        self.dropout_errors = self.dropout_layers[-1].errors\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(149, 52)",
+    "node content": "<Number: 1>",
+    "related code": "        self.dropout_errors = self.dropout_layers[-1].errors\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(151, 52)",
+    "node content": "<Operator: ->",
+    "related code": "        self.negative_log_likelihood = self.layers[-1].negative_log_likelihood\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(151, 53)",
+    "node content": "<Number: 1>",
+    "related code": "        self.negative_log_likelihood = self.layers[-1].negative_log_likelihood\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(152, 35)",
+    "node content": "<Operator: ->",
+    "related code": "        self.errors = self.layers[-1].errors\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(152, 36)",
+    "node content": "<Number: 1>",
+    "related code": "        self.errors = self.layers[-1].errors\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(155, 42)",
+    "node content": "<Keyword: in>",
+    "related code": "        self.params = [ param for layer in self.dropout_layers for param in layer.params ]\n"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1511.71,
+    "line number": "(1789, 53)",
+    "node content": "<Number: 1>",
+    "related code": "def gen_conv_code_unroll_batch_kern(d, unroll_bsize=1, unroll_ksize=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1532.53,
+    "line number": "(1789, 69)",
+    "node content": "<Number: 1>",
+    "related code": "def gen_conv_code_unroll_batch_kern(d, unroll_bsize=1, unroll_ksize=1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1527.46,
+    "line number": "(32, 32)",
+    "node content": "<Keyword: True>",
+    "related code": "    imported_scipy_signal = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1523.03,
+    "line number": "(102, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "    if image_shape is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1524.33,
+    "line number": "(117, 26)",
+    "node content": "<Keyword: not>",
+    "related code": "    if filter_shape is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7973856209150327\n",
+    "training time": 8215.92,
+    "line number": "(141, 26)",
+    "node content": "<Keyword: not>",
+    "related code": "    if filter_shape is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7973856209150327\n",
+    "training time": 7410.110000000001,
+    "line number": "(147, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "    if image_shape is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(433, 58)",
+    "node content": "PythonNode(and_test, [PythonNode(atom, [<Operator: (>, PythonNode(or_test, [<Name: unroll_batch@433,12>, <Keyword: or>, <Name: unroll_kern@433,28>]), <Operator: )>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, <Name: all_shape@433,49>])])",
+    "related code": "        if (unroll_batch or unroll_kern) and not all_shape:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1567.79,
+    "line number": "(439, 39)",
+    "node content": "PythonNode(or_test, [PythonNode(not_test, [<Keyword: not>, <Name: all_shape@439,15>]), <Keyword: or>, PythonNode(atom_expr, [<Name: self@439,28>, PythonNode(trailer, [<Operator: .>, <Name: openmp@439,33>])])])",
+    "related code": "        if not all_shape or self.openmp:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1781.91,
+    "line number": "(478, 53)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@478,11>, PythonNode(trailer, [<Operator: .>, <Name: unroll_batch@478,16>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@478,37>, PythonNode(trailer, [<Operator: .>, <Name: unroll_kern@478,42>])])])])",
+    "related code": "        if self.unroll_batch and not self.unroll_kern:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1978.01,
+    "line number": "(480, 53)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@480,11>, PythonNode(trailer, [<Operator: .>, <Name: unroll_kern@480,16>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@480,36>, PythonNode(trailer, [<Operator: .>, <Name: unroll_batch@480,41>])])])])",
+    "related code": "        if self.unroll_kern and not self.unroll_batch:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1819.5,
+    "line number": "(856, 77)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@856,11>, PythonNode(trailer, [<Operator: .>, <Name: imshp@856,16>])]), <Operator: !=>, PythonNode(atom_expr, [<Name: self@856,25>, PythonNode(trailer, [<Operator: .>, <Name: imshp_logical@856,30>])])]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@856,47>, PythonNode(trailer, [<Operator: .>, <Name: kshp@856,52>])]), <Operator: !=>, PythonNode(atom_expr, [<Name: self@856,60>, PythonNode(trailer, [<Operator: .>, <Name: kshp_logical@856,65>])])])])",
+    "related code": "        if self.imshp != self.imshp_logical or self.kshp != self.kshp_logical:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(859, 68)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@859,11>, PythonNode(trailer, [<Operator: .>, <Name: out_mode@859,16>])]), <Operator: ==>, <String: 'valid'>]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [PythonNode(atom_expr, [<Name: self@859,41>, PythonNode(trailer, [<Operator: .>, <Name: dx@859,46>])]), <Operator: ,>, PythonNode(atom_expr, [<Name: self@859,50>, PythonNode(trailer, [<Operator: .>, <Name: dy@859,55>])])]), <Operator: )>]), <Operator: !=>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Number: 1>, <Operator: ,>, <Number: 1>]), <Operator: )>])])])",
+    "related code": "        if self.out_mode == 'valid' and (self.dx, self.dy) != (1, 1):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1642.46,
+    "line number": "(864, 57)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@864,11>, PythonNode(trailer, [<Operator: .>, <Name: dx@864,16>])]), PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Number: 1>, <Operator: ,>, <Number: 2>]), <Operator: )>])]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@864,36>, PythonNode(trailer, [<Operator: .>, <Name: dy@864,41>])]), PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Number: 1>, <Operator: ,>, <Number: 2>]), <Operator: )>])])])",
+    "related code": "        if self.dx not in (1, 2) or self.dy not in (1, 2):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1553.76,
+    "line number": "(873, 59)",
+    "node content": "PythonNode(and_test, [PythonNode(not_test, [<Keyword: not>, <Name: all_shape@873,15>]), <Keyword: and>, PythonNode(atom, [<Operator: (>, PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@873,30>, PythonNode(trailer, [<Operator: .>, <Name: dx@873,35>])]), <Operator: !=>, <Number: 1>]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@873,46>, PythonNode(trailer, [<Operator: .>, <Name: dy@873,51>])]), <Operator: !=>, <Number: 1>])]), <Operator: )>])])",
+    "related code": "        if not all_shape and (self.dx != 1 or self.dy != 1):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(927, 38)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@927,15>, PythonNode(trailer, [<Operator: .>, <Name: out_mode@927,20>])]), <Operator: ==>, <String: 'full'>])])",
+    "related code": "        if not self.out_mode == 'full':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1663.65,
+    "line number": "(339, 52)",
+    "node content": "<Number: 2.0109100341796875>",
+    "related code": "    speed_unroll_patch_noshape = [2.0109100341796875, 5.8175678253173828]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1661.72,
+    "line number": "(339, 72)",
+    "node content": "<Number: 5.8175678253173828>",
+    "related code": "    speed_unroll_patch_noshape = [2.0109100341796875, 5.8175678253173828]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1618.73,
+    "line number": "(341, 50)",
+    "node content": "<Number: 1.2967290878295898>",
+    "related code": "    speed_unroll_patch_shape = [1.2967290878295898, 5.5283889770507812]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1545.65,
+    "line number": "(341, 70)",
+    "node content": "<Number: 5.5283889770507812>",
+    "related code": "    speed_unroll_patch_shape = [1.2967290878295898, 5.5283889770507812]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1636.05,
+    "line number": "(344, 42)",
+    "node content": "<Number: 1>",
+    "related code": "    def has_all_shape(imshp, kshp, nkern=1, bsize=1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1622.94,
+    "line number": "(344, 51)",
+    "node content": "<Number: 1>",
+    "related code": "    def has_all_shape(imshp, kshp, nkern=1, bsize=1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1572.51,
+    "line number": "(394, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "        if version == \"no_fft\":\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(401, 19)",
+    "node content": "<Keyword: is>",
+    "related code": "        if imshp is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7973856209150327\n",
+    "training time": 7960.760000000001,
+    "line number": "(405, 18)",
+    "node content": "<Keyword: is>",
+    "related code": "        if kshp is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(411, 24)",
+    "node content": "<Operator: ==>",
+    "related code": "        if len(imshp) == 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(411, 26)",
+    "node content": "<Number: 2>",
+    "related code": "        if len(imshp) == 2:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(413, 26)",
+    "node content": "<Operator: !=>",
+    "related code": "        elif len(imshp) != 3:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(413, 28)",
+    "node content": "<Number: 3>",
+    "related code": "        elif len(imshp) != 3:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(415, 23)",
+    "node content": "<Operator: !=>",
+    "related code": "        if len(kshp) != 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(415, 25)",
+    "node content": "<Number: 2>",
+    "related code": "        if len(kshp) != 2:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1518.32,
+    "line number": "(419, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "        if dx is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1515.95,
+    "line number": "(421, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "        if dy is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(424, 21)",
+    "node content": "<Operator: !=>",
+    "related code": "        if int(dx) != dx:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(428, 21)",
+    "node content": "<Operator: !=>",
+    "related code": "        if int(dy) != dy:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1572.21,
+    "line number": "(433, 58)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: all_shape@433,49>])",
+    "related code": "        if (unroll_batch or unroll_kern) and not all_shape:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7973856209150327\n",
+    "training time": 4546.92,
+    "line number": "(439, 24)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: all_shape@439,15>])",
+    "related code": "        if not all_shape or self.openmp:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(454, 27)",
+    "node content": "<Keyword: is>",
+    "related code": "        if imshp_logical is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(463, 26)",
+    "node content": "<Keyword: is>",
+    "related code": "        if kshp_logical is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1511.74,
+    "line number": "(478, 53)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@478,37>, PythonNode(trailer, [<Operator: .>, <Name: unroll_kern@478,42>])])])",
+    "related code": "        if self.unroll_batch and not self.unroll_kern:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.27,
+    "line number": "(480, 53)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@480,36>, PythonNode(trailer, [<Operator: .>, <Name: unroll_batch@480,41>])])])",
+    "related code": "        if self.unroll_kern and not self.unroll_batch:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(588, 24)",
+    "node content": "<Operator: !=>",
+    "related code": "        if type(self) != type(other):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(593, 19)",
+    "node content": "<Keyword: True>",
+    "related code": "        return True\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(649, 26)",
+    "node content": "<Operator: !=>",
+    "related code": "        if _inputs.ndim != 4:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(649, 28)",
+    "node content": "<Number: 4>",
+    "related code": "        if _inputs.ndim != 4:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(653, 25)",
+    "node content": "<Operator: !=>",
+    "related code": "        if _kerns.ndim != 4:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(653, 27)",
+    "node content": "<Number: 4>",
+    "related code": "        if _kerns.ndim != 4:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(655, 32)",
+    "node content": "<Operator: !=>",
+    "related code": "        if _inputs.type.dtype != _kerns.type.dtype:\n"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(831, 32)",
+    "node content": "<Keyword: True>",
+    "related code": "def clone(i, o, copy_inputs=True, copy_orphans=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1494.64,
+    "line number": "(866, 53)",
+    "node content": "<Keyword: True>",
+    "related code": "def clone_get_equiv(inputs, outputs, copy_inputs=True, copy_orphans=True,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1514.8,
+    "line number": "(866, 72)",
+    "node content": "<Keyword: True>",
+    "related code": "def clone_get_equiv(inputs, outputs, copy_inputs=True, copy_orphans=True,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1515.84,
+    "line number": "(929, 53)",
+    "node content": "<Keyword: False>",
+    "related code": "def general_toposort(outputs, deps, debug_print=False,\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1515.77,
+    "line number": "(1031, 40)",
+    "node content": "PythonNode(and_test, [PythonNode(not_test, [<Keyword: not>, <Name: orderings@1031,11>]), <Keyword: and>, PythonNode(comparison, [<Name: clients@1031,25>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "    if not orderings and clients is None:  # ordering can be None or empty dict\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1513.04,
+    "line number": "(1058, 20)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: orderings@1058,11>])",
+    "related code": "    if not orderings:  # ordering can be None or empty dict\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1514.89,
+    "line number": "(1183, 54)",
+    "node content": "<Keyword: False>",
+    "related code": "def is_same_graph(var1, var2, givens=None, debug=False):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.34,
+    "line number": "(663, 14)",
+    "node content": "<Operator: ==>",
+    "related code": "    if mode == 'bfs':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(860, 22)",
+    "node content": "<Keyword: is>",
+    "related code": "    if copy_orphans is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(893, 14)",
+    "node content": "<Keyword: is>",
+    "related code": "    if memo is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(964, 28)",
+    "node content": "<Keyword: is>",
+    "related code": "    if compute_deps_cache is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1004, 20)",
+    "node content": "<Operator: !=>",
+    "related code": "    if len(rlist) != len(reachable):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1515.91,
+    "line number": "(1031, 20)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: orderings@1031,11>])",
+    "related code": "    if not orderings and clients is None:  # ordering can be None or empty dict\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1513.8,
+    "line number": "(1058, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not orderings:  # ordering can be None or empty dict\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@101,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: inputs@101,26>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@101,35>, <Operator: ,>, <Name: tuple@101,41>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(inputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(104, 49)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@104,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: outputs@104,26>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@104,36>, <Operator: ,>, <Name: tuple@104,42>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(outputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1516.25,
+    "line number": "(211, 55)",
+    "node content": "<Keyword: True>",
+    "related code": "    def clone_with_new_inputs(self, inputs, strict=True):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1516.86,
+    "line number": "(383, 61)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: owner@383,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@383,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: owner@383,48>, <Operator: ,>, <Name: Apply@383,55>]), <Operator: )>])])])])",
+    "related code": "        if owner is not None and not isinstance(owner, Apply):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1511.16,
+    "line number": "(386, 69)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: index@386,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@386,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: index@386,48>, <Operator: ,>, <Name: integer_types@386,55>]), <Operator: )>])])])])",
+    "related code": "        if index is not None and not isinstance(index, integer_types):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(389, 66)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: name@389,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@389,36>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: name@389,47>, <Operator: ,>, <Name: string_types@389,53>]), <Operator: )>])])])])",
+    "related code": "        if name is not None and not isinstance(name, string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1512.47,
+    "line number": "(420, 37)",
+    "node content": "<Keyword: True>",
+    "related code": "    def __repr__(self, firstPass=True):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(659, 15)",
+    "node content": "<Keyword: not>",
+    "related code": "    if mode not in ('bfs', 'dfs'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(679, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "    assert len(rval_list) == len(rval_set)\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(703, 58)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: r@703,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@703,13>])]), <Keyword: and>, PythonNode(atom, [<Operator: (>, PythonNode(or_test, [PythonNode(not_test, [<Keyword: not>, <Name: blockers@703,28>]), <Keyword: or>, PythonNode(comparison, [<Name: r@703,40>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: blockers@703,49>])]), <Operator: )>])])",
+    "related code": "        if r.owner and (not blockers or r not in blockers):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1514.9,
+    "line number": "(745, 33)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: r@745,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@745,13>])]), <Keyword: and>, PythonNode(comparison, [<Name: r@745,23>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: i@745,32>])])",
+    "related code": "        if r.owner and r not in i:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.48,
+    "line number": "(777, 42)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: r@777,11>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: i@777,20>]), <Keyword: and>, PythonNode(comparison, [<Name: r@777,26>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: orphans@777,35>])])",
+    "related code": "        if r not in i and r not in orphans:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(987, 21)",
+    "node content": "<Keyword: not>",
+    "related code": "    if clients is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1517.88,
+    "line number": "(1031, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not orderings and clients is None:  # ordering can be None or empty dict\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1110, 21)",
+    "node content": "<Operator: %>",
+    "related code": "    return \"%s(%s)\" % (op.op, \", \".join(argstrings))\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1658.1,
+    "line number": "(1365, 63)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: r@1365,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@1365,13>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: r@1365,35>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: i@1365,44>]), <Keyword: and>, PythonNode(comparison, [<Name: r@1365,50>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: orph@1365,59>])])",
+    "related code": "        if r.owner is not None and r not in i and r not in orph:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(inputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(104, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(outputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1601.07,
+    "line number": "(162, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "        if do is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(236, 27)",
+    "node content": "<Keyword: False>",
+    "related code": "        remake_node = False\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1507.98,
+    "line number": "(376, 23)",
+    "node content": "<Number: 0>",
+    "related code": "    __count__ = count(0)\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1505.3,
+    "line number": "(383, 61)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@383,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: owner@383,48>, <Operator: ,>, <Name: Apply@383,55>]), <Operator: )>])])])",
+    "related code": "        if owner is not None and not isinstance(owner, Apply):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1503.22,
+    "line number": "(386, 69)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@386,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: index@386,48>, <Operator: ,>, <Name: integer_types@386,55>]), <Operator: )>])])])",
+    "related code": "        if index is not None and not isinstance(index, integer_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(389, 66)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@389,36>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: name@389,47>, <Operator: ,>, <Name: string_types@389,53>]), <Operator: )>])])])",
+    "related code": "        if name is not None and not isinstance(name, string_types):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(802, 40)",
+    "node content": "<Number: 0>",
+    "related code": "    return variables_and_orphans(i, o)[0]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(828, 40)",
+    "node content": "<Number: 1>",
+    "related code": "    return variables_and_orphans(i, o)[1]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(981, 28)",
+    "node content": "<Keyword: not>",
+    "related code": "    assert deps_cache is not None\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.96,
+    "line number": "(1345, 16)",
+    "node content": "<Keyword: in>",
+    "related code": "        if op in seen:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1502.49,
+    "line number": "(239, 40)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: curr@239,19>, PythonNode(trailer, [<Operator: .>, <Name: type@239,24>])]), <Operator: ==>, PythonNode(atom_expr, [<Name: new@239,32>, PythonNode(trailer, [<Operator: .>, <Name: type@239,36>])])])])",
+    "related code": "            if not curr.type == new.type:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1612.83,
+    "line number": "(383, 36)",
+    "node content": "<Keyword: not>",
+    "related code": "        if owner is not None and not isinstance(owner, Apply):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1549.19,
+    "line number": "(386, 36)",
+    "node content": "<Keyword: not>",
+    "related code": "        if index is not None and not isinstance(index, integer_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(389, 35)",
+    "node content": "<Keyword: not>",
+    "related code": "        if name is not None and not isinstance(name, string_types):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(392, 34)",
+    "node content": "<Operator: +>",
+    "related code": "        self.auto_name = 'auto_' + str(next(self.__count__))\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(400, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.name is not None:\n"
+  }
+]

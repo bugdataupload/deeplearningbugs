@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1505.17,
+    "line number": "(1078, 78)",
+    "node content": "<Keyword: False>",
+    "related code": "def _constructor_Function(maker, input_storage, inputs_data, trust_input=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.63,
+    "line number": "(1765, 66)",
+    "node content": "<Keyword: False>",
+    "related code": "def orig_function(inputs, outputs, mode=None, accept_inplace=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.75,
+    "line number": "(48, 17)",
+    "node content": "<Keyword: is>",
+    "related code": "    if v.owner is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(54, 21)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(v_views) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.37,
+    "line number": "(54, 23)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(v_views) > 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(115, 30)",
+    "node content": "<Operator: !=>",
+    "related code": "    if len(expanded_inputs) != len(fgraph.inputs):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(53, 36)",
+    "node content": "<Operator: +>",
+    "related code": "    v_views = vmap.get(outpos, []) + dmap.get(outpos, [])\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1501.87,
+    "line number": "(135, 81)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: config@135,11>, PythonNode(trailer, [<Operator: .>, <Name: cycle_detection@135,18>])]), <Operator: ==>, <String: 'fast'>]), <Keyword: and>, PythonNode(atom_expr, [<Name: hasattr@135,48>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: fgraph@135,56>, <Operator: ,>, <String: 'has_destroyers'>]), <Operator: )>])])])",
+    "related code": "        if config.cycle_detection == 'fast' and hasattr(fgraph, 'has_destroyers'):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(140, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@140,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: fgraph@140,23>, <Operator: ,>, <String: 'destroyers'>]), <Operator: )>])])])",
+    "related code": "        if not hasattr(fgraph, 'destroyers'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(178, 61)",
+    "node content": "<Operator: +>",
+    "related code": "    orig_outputs = [spec.variable for spec in output_specs] + updates\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1785.88,
+    "line number": "(539, 37)",
+    "node content": "<Keyword: False>",
+    "related code": "    def copy(self, share_memory=False, swap=None, delete_updates=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1610.07,
+    "line number": "(539, 70)",
+    "node content": "<Keyword: False>",
+    "related code": "    def copy(self, share_memory=False, swap=None, delete_updates=False,\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1667.16,
+    "line number": "(781, 69)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: output_subset@781,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@781,41>, PythonNode(trailer, [<Operator: .>, <Name: output_keys@781,46>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "        if output_subset is not None and self.output_keys is not None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1670.7,
+    "line number": "(880, 31)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@880,15>, PythonNode(trailer, [<Operator: .>, <Name: trust_input@880,20>])])])",
+    "related code": "        if not self.trust_input:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1114, 33)",
+    "node content": "<Operator: ==>",
+    "related code": "    assert len(wrapped_inputs) == len(fgraph.inputs)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1115, 34)",
+    "node content": "<Operator: ==>",
+    "related code": "    assert len(wrapped_outputs) == len(fgraph.outputs)\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1601.45,
+    "line number": "(1145, 21)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: copied@1145,15>])",
+    "related code": "        if not copied:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1460, 49)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1460,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: outputs@1460,26>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@1460,36>, <Operator: ,>, <Name: tuple@1460,42>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(outputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1463, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1463,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: inputs@1463,26>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@1463,35>, <Operator: ,>, <Name: tuple@1463,41>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "        if not isinstance(inputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1551, 40)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@1551,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: linker@1551,23>, <Operator: ,>, <String: 'accept'>]), <Operator: )>])])])",
+    "related code": "        if not hasattr(linker, 'accept'):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2158.84,
+    "line number": "(1634, 54)",
+    "node content": "<Keyword: False>",
+    "related code": "    def create(self, input_storage=None, trustme=False, storage_map=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1645.81,
+    "line number": "(1819, 21)",
+    "node content": "<Keyword: not>",
+    "related code": "    if outputs is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1844, 25)",
+    "node content": "PythonNode(and_test, [<Name: fn@1844,11>, <Keyword: and>, <Name: profile@1844,18>])",
+    "related code": "        if fn and profile:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(73, 16)",
+    "node content": "<Operator: ==>",
+    "related code": "        if cl == 'output':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(140, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not hasattr(fgraph, 'destroyers'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1867.81,
+    "line number": "(142, 33)",
+    "node content": "<Operator: +>",
+    "related code": "        for r in self.protected + list(fgraph.outputs):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(379, 32)",
+    "node content": "<Keyword: False>",
+    "related code": "        self.trust_input = False  # If True, we don't check the input parameter\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2293.39,
+    "line number": "(386, 46)",
+    "node content": "<Keyword: False>",
+    "related code": "        self._check_for_aliased_inputs = False\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2127.27,
+    "line number": "(410, 28)",
+    "node content": "<Number: 0>",
+    "related code": "        n_unnamed_inputs = 0\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(880, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not self.trust_input:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(923, 34)",
+    "node content": "<Operator: +=>",
+    "related code": "        self.maker.mode.fn_time += dt_fn\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(928, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "        if outputs is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(967, 55)",
+    "node content": "<Operator: +=>",
+    "related code": "        theano.compile.profiling.total_fct_exec_time += dt_call\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(968, 36)",
+    "node content": "<Operator: +=>",
+    "related code": "        self.maker.mode.call_time += dt_call\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1128, 22)",
+    "node content": "<Keyword: False>",
+    "related code": "        copied = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1145, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not copied:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1455, 29)",
+    "node content": "<Keyword: False>",
+    "related code": "        unpack_single = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1456, 27)",
+    "node content": "<Keyword: False>",
+    "related code": "        return_none = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1457, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "        if outputs is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1460, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(outputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1463, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(inputs, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1482, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "        if fgraph is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1551, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not hasattr(linker, 'accept'):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1595, 29)",
+    "node content": "<Keyword: is>",
+    "related code": "        if on_unused_input is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1598, 29)",
+    "node content": "<Operator: ==>",
+    "related code": "        if on_unused_input == 'ignore':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1649, 27)",
+    "node content": "<Keyword: is>",
+    "related code": "        if input_storage is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1722, 53)",
+    "node content": "<Operator: +=>",
+    "related code": "        theano.compile.profiling.total_time_linker += linker_time\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1762, 23)",
+    "node content": "<Number: 0>",
+    "related code": "    __checkers.insert(0, checker)\n"
+  }
+]

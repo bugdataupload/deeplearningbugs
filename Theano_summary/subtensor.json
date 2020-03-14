@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1012, 37)",
+    "node content": "<Keyword: False>",
+    "related code": "def set_subtensor(x, y, inplace=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1480.54,
+    "line number": "(1038, 37)",
+    "node content": "<Keyword: False>",
+    "related code": "def inc_subtensor(x, y, inplace=False, set_instead_of_inc=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1485.49,
+    "line number": "(1038, 63)",
+    "node content": "<Keyword: False>",
+    "related code": "def inc_subtensor(x, y, inplace=False, set_instead_of_inc=False,\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1087, 18)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: x@1087,11>, PythonNode(trailer, [<Operator: .>, <Name: owner@1087,13>])])])",
+    "related code": "    if not x.owner:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.98,
+    "line number": "(2073, 72)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@2073,7>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: idx@2073,18>, <Operator: ,>, PythonNode(atom_expr, [<Name: gof@2073,23>, PythonNode(trailer, [<Operator: .>, <Name: Variable@2073,27>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@2073,41>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: idx@2073,52>, PythonNode(trailer, [<Operator: .>, <Name: type@2073,56>])]), <Operator: ,>, <Name: SliceType@2073,62>]), <Operator: )>])])])",
+    "related code": "    if isinstance(idx, gof.Variable) and isinstance(idx.type, SliceType):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1485.29,
+    "line number": "(2075, 72)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@2075,7>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: idx@2075,18>, <Operator: ,>, PythonNode(atom_expr, [<Name: gof@2075,23>, PythonNode(trailer, [<Operator: .>, <Name: Variable@2075,27>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@2075,41>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: idx@2075,52>, PythonNode(trailer, [<Operator: .>, <Name: type@2075,56>])]), <Operator: ,>, <Name: NoneTypeT@2075,62>]), <Operator: )>])])])",
+    "related code": "    if isinstance(idx, gof.Variable) and isinstance(idx.type, NoneTypeT):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(87, 11)",
+    "node content": "<Operator: ==>",
+    "related code": "    if n == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(87, 13)",
+    "node content": "<Number: 0>",
+    "related code": "    if n == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1490.77,
+    "line number": "(292, 13)",
+    "node content": "<Number: 0>",
+    "related code": "    debug = 0\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1489.01,
+    "line number": "(293, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1482.04,
+    "line number": "(295, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1073, 15)",
+    "node content": "<Operator: >>",
+    "related code": "    if y.ndim > x.ndim:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1087, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not x.owner:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1491.25,
+    "line number": "(1234, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1490.88,
+    "line number": "(1693, 18)",
+    "node content": "<Keyword: True>",
+    "related code": "    _f16_ok = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1493.02,
+    "line number": "(1694, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1492.93,
+    "line number": "(1889, 23)",
+    "node content": "<Keyword: False>",
+    "related code": "    check_input = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2069, 13)",
+    "node content": "<Keyword: is>",
+    "related code": "    if idx is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2442, 22)",
+    "node content": "<Operator: ==>",
+    "related code": "    if indices.ndim == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2442, 24)",
+    "node content": "<Number: 1>",
+    "related code": "    if indices.ndim == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1492.48,
+    "line number": "(84, 21)",
+    "node content": "<Operator: ->",
+    "related code": "    n = len(inputs) - 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(84, 23)",
+    "node content": "<Number: 1>",
+    "related code": "    n = len(inputs) - 1\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1491.53,
+    "line number": "(225, 46)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [<Name: stop@225,11>, <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(comparison, [<Name: stop@225,27>, <Operator: ==>, PythonNode(atom_expr, [<Name: sys@225,35>, PythonNode(trailer, [<Operator: .>, <Name: maxsize@225,39>])])])])",
+    "related code": "        if stop is None or stop == sys.maxsize:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1490.04,
+    "line number": "(400, 58)",
+    "node content": "<Keyword: False>",
+    "related code": "    def get_constant_idx(self, inputs, allow_partial=False,\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1078, 25)",
+    "node content": "<Operator: ->",
+    "related code": "    dim_offset = x.ndim - y.ndim\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1502.69,
+    "line number": "(1237, 46)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, idx_list, inplace=False, set_instead_of_inc=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1500.6,
+    "line number": "(1237, 72)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, idx_list, inplace=False, set_instead_of_inc=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1696, 40)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, sparse_grad=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1893, 36)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, inplace=False, set_instead_of_inc=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1893, 62)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, inplace=False, set_instead_of_inc=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2065, 71)",
+    "node content": "<Keyword: True>",
+    "related code": "advanced_set_subtensor1 = AdvancedIncSubtensor1(set_instead_of_inc=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2078, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "    if idx.type.dtype not in theano.tensor.discrete_dtypes:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2156, 55)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2156,12>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: args_el@2156,23>, <Operator: ,>, PythonNode(atom_expr, [<Name: theano@2156,32>, PythonNode(trailer, [<Operator: .>, <Name: tensor@2156,39>]), PythonNode(trailer, [<Operator: .>, <Name: Variable@2156,46>])])]), <Operator: )>])])])",
+    "related code": "    if (not isinstance(args_el, theano.tensor.Variable) and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2295, 36)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, inplace=False, set_instead_of_inc=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2295, 62)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, inplace=False, set_instead_of_inc=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2399, 69)",
+    "node content": "<Keyword: True>",
+    "related code": "advanced_set_subtensor = AdvancedIncSubtensor(set_instead_of_inc=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2435, 84)",
+    "node content": "<Keyword: True>",
+    "related code": "advanced_boolean_set_subtensor = AdvancedBooleanIncSubtensor(set_instead_of_inc=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(60, 19)",
+    "node content": "<Keyword: is>",
+    "related code": "            if a is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(135, 18)",
+    "node content": "<Keyword: is>",
+    "related code": "        if step is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(143, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "        if step == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(143, 20)",
+    "node content": "<Number: 1>",
+    "related code": "        if step == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(217, 19)",
+    "node content": "<Keyword: is>",
+    "related code": "        if start is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(247, 18)",
+    "node content": "<Operator: !=>",
+    "related code": "        if step != 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(247, 20)",
+    "node content": "<Number: 1>",
+    "related code": "        if step != 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(294, 17)",
+    "node content": "<Number: 0>",
+    "related code": "    view_map = {0: [0]}\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(329, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "    def convert(entry, slice_ok=True):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(356, 71)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@356,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: entry@356,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: gof@356,29>, PythonNode(trailer, [<Operator: .>, <Name: Variable@356,33>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: entry@356,47>, PythonNode(trailer, [<Operator: .>, <Name: type@356,53>])]), <Keyword: in>, <Name: scal_types@356,61>])])",
+    "related code": "        if isinstance(entry, gof.Variable) and entry.type in scal_types:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(358, 64)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@358,13>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: entry@358,24>, <Operator: ,>, PythonNode(atom_expr, [<Name: gof@358,31>, PythonNode(trailer, [<Operator: .>, <Name: Type@358,35>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(comparison, [<Name: entry@358,45>, <Keyword: in>, <Name: scal_types@358,54>])])",
+    "related code": "        elif isinstance(entry, gof.Type) and entry in scal_types:\n"
+  }
+]
