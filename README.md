@@ -17,11 +17,7 @@ The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-d
 
 ## Our tools
 
-In our study, we choose [mutmut](https://github.com/boxed/mutmut) for mutation. Mutmut is a mutation testing system for Python 3 with small and simple implementation. It generates mutants by analyzing the AST nodes of a program.
-
-Coverage tool: https://github.com/nedbat/coveragepy
-
-We used the coverage analysis tool to record all touched files and their covered lines in clean versions. For each line that was covered, we analyzed whether its corresponding AST node can be mutated.
+In our study, we choose [mutmut](https://github.com/boxed/mutmut) to instrument bugs. We use [coveragepy](https://github.com/nedbat/coveragepy) to record all executed code lines in clean versions. When we generate buggy versions, we instrument only those executed code lines.
 
 ## Our instrumented bugs
 
