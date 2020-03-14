@@ -72,10 +72,10 @@ For example, a bug summary in activations of Keras is recorded as following:
 
 
 >{  
->    "node type": "number",  
->    "accuracy": "0.7798\n",  
->    "training time": "55.92367100715637\n",  
->    "line number": "(39, 20)",  
->    "node content": "<Number: 1.0>",  
->    "related code": "def elu(x, alpha=1.0):\n"  
+>    "node type": "keyword",  
+>    "accuracy": "0.0000e+00\n",  
+>    "training time": "58.76871991157532\n",  
+>    "line number": "(223, 20)",  
+>    "node content": "<Keyword: is>",  
+>    "related code": "    if identifier is None:\n"  
 >  }  
