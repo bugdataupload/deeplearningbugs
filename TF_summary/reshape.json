@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.738274\n",
+    "training time": 514.0,
+    "line number": "(116, 55)",
+    "node content": "<Operator: ->",
+    "related code": "  def __init__(self, event_shape_out, event_shape_in=(-1,),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.742026\n",
+    "training time": 571.0,
+    "line number": "(116, 56)",
+    "node content": "<Number: 1>",
+    "related code": "  def __init__(self, event_shape_out, event_shape_in=(-1,),\n"
+  }
+]
