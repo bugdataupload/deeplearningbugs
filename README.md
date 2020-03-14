@@ -47,18 +47,18 @@ def result(self):
 ```
 Our mutation tool replaces the arithmetic operator from “/” to “*”, the modification causes a wrong calculation of a metric accuracy.
 
-Please explain the format of your logs.
+A sample log of Theano version is shown as below:
 
->loading data... data loaded!
->model architecture: CNN-non-static
->using: word2vec vectors
->[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), >('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
->... training
->epoch: 1, training time: 409.35 secs, train perf: 81.55 %, val perf: 78.11 %
->epoch: 2, training time: 399.31 secs, train perf: 82.68 %, val perf: 74.42 %
->epoch: 3, training time: 415.92 secs, train perf: 91.78 %, val perf: 81.79 %
->epoch: 4, training time: 402.08 secs, train perf: 95.87 %, val perf: 80.42 %
->epoch: 5, training time: 410.46 secs, train perf: 96.24 %, val perf: 82.74 %
+>loading data... data loaded!  
+>model architecture: CNN-non-static  
+>using: word2vec vectors  
+>[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 2]), ('dropout', [0.5]), ('batch_size', 50), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), >('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]  
+>... training  
+>epoch: 1, training time: 409.35 secs, train perf: 81.55 %, val perf: 78.11 %  
+>epoch: 2, training time: 399.31 secs, train perf: 82.68 %, val perf: 74.42 %  
+>epoch: 3, training time: 415.92 secs, train perf: 91.78 %, val perf: 81.79 %  
+>epoch: 4, training time: 402.08 secs, train perf: 95.87 %, val perf: 80.42 %  
+>epoch: 5, training time: 410.46 secs, train perf: 96.24 %, val perf: 82.74 %  
 >cv: 0, perf: 0.800186741363212
 
 ### Our summaries
