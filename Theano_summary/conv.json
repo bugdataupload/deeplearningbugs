@@ -1,5 +1,13 @@
 [
   {
+    "node type": "and_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1539.63,
+    "line number": "(133, 35)",
+    "node content": "PythonNode(and_test, [<Name: image_shape@133,7>, <Keyword: and>, <Name: filter_shape@133,23>])",
+    "related code": "    if image_shape and filter_shape:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.800186741363212\n",
     "training time": 1511.71,
@@ -382,5 +390,13 @@
     "line number": "(655, 32)",
     "node content": "<Operator: !=>",
     "related code": "        if _inputs.type.dtype != _kerns.type.dtype:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1612.15,
+    "line number": "(873, 24)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: all_shape@873,15>])",
+    "related code": "        if not all_shape and (self.dx != 1 or self.dy != 1):\n"
   }
 ]

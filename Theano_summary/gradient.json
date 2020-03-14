@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1394.34,
+    "line number": "(41, 13)",
+    "node content": "<Number: 0>",
+    "related code": "grad_time = 0\n"
+  },
+  {
     "node type": "and_test",
     "accuracy": "",
     "training time": "",
@@ -382,5 +390,13 @@
     "line number": "(1371, 47)",
     "node content": "<Keyword: in>",
     "related code": "    rval = [access_grad_cache(elem) for elem in wrt]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(587, 19)",
+    "node content": "<Keyword: not>",
+    "related code": "        if elem not in var_to_app_to_idx and elem is not cost \\\n"
   }
 ]

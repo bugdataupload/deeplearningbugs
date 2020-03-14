@@ -1,5 +1,13 @@
 [
   {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(380, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@380,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: params@380,22>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@380,31>, <Operator: ,>, <Name: tuple@380,37>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(params, (list, tuple)):\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "",
     "training time": "",
@@ -382,5 +390,13 @@
     "line number": "(91, 24)",
     "node content": "<Keyword: not>",
     "related code": "            if owner not in clone_d:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "            if v not in shared_inputs:\n"
   }
 ]

@@ -2,6 +2,14 @@
   {
     "node type": "keyword",
     "accuracy": "0.800186741363212\n",
+    "training time": 1490.91,
+    "line number": "(18, 30)",
+    "node content": "<Keyword: False>",
+    "related code": "imported_scipy_special = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
     "training time": 1503.45,
     "line number": "(22, 33)",
     "node content": "<Keyword: True>",
@@ -268,6 +276,14 @@
     "accuracy": "0.800186741363212\n",
     "training time": 1678.72,
     "line number": "(840, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    nfunc_spec = ('scipy.special.i0', 1, 1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1503.41,
+    "line number": "(840, 42)",
     "node content": "<Number: 1>",
     "related code": "    nfunc_spec = ('scipy.special.i0', 1, 1)\n"
   }

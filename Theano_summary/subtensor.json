@@ -3,6 +3,14 @@
     "node type": "keyword",
     "accuracy": "",
     "training time": "",
+    "line number": "(73, 50)",
+    "node content": "<Keyword: False>",
+    "related code": "def get_idx_list(inputs, idx_list, get_count=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
     "line number": "(1012, 37)",
     "node content": "<Keyword: False>",
     "related code": "def set_subtensor(x, y, inplace=False,\n"
@@ -382,5 +390,13 @@
     "line number": "(358, 64)",
     "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@358,13>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: entry@358,24>, <Operator: ,>, PythonNode(atom_expr, [<Name: gof@358,31>, PythonNode(trailer, [<Operator: .>, <Name: Type@358,35>])])]), <Operator: )>])]), <Keyword: and>, PythonNode(comparison, [<Name: entry@358,45>, <Keyword: in>, <Name: scal_types@358,54>])])",
     "related code": "        elif isinstance(entry, gof.Type) and entry in scal_types:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(369, 50)",
+    "node content": "PythonNode(and_test, [<Name: slice_ok@369,13>, <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@369,26>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: entry@369,37>, <Operator: ,>, <Name: slice@369,44>]), <Operator: )>])])])",
+    "related code": "        elif slice_ok and isinstance(entry, slice):\n"
   }
 ]

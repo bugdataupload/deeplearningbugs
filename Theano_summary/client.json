@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1568.3,
+    "line number": "(38, 31)",
+    "node content": "<Keyword: False>",
+    "related code": "                 use_bias=False):\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "0.519140989729225\n",
     "training time": 1709.95,
@@ -382,5 +390,13 @@
     "line number": "(155, 42)",
     "node content": "<Keyword: in>",
     "related code": "        self.params = [ param for layer in self.dropout_layers for param in layer.params ]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(160, 34)",
+    "node content": "<Operator: +>",
+    "related code": "            if i<len(self.layers)+1:\n"
   }
 ]

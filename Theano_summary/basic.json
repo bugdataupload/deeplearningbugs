@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1845.11,
+    "line number": "(269, 22)",
+    "node content": "<Keyword: True>",
+    "related code": "constant.enable = True\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "0.800186741363212\n",
     "training time": 1838.18,
@@ -382,5 +390,13 @@
     "line number": "(319, 41)",
     "node content": "<Number: 1.0000000000000001e-05>",
     "related code": "    float64_rtol = 1.0000000000000001e-05\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.800186741363212\n",
+    "training time": 2082.36,
+    "line number": "(320, 23)",
+    "node content": "<Number: 1e-8>",
+    "related code": "    float64_atol = 1e-8\n"
   }
 ]

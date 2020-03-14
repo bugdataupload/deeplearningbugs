@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.800186741363212\n",
+    "training time": 1575.74,
+    "line number": "(612, 38)",
+    "node content": "<Operator: !=>",
+    "related code": "if platform.python_implementation() != 'PyPy':\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.800186741363212\n",
     "training time": 1494.57,
@@ -382,5 +390,13 @@
     "line number": "(993, 66)",
     "node content": "<Keyword: in>",
     "related code": "        names_to_aliases = {constant_name: '' for constant_name in self}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(995, 60)",
+    "node content": "<Operator: %>",
+    "related code": "            names_to_aliases[self.aliases[alias]] = '(%s)' % alias\n"
   }
 ]

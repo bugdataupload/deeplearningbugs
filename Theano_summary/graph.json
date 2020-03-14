@@ -3,6 +3,14 @@
     "node type": "keyword",
     "accuracy": "",
     "training time": "",
+    "line number": "(630, 59)",
+    "node content": "<Keyword: False>",
+    "related code": "def stack_search(start, expand, mode='bfs', build_inv=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
     "line number": "(831, 32)",
     "node content": "<Keyword: True>",
     "related code": "def clone(i, o, copy_inputs=True, copy_orphans=None):\n"
@@ -382,5 +390,13 @@
     "line number": "(400, 27)",
     "node content": "<Keyword: not>",
     "related code": "        if self.name is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(402, 28)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.owner is not None:\n"
   }
 ]
