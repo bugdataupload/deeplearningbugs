@@ -50,7 +50,9 @@ def result(self):
 ```
 Our mutation tool replaces the arithmetic operator from “/” to “*”, the modification causes a wrong calculation of a metric accuracy.
 
-## Our logs
+## Our summaries
+
+The summaries can be found in Theano_summary, TF_summary and Keras_summary directories
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
