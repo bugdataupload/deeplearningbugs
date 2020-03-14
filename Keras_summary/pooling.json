@@ -1,0 +1,226 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(22, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "        if strides is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(31, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_first':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7610\n",
+    "training time": "53.75737380981445\n",
+    "line number": "(41, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_first':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "54.325459241867065\n",
+    "line number": "(104, 34)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=2, strides=None,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "52.959383964538574\n",
+    "line number": "(152, 34)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=2, strides=None,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "53.338268995285034\n",
+    "line number": "(51, 22)",
+    "node content": "<Number: 2>",
+    "related code": "        dummy_axis = 2 if self.data_format == 'channels_last' else 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "52.64639711380005\n",
+    "line number": "(51, 68)",
+    "node content": "<Number: 3>",
+    "related code": "        dummy_axis = 2 if self.data_format == 'channels_last' else 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "56.26406788825989\n",
+    "line number": "(169, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7657\n",
+    "training time": "57.3335120677948\n",
+    "line number": "(169, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7676\n",
+    "training time": "58.97161674499512\n",
+    "line number": "(330, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "60.54507875442505\n",
+    "line number": "(330, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "60.55169415473938\n",
+    "line number": "(330, 41)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7826\n",
+    "training time": "62.599764823913574\n",
+    "line number": "(51, 45)",
+    "node content": "<Operator: ==>",
+    "related code": "        dummy_axis = 2 if self.data_format == 'channels_last' else 3\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7648\n",
+    "training time": "58.118189096450806\n",
+    "line number": "(259, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7648\n",
+    "training time": "59.89029908180237\n",
+    "line number": "(259, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "56.23845982551575\n",
+    "line number": "(314, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "52.28260588645935\n",
+    "line number": "(314, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "56.51994490623474\n",
+    "line number": "(424, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "54.06699585914612\n",
+    "line number": "(424, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "55.974995851516724\n",
+    "line number": "(424, 41)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "62.30926513671875\n",
+    "line number": "(474, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7798\n",
+    "training time": "51.57279586791992\n",
+    "line number": "(474, 38)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "55.88050413131714\n",
+    "line number": "(474, 41)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, pool_size=(2, 2, 2), strides=None, padding='valid',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(24, 64)",
+    "node content": "<Number: 1>",
+    "related code": "        self.pool_size = conv_utils.normalize_tuple(pool_size, 1, 'pool_size')\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(25, 60)",
+    "node content": "<Number: 1>",
+    "related code": "        self.strides = conv_utils.normalize_tuple(strides, 1, 'strides')\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(28, 42)",
+    "node content": "<Number: 3>",
+    "related code": "        self.input_spec = InputSpec(ndim=3)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(35, 33)",
+    "node content": "<Number: 1>",
+    "related code": "            steps = input_shape[1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(36, 36)",
+    "node content": "<Number: 2>",
+    "related code": "            features = input_shape[2]\n"
+  }
+]

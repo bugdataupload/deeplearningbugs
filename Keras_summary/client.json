@@ -1,0 +1,362 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "53.916983127593994\n",
+    "line number": "(45, 16)",
+    "node content": "<Number: 10>",
+    "related code": "num_filters = 10\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "59.68415808677673\n",
+    "line number": "(47, 16)",
+    "node content": "<Number: 50>",
+    "related code": "hidden_dims = 50\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "61.69095206260681\n",
+    "line number": "(50, 15)",
+    "node content": "<Number: 64>",
+    "related code": "batch_size = 64\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "65.86173510551453\n",
+    "line number": "(51, 15)",
+    "node content": "<Number: 10>",
+    "related code": "num_epochs = 10\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7676\n",
+    "training time": "50.04547190666199\n",
+    "line number": "(54, 21)",
+    "node content": "<Number: 400>",
+    "related code": "sequence_length = 400\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "63.093940019607544\n",
+    "line number": "(55, 16)",
+    "node content": "<Number: 5000>",
+    "related code": "max_words = 5000\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7535\n",
+    "training time": "58.56667184829712\n",
+    "line number": "(58, 18)",
+    "node content": "<Number: 1>",
+    "related code": "min_word_count = 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "61.66840076446533\n",
+    "line number": "(59, 12)",
+    "node content": "<Number: 10>",
+    "related code": "context = 10\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(99, 21)",
+    "node content": "<Operator: !=>",
+    "related code": "if sequence_length != x_test.shape[1]:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(109, 16)",
+    "node content": "<Keyword: in>",
+    "related code": "if model_type in [\"CNN-non-static\", \"CNN-static\"]:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "73.01690983772278\n",
+    "line number": "(118, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "elif model_type == \"CNN-rand\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(124, 16)",
+    "node content": "<Operator: ==>",
+    "related code": "if model_type == \"CNN-static\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(132, 16)",
+    "node content": "<Operator: ==>",
+    "related code": "if model_type == \"CNN-static\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "56.88919687271118\n",
+    "line number": "(160, 16)",
+    "node content": "<Operator: ==>",
+    "related code": "if model_type == \"CNN-non-static\":\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7610\n",
+    "training time": "57.77725887298584\n",
+    "line number": "(32, 16)",
+    "node content": "<Number: 0>",
+    "related code": "np.random.seed(0)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "65.02547192573547\n",
+    "line number": "(44, 17)",
+    "node content": "<Number: 3>",
+    "related code": "filter_sizes = (3, 8)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "62.111737966537476\n",
+    "line number": "(44, 20)",
+    "node content": "<Number: 8>",
+    "related code": "filter_sizes = (3, 8)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7385\n",
+    "training time": "59.67023420333862\n",
+    "line number": "(46, 19)",
+    "node content": "<Number: 0.5>",
+    "related code": "dropout_prob = (0.5, 0.8)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "64.31115698814392\n",
+    "line number": "(46, 24)",
+    "node content": "<Number: 0.8>",
+    "related code": "dropout_prob = (0.5, 0.8)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(67, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    if data_source == \"keras_data_set\":\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(99, 36)",
+    "node content": "<Number: 1>",
+    "related code": "if sequence_length != x_test.shape[1]:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(112, 20)",
+    "node content": "<Operator: ==>",
+    "related code": "    if model_type == \"CNN-static\":\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7826\n",
+    "training time": "65.14842796325684\n",
+    "line number": "(150, 52)",
+    "node content": "<Operator: >>",
+    "related code": "z = Concatenate()(conv_blocks) if len(conv_blocks) > 1 else conv_blocks[0]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "40.56446599960327\n",
+    "line number": "(150, 54)",
+    "node content": "<Number: 1>",
+    "related code": "z = Concatenate()(conv_blocks) if len(conv_blocks) > 1 else conv_blocks[0]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(170, 25)",
+    "node content": "<Operator: +>",
+    "related code": "print (\"Training time:\" + str(time.time()-start_time))\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(66, 25)",
+    "node content": "<Keyword: in>",
+    "related code": "    assert data_source in [\"keras_data_set\", \"local_dir\"], \"Unknown data source\"\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7844\n",
+    "training time": "57.119585037231445\n",
+    "line number": "(150, 73)",
+    "node content": "<Number: 0>",
+    "related code": "z = Concatenate()(conv_blocks) if len(conv_blocks) > 1 else conv_blocks[0]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(154, 22)",
+    "node content": "<Number: 1>",
+    "related code": "model_output = Dense(1, activation=\"sigmoid\")(z)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "66.02804017066956\n",
+    "line number": "(169, 53)",
+    "node content": "<Number: 2>",
+    "related code": "          validation_data=(x_test, y_test), verbose=2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 36)",
+    "node content": "<Number: 1>",
+    "related code": "    sequence_length = x_test.shape[1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.6476\n",
+    "training time": "58.52264404296875\n",
+    "line number": "(137, 26)",
+    "node content": "<Number: 0>",
+    "related code": "z = Dropout(dropout_prob[0])(z)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(152, 26)",
+    "node content": "<Number: 1>",
+    "related code": "z = Dropout(dropout_prob[1])(z)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "58.35617709159851\n",
+    "line number": "(147, 35)",
+    "node content": "<Number: 2>",
+    "related code": "    conv = MaxPooling1D(pool_size=2)(conv)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7741\n",
+    "training time": "3164603941.489672\n",
+    "line number": "(170, 42)",
+    "node content": "<Operator: ->",
+    "related code": "print (\"Training time:\" + str(time.time()-start_time))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "54.98940181732178\n",
+    "line number": "(76, 24)",
+    "node content": "<Number: 0>",
+    "related code": "        vocabulary_inv[0] = \"<PAD/>\"\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7638\n",
+    "training time": "40.92890691757202\n",
+    "line number": "(146, 34)",
+    "node content": "<Number: 1>",
+    "related code": "                         strides=1)(z)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(79, 54)",
+    "node content": "<Keyword: in>",
+    "related code": "        vocabulary_inv = {key: value for key, value in enumerate(vocabulary_inv_list)}\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(80, 27)",
+    "node content": "<Number: 1>",
+    "related code": "        y = y.argmax(axis=1)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(86, 32)",
+    "node content": "<Operator: *>",
+    "related code": "        train_len = int(len(x) * 0.9)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(86, 36)",
+    "node content": "<Number: 0.9>",
+    "related code": "        train_len = int(len(x) * 0.9)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(161, 34)",
+    "node content": "<Keyword: in>",
+    "related code": "    weights = np.array([v for v in embedding_weights.values()])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(75, 48)",
+    "node content": "<Keyword: in>",
+    "related code": "        vocabulary_inv = dict((v, k) for k, v in vocabulary.items())\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(113, 100)",
+    "node content": "<Keyword: in>",
+    "related code": "        x_train = np.stack([np.stack([embedding_weights[word] for word in sentence]) for sentence in x_train])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(114, 99)",
+    "node content": "<Keyword: in>",
+    "related code": "        x_test = np.stack([np.stack([embedding_weights[word] for word in sentence]) for sentence in x_test])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(113, 73)",
+    "node content": "<Keyword: in>",
+    "related code": "        x_train = np.stack([np.stack([embedding_weights[word] for word in sentence]) for sentence in x_train])\n"
+  }
+]

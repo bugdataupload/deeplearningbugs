@@ -1,0 +1,18 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "65.88358879089355\n",
+    "line number": "(232, 55)",
+    "node content": "<Number: 0>",
+    "related code": "    def predict_proba(self, x, batch_size=32, verbose=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "58.229182958602905\n",
+    "line number": "(254, 46)",
+    "node content": "<Number: 32>",
+    "related code": "    def predict_classes(self, x, batch_size=32, verbose=0):\n"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "49.61115503311157\n",
+    "line number": "(375, 51)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@375,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: callbacks@375,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: cbks@375,33>, PythonNode(trailer, [<Operator: .>, <Name: CallbackList@375,38>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(callbacks, cbks.CallbackList):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7713\n",
+    "training time": "51.85739088058472\n",
+    "line number": "(72, 25)",
+    "node content": "<Keyword: False>",
+    "related code": "    do_validation = False\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(108, 17)",
+    "node content": "<Operator: +=>",
+    "related code": "    _callbacks += (callbacks or []) + [model.history]\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "50.349517822265625\n",
+    "line number": "(110, 33)",
+    "node content": "PythonNode(or_test, [<Name: out_labels@110,17>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "    out_labels = out_labels or []\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(130, 41)",
+    "node content": "<Keyword: False>",
+    "related code": "    callbacks.model.stop_training = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "49.618486166000366\n",
+    "line number": "(375, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(callbacks, cbks.CallbackList):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7713\n",
+    "training time": "50.82790493965149\n",
+    "line number": "(390, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "    if verbose == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "50.138473987579346\n",
+    "line number": "(390, 19)",
+    "node content": "<Number: 1>",
+    "related code": "    if verbose == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.4808\n",
+    "training time": "6.038636922836304\n",
+    "line number": "(406, 41)",
+    "node content": "<Keyword: False>",
+    "related code": "    callbacks.model.stop_training = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(96, 31)",
+    "node content": "<Keyword: not>",
+    "related code": "    if num_train_samples is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(108, 37)",
+    "node content": "<Operator: +>",
+    "related code": "    _callbacks += (callbacks or []) + [model.history]\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7779\n",
+    "training time": "49.987387895584106\n",
+    "line number": "(141, 63)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: issparse@141,11>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: fit_inputs@141,20>, PythonNode(trailer, [<Operator: [>, <Name: i@141,31>, <Operator: ]>])]), <Operator: )>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: K@141,43>, PythonNode(trailer, [<Operator: .>, <Name: is_sparse@141,45>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: feed@141,55>, PythonNode(trailer, [<Operator: [>, <Name: i@141,60>, <Operator: ]>])]), <Operator: )>])])])])",
+    "related code": "        if issparse(fit_inputs[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7751\n",
+    "training time": "50.99803900718689\n",
+    "line number": "(403, 56)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: issparse@403,11>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: ins@403,20>, PythonNode(trailer, [<Operator: [>, <Name: i@403,24>, <Operator: ]>])]), <Operator: )>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: K@403,36>, PythonNode(trailer, [<Operator: .>, <Name: is_sparse@403,38>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: feed@403,48>, PythonNode(trailer, [<Operator: [>, <Name: i@403,53>, <Operator: ]>])]), <Operator: )>])])])])",
+    "related code": "        if issparse(ins[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(409, 19)",
+    "node content": "<Keyword: not>",
+    "related code": "    if steps is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "50.09277319908142\n",
+    "line number": "(74, 28)",
+    "node content": "<Keyword: True>",
+    "related code": "        do_validation = True\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(108, 34)",
+    "node content": "PythonNode(or_test, [<Name: callbacks@108,19>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "    _callbacks += (callbacks or []) + [model.history]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "49.2280478477478\n",
+    "line number": "(117, 27)",
+    "node content": "<Operator: +=>",
+    "related code": "        callback_metrics += ['val_' + n for n in model.metrics_names]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(136, 32)",
+    "node content": "<Operator: +>",
+    "related code": "    feed = (model._feed_inputs +\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7741\n",
+    "training time": "49.76834487915039\n",
+    "line number": "(141, 63)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: K@141,43>, PythonNode(trailer, [<Operator: .>, <Name: is_sparse@141,45>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: feed@141,55>, PythonNode(trailer, [<Operator: [>, <Name: i@141,60>, <Operator: ]>])]), <Operator: )>])])])",
+    "related code": "        if issparse(fit_inputs[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(398, 32)",
+    "node content": "<Operator: +>",
+    "related code": "    feed = (model._feed_inputs +\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7741\n",
+    "training time": "49.271883964538574\n",
+    "line number": "(403, 56)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: K@403,36>, PythonNode(trailer, [<Operator: .>, <Name: is_sparse@403,38>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: feed@403,48>, PythonNode(trailer, [<Operator: [>, <Name: i@403,53>, <Operator: ]>])]), <Operator: )>])])])",
+    "related code": "        if issparse(ins[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "55.400352001190186\n",
+    "line number": "(469, 18)",
+    "node content": "<Operator: /=>",
+    "related code": "        outs[0] /= num_samples  # Index 0 == `Loss`\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 33)",
+    "node content": "<Keyword: not>",
+    "related code": "        if steps_per_epoch is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7704\n",
+    "training time": "53.28271293640137\n",
+    "line number": "(141, 42)",
+    "node content": "<Keyword: not>",
+    "related code": "        if issparse(fit_inputs[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(148, 33)",
+    "node content": "<Keyword: not>",
+    "related code": "        if steps_per_epoch is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "55.705384969711304\n",
+    "line number": "(403, 35)",
+    "node content": "<Keyword: not>",
+    "related code": "        if issparse(ins[i]) and not K.is_sparse(feed[i]):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7863\n",
+    "training time": "58.901646852493286\n",
+    "line number": "(172, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "            if shuffle == 'batch':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "53.51617383956909\n",
+    "line number": "(205, 29)",
+    "node content": "<Operator: ==>",
+    "related code": "            if batch_index == len(batches) - 1:  # Last batch.\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(467, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "            if verbose == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "48.11940383911133\n",
+    "line number": "(467, 27)",
+    "node content": "<Number: 1>",
+    "related code": "            if verbose == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "7.2113e-04\n",
+    "training time": "52.488218784332275\n",
+    "line number": "(469, 14)",
+    "node content": "<Number: 0>",
+    "related code": "        outs[0] /= num_samples  # Index 0 == `Loss`\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(117, 37)",
+    "node content": "<Operator: +>",
+    "related code": "        callback_metrics += ['val_' + n for n in model.metrics_names]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(117, 48)",
+    "node content": "<Keyword: in>",
+    "related code": "        callback_metrics += ['val_' + n for n in model.metrics_names]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "49.38621211051941\n",
+    "line number": "(205, 44)",
+    "node content": "<Operator: ->",
+    "related code": "            if batch_index == len(batches) - 1:  # Last batch.\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "51.92835807800293\n",
+    "line number": "(205, 46)",
+    "node content": "<Number: 1>",
+    "related code": "            if batch_index == len(batches) - 1:  # Last batch.\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7769\n",
+    "training time": "51.497127056121826\n",
+    "line number": "(206, 82)",
+    "node content": "PythonNode(and_test, [<Name: do_validation@206,19>, <Keyword: and>, PythonNode(atom_expr, [<Name: should_run_validation@206,37>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: validation_freq@206,59>, <Operator: ,>, <Name: epoch@206,76>]), <Operator: )>])])])",
+    "related code": "                if do_validation and should_run_validation(validation_freq, epoch):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(77, 65)",
+    "node content": "<Operator: %>",
+    "related code": "            print('Train on %d samples, validate on %d samples' %\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(451, 33)",
+    "node content": "<Operator: ==>",
+    "related code": "                if batch_index == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(451, 35)",
+    "node content": "<Number: 0>",
+    "related code": "                if batch_index == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "51.73052000999451\n",
+    "line number": "(100, 72)",
+    "node content": "<Number: 1>",
+    "related code": "    _callbacks = [cbks.BaseLogger(stateful_metrics=model.metrics_names[1:])]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(441, 63)",
+    "node content": "<Operator: +>",
+    "related code": "                ins_batch = slice_arrays(ins[:-1], batch_ids) + [ins[-1]]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "835.8017\n",
+    "training time": "49.14078688621521\n",
+    "line number": "(454, 27)",
+    "node content": "<Operator: ==>",
+    "related code": "                    if i == 0:  # Index 0 == `Loss`\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "828.0149\n",
+    "training time": "49.988537073135376\n",
+    "line number": "(454, 29)",
+    "node content": "<Number: 0>",
+    "related code": "                    if i == 0:  # Index 0 == `Loss`\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(439, 31)",
+    "node content": "<Operator: ->",
+    "related code": "            if isinstance(ins[-1], int):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(439, 32)",
+    "node content": "<Number: 1>",
+    "related code": "            if isinstance(ins[-1], int):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(452, 38)",
+    "node content": "<Operator: *>",
+    "related code": "                    outs.extend([0.] * len(batch_outs))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7676\n",
+    "training time": "53.03676390647888\n",
+    "line number": "(455, 34)",
+    "node content": "<Operator: +=>",
+    "related code": "                        outs[i] += float(batch_out) * len(batch_ids)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(441, 70)",
+    "node content": "<Operator: ->",
+    "related code": "                ins_batch = slice_arrays(ins[:-1], batch_ids) + [ins[-1]]\n"
+  }
+]

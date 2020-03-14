@@ -1,0 +1,290 @@
+[
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(498, 35)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: all@498,15>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: input_shape@498,19>, PythonNode(trailer, [<Operator: [>, PythonNode(subscript, [<Number: 1>, <Operator: :>]), <Operator: ]>])]), <Operator: )>])])])",
+    "related code": "        if not all(input_shape[1:]):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "56.37979006767273\n",
+    "line number": "(956, 28)",
+    "node content": "<Number: 0.>",
+    "related code": "    def __init__(self, l1=0., l2=0., **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "58.4993531703949\n",
+    "line number": "(956, 35)",
+    "node content": "<Number: 0.>",
+    "related code": "    def __init__(self, l1=0., l2=0., **kwargs):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(111, 30)",
+    "node content": "<Keyword: is>",
+    "related code": "        if self.noise_shape is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7638\n",
+    "training time": "53.448513984680176\n",
+    "line number": "(120, 13)",
+    "node content": "<Number: 0.>",
+    "related code": "        if 0. < self.rate < 1.:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "54.682934045791626\n",
+    "line number": "(120, 15)",
+    "node content": "<Operator: <>",
+    "related code": "        if 0. < self.rate < 1.:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7798\n",
+    "training time": "56.37907123565674\n",
+    "line number": "(120, 27)",
+    "node content": "<Operator: <>",
+    "related code": "        if 0. < self.rate < 1.:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "56.57999300956726\n",
+    "line number": "(120, 30)",
+    "node content": "<Number: 1.>",
+    "related code": "        if 0. < self.rate < 1.:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(498, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not all(input_shape[1:]):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7807\n",
+    "training time": "53.30264210700989\n",
+    "line number": "(508, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_first':\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(871, 64)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<String: 'input_shape'>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: kwargs@871,32>]), <Keyword: and>, PythonNode(comparison, [<String: 'input_dim'>, <Keyword: in>, <Name: kwargs@871,58>])])",
+    "related code": "        if 'input_shape' not in kwargs and 'input_dim' in kwargs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7769\n",
+    "training time": "53.54868698120117\n",
+    "line number": "(905, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.built = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7694\n",
+    "training time": "60.94060492515564\n",
+    "line number": "(108, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.supports_masking = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7713\n",
+    "training time": "56.059552907943726\n",
+    "line number": "(885, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.supports_masking = True\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(888, 34)",
+    "node content": "<Operator: >=>",
+    "related code": "        assert len(input_shape) >= 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(888, 36)",
+    "node content": "<Number: 2>",
+    "related code": "        assert len(input_shape) >= 2\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.5108\n",
+    "training time": "58.70738506317139\n",
+    "line number": "(911, 33)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.activation is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(871, 57)",
+    "node content": "<Keyword: in>",
+    "related code": "        if 'input_shape' not in kwargs and 'input_dim' in kwargs:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(916, 50)",
+    "node content": "<Operator: >=>",
+    "related code": "        assert input_shape and len(input_shape) >= 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(916, 52)",
+    "node content": "<Number: 2>",
+    "related code": "        assert input_shape and len(input_shape) >= 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "56.44746279716492\n",
+    "line number": "(494, 46)",
+    "node content": "<Number: 3>",
+    "related code": "        self.input_spec = InputSpec(min_ndim=3)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7704\n",
+    "training time": "54.06919980049133\n",
+    "line number": "(871, 28)",
+    "node content": "<Keyword: not>",
+    "related code": "        if 'input_shape' not in kwargs and 'input_dim' in kwargs:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(889, 33)",
+    "node content": "<Operator: ->",
+    "related code": "        input_dim = input_shape[-1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "55.426958084106445\n",
+    "line number": "(889, 34)",
+    "node content": "<Number: 1>",
+    "related code": "        input_dim = input_shape[-1]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(917, 28)",
+    "node content": "<Operator: ->",
+    "related code": "        assert input_shape[-1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7798\n",
+    "training time": "58.22255897521973\n",
+    "line number": "(917, 29)",
+    "node content": "<Number: 1>",
+    "related code": "        assert input_shape[-1]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(919, 22)",
+    "node content": "<Operator: ->",
+    "related code": "        output_shape[-1] = self.units\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "59.58857703208923\n",
+    "line number": "(919, 23)",
+    "node content": "<Number: 1>",
+    "related code": "        output_shape[-1] = self.units\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(105, 26)",
+    "node content": "<Number: 1.>",
+    "related code": "        self.rate = min(1., max(0., rate))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(505, 29)",
+    "node content": "<Number: 0>",
+    "related code": "        return (input_shape[0], np.prod(input_shape[1:]))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(884, 46)",
+    "node content": "<Number: 2>",
+    "related code": "        self.input_spec = InputSpec(min_ndim=2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7657\n",
+    "training time": "53.011862993240356\n",
+    "line number": "(904, 46)",
+    "node content": "<Number: 2>",
+    "related code": "        self.input_spec = InputSpec(min_ndim=2, axes={-1: input_dim})\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(498, 32)",
+    "node content": "<Number: 1>",
+    "related code": "        if not all(input_shape[1:]):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "57.69772005081177\n",
+    "line number": "(105, 34)",
+    "node content": "<Number: 0.>",
+    "related code": "        self.rate = min(1., max(0., rate))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "60.02804613113403\n",
+    "line number": "(505, 53)",
+    "node content": "<Number: 1>",
+    "related code": "        return (input_shape[0], np.prod(input_shape[1:]))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7798\n",
+    "training time": "53.96902799606323\n",
+    "line number": "(904, 55)",
+    "node content": "<Operator: ->",
+    "related code": "        self.input_spec = InputSpec(min_ndim=2, axes={-1: input_dim})\n"
+  }
+]

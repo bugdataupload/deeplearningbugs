@@ -1,0 +1,250 @@
+[
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(171, 44)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: shape@171,7>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, <Name: batch_shape@171,33>])])",
+    "related code": "    if shape is not None and not batch_shape:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7779\n",
+    "training time": "59.81016445159912\n",
+    "line number": "(173, 16)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: dtype@173,11>])",
+    "related code": "    if not dtype:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7732\n",
+    "training time": "55.17844605445862\n",
+    "line number": "(166, 22)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: batch_shape@166,11>])",
+    "related code": "    if not batch_shape and tensor is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(171, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: batch_shape@171,33>])",
+    "related code": "    if shape is not None and not batch_shape:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "55.11543798446655\n",
+    "line number": "(173, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not dtype:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7769\n",
+    "training time": "65.16408705711365\n",
+    "line number": "(166, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not batch_shape and tensor is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7779\n",
+    "training time": "57.702118158340454\n",
+    "line number": "(166, 36)",
+    "node content": "<Keyword: is>",
+    "related code": "    if not batch_shape and tensor is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(171, 32)",
+    "node content": "<Keyword: not>",
+    "related code": "    if shape is not None and not batch_shape:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7751\n",
+    "training time": "56.574034214019775\n",
+    "line number": "(37, 19)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: name@37,15>])",
+    "related code": "        if not name:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(47, 44)",
+    "node content": "PythonNode(and_test, [<Name: input_shape@47,11>, <Keyword: and>, <Name: batch_input_shape@47,27>])",
+    "related code": "        if input_shape and batch_input_shape:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7732\n",
+    "training time": "56.68150019645691\n",
+    "line number": "(51, 65)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: input_tensor@51,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: batch_input_shape@51,40>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "        if input_tensor is not None and batch_input_shape is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(64, 32)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: batch_input_shape@64,15>])",
+    "related code": "        if not batch_input_shape:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7826\n",
+    "training time": "52.58308792114258\n",
+    "line number": "(73, 20)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: dtype@73,15>])",
+    "related code": "        if not dtype:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(171, 19)",
+    "node content": "<Keyword: not>",
+    "related code": "    if shape is not None and not batch_shape:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(181, 42)",
+    "node content": "<Number: 0>",
+    "related code": "    outputs = input_layer._inbound_nodes[0].output_tensors\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7807\n",
+    "training time": "61.627163887023926\n",
+    "line number": "(37, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not name:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7760\n",
+    "training time": "53.27806901931763\n",
+    "line number": "(42, 30)",
+    "node content": "<Keyword: False>",
+    "related code": "        self.trainable = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7835\n",
+    "training time": "62.17091774940491\n",
+    "line number": "(43, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.built = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7713\n",
+    "training time": "59.34991908073425\n",
+    "line number": "(45, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.supports_masking = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(64, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not batch_input_shape:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7657\n",
+    "training time": "54.74751305580139\n",
+    "line number": "(73, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not dtype:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(82, 26)",
+    "node content": "<Keyword: is>",
+    "related code": "        if input_tensor is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7751\n",
+    "training time": "52.769476652145386\n",
+    "line number": "(93, 49)",
+    "node content": "<Keyword: False>",
+    "related code": "        input_tensor._uses_learning_phase = False\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(172, 31)",
+    "node content": "<Operator: +>",
+    "related code": "        batch_shape = (None,) + tuple(shape)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7788\n",
+    "training time": "53.85592699050903\n",
+    "line number": "(51, 60)",
+    "node content": "<Keyword: is>",
+    "related code": "        if input_tensor is not None and batch_input_shape is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(167, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        assert shape is not None, ('Please provide to Input either a `shape`'\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7779\n",
+    "training time": "52.5565230846405\n",
+    "line number": "(51, 30)",
+    "node content": "<Keyword: not>",
+    "related code": "        if input_tensor is not None and batch_input_shape is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(83, 38)",
+    "node content": "<Keyword: True>",
+    "related code": "            self.is_placeholder = True\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(94, 46)",
+    "node content": "<Number: 0>",
+    "related code": "        input_tensor._keras_history = (self, 0, 0)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(94, 49)",
+    "node content": "<Number: 0>",
+    "related code": "        input_tensor._keras_history = (self, 0, 0)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(39, 27)",
+    "node content": "<Operator: +>",
+    "related code": "            name = prefix + '_' + str(K.get_uid(prefix))\n"
+  }
+]

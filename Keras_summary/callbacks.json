@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(72, 29)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@72,15>, PythonNode(trailer, [<Operator: .>, <Name: callbacks@72,20>])])])",
+    "related code": "        if not self.callbacks:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.0000e+00\n",
+    "training time": "53.312682151794434\n",
+    "line number": "(602, 51)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@602,11>, PythonNode(trailer, [<Operator: .>, <Name: verbose@602,16>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@602,28>, PythonNode(trailer, [<Operator: .>, <Name: seen@602,33>])]), <Operator: <>, PythonNode(atom_expr, [<Name: self@602,40>, PythonNode(trailer, [<Operator: .>, <Name: target@602,45>])])])])",
+    "related code": "        if self.verbose and self.seen < self.target:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "53.88102722167969\n",
+    "line number": "(665, 62)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, filepath, monitor='val_loss', verbose=0,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "57.2891001701355\n",
+    "line number": "(920, 42)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, schedule, verbose=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "52.662686824798584\n",
+    "line number": "(987, 53)",
+    "node content": "<Number: 0.1>",
+    "related code": "    def __init__(self, monitor='val_loss', factor=0.1, patience=10,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "49.03856706619263\n",
+    "line number": "(987, 66)",
+    "node content": "<Number: 10>",
+    "related code": "    def __init__(self, monitor='val_loss', factor=0.1, patience=10,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "52.30813694000244\n",
+    "line number": "(1091, 60)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, filename, separator=',', append=False):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7723\n",
+    "training time": "59.81946587562561\n",
+    "line number": "(46, 35)",
+    "node content": "PythonNode(or_test, [<Name: callbacks@46,20>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "        callbacks = callbacks or []\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(54, 32)",
+    "node content": "<Number: 0.>",
+    "related code": "        self._delta_t_batch = 0.\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7704\n",
+    "training time": "53.41094398498535\n",
+    "line number": "(72, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not self.callbacks:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7807\n",
+    "training time": "52.79006910324097\n",
+    "line number": "(75, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "        if hook == 'end':\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(81, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@81,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "53.982001304626465\n",
+    "line number": "(97, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "        if hook == 'begin':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7769\n",
+    "training time": "55.52011704444885\n",
+    "line number": "(102, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "        if mode == _TRAIN:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7807\n",
+    "training time": "51.697689056396484\n",
+    "line number": "(104, 20)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif mode == _TEST:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "54.63561820983887\n",
+    "line number": "(111, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "        if mode == _TRAIN:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "54.20249891281128\n",
+    "line number": "(113, 20)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif mode == _TEST:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(134, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@134,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7638\n",
+    "training time": "56.98289728164673\n",
+    "line number": "(150, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@150,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "63.061638832092285\n",
+    "line number": "(496, 21)",
+    "node content": "<Number: 0>",
+    "related code": "        self.seen = 0\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7723\n",
+    "training time": "58.96856188774109\n",
+    "line number": "(500, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@500,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7732\n",
+    "training time": "57.39143395423889\n",
+    "line number": "(502, 20)",
+    "node content": "<Operator: +=>",
+    "related code": "        self.seen += batch_size\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "58.04213619232178\n",
+    "line number": "(556, 24)",
+    "node content": "<Operator: ==>",
+    "related code": "        if count_mode == 'samples':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(582, 21)",
+    "node content": "<Number: 0>",
+    "related code": "        self.seen = 0\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7788\n",
+    "training time": "57.628297328948975\n",
+    "line number": "(585, 22)",
+    "node content": "<Operator: <>",
+    "related code": "        if self.seen < self.target:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7723\n",
+    "training time": "56.59852886199951\n",
+    "line number": "(589, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@589,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7769\n",
+    "training time": "56.91636824607849\n",
+    "line number": "(606, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@606,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(627, 25)",
+    "node content": "PythonNode(or_test, [<Name: logs@627,15>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "        logs = logs or {}\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "54.6537070274353\n",
+    "line number": "(76, 50)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@76,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: self@76,27>, <Operator: ,>, <String: '_t_enter_batch'>]), <Operator: )>])])])",
+    "related code": "            if not hasattr(self, '_t_enter_batch'):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(514, 22)",
+    "node content": "<Keyword: not>",
+    "related code": "        if logs is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "56.580641984939575\n",
+    "line number": "(602, 39)",
+    "node content": "<Operator: <>",
+    "related code": "        if self.verbose and self.seen < self.target:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(76, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not hasattr(self, '_t_enter_batch'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "57.063738107681274\n",
+    "line number": "(86, 54)",
+    "node content": "<Operator: ->",
+    "related code": "        self._delta_ts[hook_name].append(time.time() - t_before_callbacks)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "57.86490511894226\n",
+    "line number": "(89, 33)",
+    "node content": "<Operator: >>",
+    "related code": "        if (self._delta_t_batch > 0. and\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "81.35263800621033\n",
+    "line number": "(89, 36)",
+    "node content": "<Number: 0.>",
+    "related code": "        if (self._delta_t_batch > 0. and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(505, 19)",
+    "node content": "<Keyword: in>",
+    "related code": "            if k in self.stateful_metrics:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(557, 34)",
+    "node content": "<Keyword: False>",
+    "related code": "            self.use_steps = False\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(594, 24)",
+    "node content": "<Operator: +=>",
+    "related code": "            self.seen += batch_size\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7741\n",
+    "training time": "48.552836656570435\n",
+    "line number": "(597, 19)",
+    "node content": "<Keyword: in>",
+    "related code": "            if k in logs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7713\n",
+    "training time": "74.93474817276001\n",
+    "line number": "(608, 19)",
+    "node content": "<Keyword: in>",
+    "related code": "            if k in logs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7807\n",
+    "training time": "53.51203727722168\n",
+    "line number": "(47, 36)",
+    "node content": "<Keyword: in>",
+    "related code": "        self.callbacks = [c for c in callbacks]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7732\n",
+    "training time": "54.15997529029846\n",
+    "line number": "(79, 47)",
+    "node content": "<Operator: ->",
+    "related code": "            self._delta_t_batch = time.time() - self._t_enter_batch\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7835\n",
+    "training time": "67.2689471244812\n",
+    "line number": "(501, 39)",
+    "node content": "<Number: 0>",
+    "related code": "        batch_size = logs.get('size', 0)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "68.97903203964233\n",
+    "line number": "(590, 39)",
+    "node content": "<Number: 0>",
+    "related code": "        batch_size = logs.get('size', 0)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(508, 23)",
+    "node content": "<Keyword: in>",
+    "related code": "                if k in self.totals:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(516, 23)",
+    "node content": "<Keyword: in>",
+    "related code": "                if k in self.totals:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(573, 33)",
+    "node content": "<Operator: %>",
+    "related code": "            print('Epoch %d/%d' % (epoch + 1, self.epochs))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7798\n",
+    "training time": "62.56461000442505\n",
+    "line number": "(509, 37)",
+    "node content": "<Operator: +=>",
+    "related code": "                    self.totals[k] += v * batch_size\n"
+  }
+]

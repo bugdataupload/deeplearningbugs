@@ -1,0 +1,330 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.7854\n",
+    "training time": "62.927112340927124\n",
+    "line number": "(73, 22)",
+    "node content": "<Operator: !=>",
+    "related code": "    if weights_rank != 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "59.489131927490234\n",
+    "line number": "(73, 24)",
+    "node content": "<Number: 0>",
+    "related code": "    if weights_rank != 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7798\n",
+    "training time": "54.142553091049194\n",
+    "line number": "(91, 19)",
+    "node content": "<Operator: ==>",
+    "related code": "    if reduction == Reduction.NONE:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7732\n",
+    "training time": "52.48629307746887\n",
+    "line number": "(105, 22)",
+    "node content": "<Operator: !=>",
+    "related code": "    if values_shape != weights_shape:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7760\n",
+    "training time": "56.58869504928589\n",
+    "line number": "(157, 23)",
+    "node content": "<Keyword: is>",
+    "related code": "    if sample_weight is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(57, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "    if y_true is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.5012\n",
+    "training time": "55.709458112716675\n",
+    "line number": "(63, 71)",
+    "node content": "PythonNode(and_test, [PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(arith_expr, [<Name: y_pred_rank@63,12>, <Operator: ->, <Name: y_true_rank@63,26>]), <Operator: ==>, <Number: 1>]), <Operator: )>]), <Keyword: and>, PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: y_pred_shape@63,49>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: ==>, <Number: 1>]), <Operator: )>])])",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7769\n",
+    "training time": "55.53396773338318\n",
+    "line number": "(65, 73)",
+    "node content": "PythonNode(and_test, [PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(arith_expr, [<Name: y_true_rank@65,14>, <Operator: ->, <Name: y_pred_rank@65,28>]), <Operator: ==>, <Number: 1>]), <Operator: )>]), <Keyword: and>, PythonNode(atom, [<Operator: (>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: y_true_shape@65,51>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: ==>, <Number: 1>]), <Operator: )>])])",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7760\n",
+    "training time": "54.16224694252014\n",
+    "line number": "(119, 65)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: weights_shape@119,11>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: values_shape@119,41>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "        if weights_shape is not None and values_shape is not None:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7723\n",
+    "training time": "52.98227500915527\n",
+    "line number": "(159, 45)",
+    "node content": "PythonNode(or_test, [<Name: name@159,22>, <Keyword: or>, <String: 'weighted_loss'>])",
+    "related code": "    with K.name_scope(name or 'weighted_loss'):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(76, 42)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif weights_rank - y_pred_rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "58.16596698760986\n",
+    "line number": "(76, 44)",
+    "node content": "<Number: 1>",
+    "related code": "        elif weights_rank - y_pred_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(78, 42)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif y_pred_rank - weights_rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "55.605058908462524\n",
+    "line number": "(78, 44)",
+    "node content": "<Number: 1>",
+    "related code": "        elif y_pred_rank - weights_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "55.94190311431885\n",
+    "line number": "(95, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "        if reduction == Reduction.SUM_OVER_BATCH_SIZE:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(110, 25)",
+    "node content": "<Operator: >>",
+    "related code": "        if weights_rank > values_rank:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "66.19730806350708\n",
+    "line number": "(74, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "        if y_pred_rank == 0 and weights_rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "75.09381198883057\n",
+    "line number": "(74, 27)",
+    "node content": "<Number: 0>",
+    "related code": "        if y_pred_rank == 0 and weights_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "62.08875608444214\n",
+    "line number": "(74, 47)",
+    "node content": "<Operator: ==>",
+    "related code": "        if y_pred_rank == 0 and weights_rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "60.125755071640015\n",
+    "line number": "(74, 49)",
+    "node content": "<Number: 1>",
+    "related code": "        if y_pred_rank == 0 and weights_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7666\n",
+    "training time": "57.674195766448975\n",
+    "line number": "(76, 27)",
+    "node content": "<Operator: ->",
+    "related code": "        elif weights_rank - y_pred_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "58.0059130191803\n",
+    "line number": "(78, 26)",
+    "node content": "<Operator: ->",
+    "related code": "        elif y_pred_rank - weights_rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.2277\n",
+    "training time": "60.26312518119812\n",
+    "line number": "(172, 41)",
+    "node content": "<Operator: *>",
+    "related code": "        weighted_losses = sample_weight * losses\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(34, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "        if key not in cls.all():\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.5008\n",
+    "training time": "65.92173910140991\n",
+    "line number": "(63, 40)",
+    "node content": "<Operator: ==>",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "62.02395796775818\n",
+    "line number": "(63, 42)",
+    "node content": "<Number: 1>",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7798\n",
+    "training time": "61.37490725517273\n",
+    "line number": "(63, 68)",
+    "node content": "<Operator: ==>",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "61.00623369216919\n",
+    "line number": "(63, 70)",
+    "node content": "<Number: 1>",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7844\n",
+    "training time": "62.92004609107971\n",
+    "line number": "(65, 42)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "60.957462787628174\n",
+    "line number": "(65, 44)",
+    "node content": "<Number: 1>",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "62.01702570915222\n",
+    "line number": "(65, 70)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "62.26096487045288\n",
+    "line number": "(65, 72)",
+    "node content": "<Number: 1>",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7751\n",
+    "training time": "66.13347005844116\n",
+    "line number": "(119, 31)",
+    "node content": "<Keyword: not>",
+    "related code": "        if weights_shape is not None and values_shape is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "53.88669395446777\n",
+    "line number": "(119, 60)",
+    "node content": "<Keyword: not>",
+    "related code": "        if weights_shape is not None and values_shape is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7694\n",
+    "training time": "49.09529185295105\n",
+    "line number": "(63, 25)",
+    "node content": "<Operator: ->",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "53.275278091430664\n",
+    "line number": "(65, 27)",
+    "node content": "<Operator: ->",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7704\n",
+    "training time": "59.10249376296997\n",
+    "line number": "(96, 25)",
+    "node content": "<Operator: />",
+    "related code": "            loss = loss / _num_elements(weighted_losses)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7704\n",
+    "training time": "59.22513031959534\n",
+    "line number": "(63, 63)",
+    "node content": "<Operator: ->",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7657\n",
+    "training time": "70.25662422180176\n",
+    "line number": "(63, 64)",
+    "node content": "<Number: 1>",
+    "related code": "        if (y_pred_rank - y_true_rank == 1) and (y_pred_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7694\n",
+    "training time": "55.4017448425293\n",
+    "line number": "(65, 65)",
+    "node content": "<Operator: ->",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "61.843199014663696\n",
+    "line number": "(65, 66)",
+    "node content": "<Number: 1>",
+    "related code": "        elif (y_true_rank - y_pred_rank == 1) and (y_true_shape[-1] == 1):\n"
+  }
+]

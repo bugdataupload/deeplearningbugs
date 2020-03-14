@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(240, 59)",
+    "node content": "PythonNode(and_test, [<Name: set_x@240,7>, <Keyword: and>, <Name: set_y@240,17>, <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: list@240,27>, PythonNode(trailer, [<Operator: (>, <Name: set_x@240,32>, <Operator: )>]), PythonNode(trailer, [<Operator: [>, <Number: 0>, <Operator: ]>])]), <Operator: !=>, PythonNode(atom_expr, [<Name: list@240,45>, PythonNode(trailer, [<Operator: (>, <Name: set_y@240,50>, <Operator: )>]), PythonNode(trailer, [<Operator: [>, <Number: 0>, <Operator: ]>])])])])",
+    "related code": "    if set_x and set_y and list(set_x)[0] != list(set_y)[0]:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(249, 59)",
+    "node content": "PythonNode(and_test, [<Name: set_y@249,7>, <Keyword: and>, <Name: set_w@249,17>, <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: list@249,27>, PythonNode(trailer, [<Operator: (>, <Name: set_y@249,32>, <Operator: )>]), PythonNode(trailer, [<Operator: [>, <Number: 0>, <Operator: ]>])]), <Operator: !=>, PythonNode(atom_expr, [<Name: list@249,45>, PythonNode(trailer, [<Operator: (>, <Name: set_w@249,50>, <Operator: )>]), PythonNode(trailer, [<Operator: [>, <Number: 0>, <Operator: ]>])])])])",
+    "related code": "    if set_y and set_w and list(set_y)[0] != list(set_w)[0]:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7723\n",
+    "training time": "51.62396287918091\n",
+    "line number": "(517, 68)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: sample_weight@517,7>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: class_sample_weight@517,37>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    if sample_weight is not None and class_sample_weight is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(563, 51)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: steps@563,7>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: batch_size@563,29>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    if steps is not None and batch_size is not None:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7694\n",
+    "training time": "48.922500133514404\n",
+    "line number": "(567, 50)",
+    "node content": "PythonNode(or_test, [PythonNode(not_test, [<Keyword: not>, <Name: ins@567,11>]), <Keyword: or>, PythonNode(atom_expr, [<Name: any@567,18>, PythonNode(trailer, [<Operator: (>, PythonNode(argument, [PythonNode(atom_expr, [<Name: K@567,22>, PythonNode(trailer, [<Operator: .>, <Name: is_tensor@567,24>]), PythonNode(trailer, [<Operator: (>, <Name: x@567,34>, <Operator: )>])]), <SyncCompFor: for x in ins@567,37>]), <Operator: )>])])])",
+    "related code": "    if not ins or any(K.is_tensor(x) for x in ins):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7798\n",
+    "training time": "54.86011505126953\n",
+    "line number": "(692, 52)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [<Name: loss@692,7>, <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(atom_expr, [<Name: isinstance@692,23>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: loss@692,34>, <Operator: ,>, PythonNode(atom_expr, [<Name: losses@692,40>, PythonNode(trailer, [<Operator: .>, <Name: Loss@692,47>])])]), <Operator: )>])])])",
+    "related code": "    if loss is None or isinstance(loss, losses.Loss):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.7769\n",
+    "training time": "63.03490996360779\n",
+    "line number": "(700, 55)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: callable@700,7>, PythonNode(trailer, [<Operator: (>, <Name: loss@700,16>, <Operator: )>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@700,30>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: loss@700,38>, <Operator: ,>, <String: '__name__'>]), <Operator: )>])])])])",
+    "related code": "    if callable(loss) and not hasattr(loss, '__name__'):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(905, 18)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: metrics@905,11>])",
+    "related code": "    if not metrics:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7751\n",
+    "training time": "60.20759606361389\n",
+    "line number": "(955, 42)",
+    "node content": "<Keyword: False>",
+    "related code": "def get_metric_name(metric, weighted=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(24, 11)",
+    "node content": "<Keyword: is>",
+    "related code": "    if x is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(34, 18)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif x.ndim == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(34, 20)",
+    "node content": "<Number: 1>",
+    "related code": "    elif x.ndim == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(66, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not names:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(72, 14)",
+    "node content": "<Keyword: is>",
+    "related code": "    if data is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 19)",
+    "node content": "<Operator: !=>",
+    "related code": "    if len(data) != len(names):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(232, 19)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(set_x) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "59.38630175590515\n",
+    "line number": "(232, 21)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(set_x) > 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(236, 19)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(set_y) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7816\n",
+    "training time": "67.55212330818176\n",
+    "line number": "(236, 21)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(set_y) > 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(245, 19)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(set_w) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "62.65796995162964\n",
+    "line number": "(245, 21)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(set_w) > 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(525, 28)",
+    "node content": "<Keyword: is>",
+    "related code": "    if sample_weight_mode is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(567, 14)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: ins@567,11>])",
+    "related code": "    if not ins or any(K.is_tensor(x) for x in ins):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7713\n",
+    "training time": "62.45856499671936\n",
+    "line number": "(612, 51)",
+    "node content": "PythonNode(or_test, [PythonNode(atom_expr, [<Name: inspect@612,11>, PythonNode(trailer, [<Operator: .>, <Name: isgenerator@612,19>]), PythonNode(trailer, [<Operator: (>, <Name: x@612,31>, <Operator: )>])]), <Keyword: or>, PythonNode(atom_expr, [<Name: is_sequence@612,37>, PythonNode(trailer, [<Operator: (>, <Name: x@612,49>, <Operator: )>])])])",
+    "related code": "    return inspect.isgenerator(x) or is_sequence(x)\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.7723\n",
+    "training time": "62.012545108795166\n",
+    "line number": "(700, 55)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@700,30>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: loss@700,38>, <Operator: ,>, <String: '__name__'>]), <Operator: )>])])])",
+    "related code": "    if callable(loss) and not hasattr(loss, '__name__'):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(719, 22)",
+    "node content": "<Keyword: in>",
+    "related code": "    if output_index in skip_target_weighing_indices:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(722, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "    if sample_weight_mode == 'temporal':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(855, 22)",
+    "node content": "<Keyword: is>",
+    "related code": "    if loss_weights is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(905, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not metrics:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.4955\n",
+    "training time": "69.38202691078186\n",
+    "line number": "(998, 16)",
+    "node content": "<Keyword: in>",
+    "related code": "    if metric in ['accuracy', 'acc']:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(166, 18)",
+    "node content": "<Keyword: is>",
+    "related code": "    if x_weight is None or len(x_weight) == 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "73.83950185775757\n",
+    "line number": "(166, 43)",
+    "node content": "<Operator: ==>",
+    "related code": "    if x_weight is None or len(x_weight) == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "69.53704404830933\n",
+    "line number": "(166, 45)",
+    "node content": "<Number: 0>",
+    "related code": "    if x_weight is None or len(x_weight) == 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(240, 44)",
+    "node content": "<Operator: !=>",
+    "related code": "    if set_x and set_y and list(set_x)[0] != list(set_y)[0]:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(249, 44)",
+    "node content": "<Operator: !=>",
+    "related code": "    if set_y and set_w and list(set_y)[0] != list(set_w)[0]:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7779\n",
+    "training time": "72.24779486656189\n",
+    "line number": "(278, 36)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [<Name: y@278,11>, <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(comparison, [<Name: loss@278,24>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "        if y is None or loss is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(365, 44)",
+    "node content": "<Operator: //>",
+    "related code": "    num_batches = (size + batch_size - 1) // batch_size  # round up\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(448, 32)",
+    "node content": "<Keyword: not>",
+    "related code": "    if sample_weight_mode is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(477, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "    if sample_weight is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(519, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "    if sample_weight is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(521, 33)",
+    "node content": "<Keyword: not>",
+    "related code": "    if class_sample_weight is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(567, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not ins or any(K.is_tensor(x) for x in ins):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7741\n",
+    "training time": "71.8356249332428\n",
+    "line number": "(632, 31)",
+    "node content": "<Operator: +>",
+    "related code": "    one_indexed_epoch = epoch + 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "70.37682032585144\n",
+    "line number": "(632, 33)",
+    "node content": "<Number: 1>",
+    "related code": "    one_indexed_epoch = epoch + 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(655, 31)",
+    "node content": "<Keyword: not>",
+    "related code": "    if batch_input_shape is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(692, 14)",
+    "node content": "<Keyword: is>",
+    "related code": "    if loss is None or isinstance(loss, losses.Loss):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7694\n",
+    "training time": "67.03242301940918\n",
+    "line number": "(700, 29)",
+    "node content": "<Keyword: not>",
+    "related code": "    if callable(loss) and not hasattr(loss, '__name__'):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.0000e+00\n",
+    "training time": "74.55437016487122\n",
+    "line number": "(985, 17)",
+    "node content": "<Keyword: not>",
+    "related code": "    if metric not in ['accuracy', 'acc', 'crossentropy', 'ce']:\n"
+  }
+]

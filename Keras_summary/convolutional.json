@@ -1,0 +1,370 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(127, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_first':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(131, 39)",
+    "node content": "<Keyword: is>",
+    "related code": "        if input_shape[channel_axis] is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7779\n",
+    "training time": "57.48238182067871\n",
+    "line number": "(153, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.built = True\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(156, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(156, 25)",
+    "node content": "<Number: 1>",
+    "related code": "        if self.rank == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "54.85674691200256\n",
+    "line number": "(164, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.rank == 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "52.16083288192749\n",
+    "line number": "(164, 25)",
+    "node content": "<Number: 2>",
+    "related code": "        if self.rank == 2:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(172, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.rank == 3:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "57.36786103248596\n",
+    "line number": "(172, 25)",
+    "node content": "<Number: 3>",
+    "related code": "        if self.rank == 3:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(192, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_last':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(205, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.data_format == 'channels_last':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "57.92177414894104\n",
+    "line number": "(1961, 29)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=2, **kwargs):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(135, 41)",
+    "node content": "<Operator: +>",
+    "related code": "        kernel_shape = self.kernel_size + (input_dim, self.filters)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7723\n",
+    "training time": "54.21526217460632\n",
+    "line number": "(187, 33)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.activation is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "58.979557037353516\n",
+    "line number": "(331, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "        if padding == 'causal':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7798\n",
+    "training time": "56.81086707115173\n",
+    "line number": "(2396, 34)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=(1, 1), **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "55.919729232788086\n",
+    "line number": "(2396, 37)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=(1, 1), **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "58.98800206184387\n",
+    "line number": "(2014, 30)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=(2, 2), data_format=None, interpolation='nearest',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7798\n",
+    "training time": "62.07040524482727\n",
+    "line number": "(2014, 33)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=(2, 2), data_format=None, interpolation='nearest',\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "58.04033303260803\n",
+    "line number": "(2069, 30)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=(2, 2, 2), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "56.783363819122314\n",
+    "line number": "(2069, 33)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=(2, 2, 2), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7657\n",
+    "training time": "67.36839294433594\n",
+    "line number": "(2069, 36)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, size=(2, 2, 2), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "54.62646412849426\n",
+    "line number": "(2283, 33)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, padding=(1, 1, 1), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "60.31888723373413\n",
+    "line number": "(2283, 36)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, padding=(1, 1, 1), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "52.88370895385742\n",
+    "line number": "(2283, 39)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, padding=(1, 1, 1), data_format=None, **kwargs):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(130, 28)",
+    "node content": "<Operator: ->",
+    "related code": "            channel_axis = -1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(130, 29)",
+    "node content": "<Number: 1>",
+    "related code": "            channel_axis = -1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(206, 38)",
+    "node content": "<Operator: +>",
+    "related code": "            return (input_shape[0],) + tuple(new_space) + (self.filters,)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(206, 57)",
+    "node content": "<Operator: +>",
+    "related code": "            return (input_shape[0],) + tuple(new_space) + (self.filters,)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(124, 52)",
+    "node content": "<Operator: +>",
+    "related code": "        self.input_spec = InputSpec(ndim=self.rank + 2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(124, 54)",
+    "node content": "<Number: 2>",
+    "related code": "        self.input_spec = InputSpec(ndim=self.rank + 2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "54.83280682563782\n",
+    "line number": "(2465, 35)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, cropping=((0, 0), (0, 0)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "53.091002225875854\n",
+    "line number": "(2465, 38)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, cropping=((0, 0), (0, 0)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7816\n",
+    "training time": "59.05979585647583\n",
+    "line number": "(2465, 43)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, cropping=((0, 0), (0, 0)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "69.38251233100891\n",
+    "line number": "(2465, 46)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, cropping=((0, 0), (0, 0)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "72.10253810882568\n",
+    "line number": "(2539, 35)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "76.37221217155457\n",
+    "line number": "(2539, 38)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "73.44243097305298\n",
+    "line number": "(2539, 43)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7835\n",
+    "training time": "57.82082915306091\n",
+    "line number": "(2539, 46)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "61.31787991523743\n",
+    "line number": "(2539, 51)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "63.338910818099976\n",
+    "line number": "(2539, 54)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, cropping=((1, 1), (1, 1), (1, 1)),\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(151, 52)",
+    "node content": "<Operator: +>",
+    "related code": "        self.input_spec = InputSpec(ndim=self.rank + 2,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(151, 54)",
+    "node content": "<Number: 2>",
+    "related code": "        self.input_spec = InputSpec(ndim=self.rank + 2,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(193, 33)",
+    "node content": "<Number: 1>",
+    "related code": "            space = input_shape[1:-1]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(193, 35)",
+    "node content": "<Operator: ->",
+    "related code": "            space = input_shape[1:-1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(193, 36)",
+    "node content": "<Number: 1>",
+    "related code": "            space = input_shape[1:-1]\n"
+  }
+]

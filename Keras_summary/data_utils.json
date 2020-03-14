@@ -1,0 +1,74 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "51.77447199821472\n",
+    "line number": "(34, 27)",
+    "node content": "<Number: 2>",
+    "related code": "if sys.version_info[0] == 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "50.480616092681885\n",
+    "line number": "(247, 58)",
+    "node content": "<Number: 65535>",
+    "related code": "def _hash_file(fpath, algorithm='sha256', chunk_size=65535):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "49.71024703979492\n",
+    "line number": "(279, 70)",
+    "node content": "<Number: 65535>",
+    "related code": "def validate_file(fpath, file_hash, algorithm='auto', chunk_size=65535):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "49.96797585487366\n",
+    "line number": "(34, 21)",
+    "node content": "<Number: 0>",
+    "related code": "if sys.version_info[0] == 2:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7769\n",
+    "training time": "49.51404309272766\n",
+    "line number": "(347, 27)",
+    "node content": "<Keyword: True>",
+    "related code": "    use_sequence_api = True\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "49.5586302280426\n",
+    "line number": "(463, 29)",
+    "node content": "<Number: 1>",
+    "related code": "    def start(self, workers=1, max_queue_size=10):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "49.424968004226685\n",
+    "line number": "(463, 48)",
+    "node content": "<Number: 10>",
+    "related code": "    def start(self, workers=1, max_queue_size=10):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7807\n",
+    "training time": "51.711265087127686\n",
+    "line number": "(541, 58)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, sequence, use_multiprocessing=False, shuffle=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7723\n",
+    "training time": "49.596145153045654\n",
+    "line number": "(541, 73)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, sequence, use_multiprocessing=False, shuffle=False):\n"
+  }
+]

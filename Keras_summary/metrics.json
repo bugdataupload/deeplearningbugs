@@ -1,0 +1,250 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.5127\n",
+    "training time": "69.23443102836609\n",
+    "line number": "(1898, 49)",
+    "node content": "<Number: 0.5>",
+    "related code": "def binary_accuracy(y_true, y_pred, threshold=0.5):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7666\n",
+    "training time": "65.18122506141663\n",
+    "line number": "(1921, 50)",
+    "node content": "<Number: 5>",
+    "related code": "def top_k_categorical_accuracy(y_true, y_pred, k=5):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "66.2958619594574\n",
+    "line number": "(1925, 57)",
+    "node content": "<Number: 5>",
+    "related code": "def sparse_top_k_categorical_accuracy(y_true, y_pred, k=5):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "76.96351408958435\n",
+    "line number": "(1849, 24)",
+    "node content": "<Operator: >=>",
+    "related code": "    if tf.__version__ >= '2.0.0':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7769\n",
+    "training time": "71.32644987106323\n",
+    "line number": "(1899, 19)",
+    "node content": "<Operator: !=>",
+    "related code": "    if threshold != 0.5:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "69.43635201454163\n",
+    "line number": "(1899, 23)",
+    "node content": "<Number: 0.5>",
+    "related code": "    if threshold != 0.5:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7713\n",
+    "training time": "70.36444115638733\n",
+    "line number": "(1931, 43)",
+    "node content": "<Operator: ->",
+    "related code": "def cosine_proximity(y_true, y_pred, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "68.97065687179565\n",
+    "line number": "(1931, 44)",
+    "node content": "<Number: 1>",
+    "related code": "def cosine_proximity(y_true, y_pred, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7816\n",
+    "training time": "75.4570460319519\n",
+    "line number": "(497, 72)",
+    "node content": "<Number: 0.5>",
+    "related code": "    def __init__(self, name='binary_accuracy', dtype=None, threshold=0.5):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "72.2692449092865\n",
+    "line number": "(592, 26)",
+    "node content": "<Number: 5>",
+    "related code": "    def __init__(self, k=5, name='top_k_categorical_accuracy', dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "78.99877095222473\n",
+    "line number": "(616, 26)",
+    "node content": "<Number: 5>",
+    "related code": "    def __init__(self, k=5, name='sparse_top_k_categorical_accuracy', dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "93.44927501678467\n",
+    "line number": "(1161, 48)",
+    "node content": "<Number: 200>",
+    "related code": "    def __init__(self, value, num_thresholds=200, name=None, dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "78.57975697517395\n",
+    "line number": "(1247, 54)",
+    "node content": "<Number: 200>",
+    "related code": "    def __init__(self, specificity, num_thresholds=200, name=None, dtype=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "73.09084820747375\n",
+    "line number": "(1320, 54)",
+    "node content": "<Number: 200>",
+    "related code": "    def __init__(self, sensitivity, num_thresholds=200, name=None, dtype=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(153, 23)",
+    "node content": "<Keyword: in>",
+    "related code": "        if reduction in [metrics_utils.Reduction.SUM_OVER_BATCH_SIZE,\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "inf\n",
+    "training time": "72.6073911190033\n",
+    "line number": "(189, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.reduction == metrics_utils.Reduction.SUM:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7694\n",
+    "training time": "75.99905276298523\n",
+    "line number": "(193, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.reduction == metrics_utils.Reduction.SUM_OVER_BATCH_SIZE:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(195, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif self.reduction == metrics_utils.Reduction.WEIGHTED_MEAN:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "821.0000\n",
+    "training time": "80.05973196029663\n",
+    "line number": "(207, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.reduction == metrics_utils.Reduction.SUM:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(209, 30)",
+    "node content": "<Keyword: in>",
+    "related code": "        elif self.reduction in [\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7610\n",
+    "training time": "76.78039193153381\n",
+    "line number": "(701, 67)",
+    "node content": "<Operator: ->",
+    "related code": "    def __init__(self, name='cosine_similarity', dtype=None, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7666\n",
+    "training time": "74.03694224357605\n",
+    "line number": "(701, 68)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, name='cosine_similarity', dtype=None, axis=-1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7816\n",
+    "training time": "82.66367697715759\n",
+    "line number": "(63, 28)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.stateful = True  # All metric layers are stateful.\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7835\n",
+    "training time": "78.7310950756073\n",
+    "line number": "(64, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.built = True\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(65, 40)",
+    "node content": "PythonNode(or_test, [<Name: dtype@65,21>, <Keyword: or>, PythonNode(atom_expr, [<Name: K@65,30>, PythonNode(trailer, [<Operator: .>, <Name: floatx@65,32>]), PythonNode(trailer, [<Operator: (>, <Operator: )>])])])",
+    "related code": "        self.dtype = dtype or K.floatx()\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(173, 31)",
+    "node content": "<Keyword: not>",
+    "related code": "        if sample_weight is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(196, 31)",
+    "node content": "<Keyword: is>",
+    "related code": "            if sample_weight is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "884543.0000\n",
+    "training time": "80.75309491157532\n",
+    "line number": "(213, 31)",
+    "node content": "<Operator: />",
+    "related code": "            return self.total / self.count\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7741\n",
+    "training time": "78.34974074363708\n",
+    "line number": "(1902, 58)",
+    "node content": "<Operator: ->",
+    "related code": "    return K.mean(K.equal(y_true, K.round(y_pred)), axis=-1)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7754\n",
+    "training time": "76.15069103240967\n",
+    "line number": "(1902, 59)",
+    "node content": "<Number: 1>",
+    "related code": "    return K.mean(K.equal(y_true, K.round(y_pred)), axis=-1)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(105, 42)",
+    "node content": "<Keyword: in>",
+    "related code": "        K.batch_set_value([(v, 0) for v in self.weights])\n"
+  }
+]

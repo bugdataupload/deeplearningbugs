@@ -1,0 +1,386 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(476, 32)",
+    "node content": "<Keyword: False>",
+    "related code": "def to_list(x, allow_tuple=False):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(494, 43)",
+    "node content": "PythonNode(and_test, [<Name: allow_tuple@494,7>, <Keyword: and>, PythonNode(atom_expr, [<Name: isinstance@494,23>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: x@494,34>, <Operator: ,>, <Name: tuple@494,37>]), <Operator: )>])])])",
+    "related code": "    if allow_tuple and isinstance(x, tuple):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(123, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if identifier is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7657\n",
+    "training time": "53.27079796791077\n",
+    "line number": "(291, 25)",
+    "node content": "<Operator: <>",
+    "related code": "    if sys.version_info < (3,):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7741\n",
+    "training time": "57.018935203552246\n",
+    "line number": "(296, 27)",
+    "node content": "<Operator: <>",
+    "related code": "    elif sys.version_info < (3, 3):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(510, 16)",
+    "node content": "<Operator: ==>",
+    "related code": "    if len(x) == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(510, 18)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(x) == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7779\n",
+    "training time": "49.81445121765137\n",
+    "line number": "(525, 15)",
+    "node content": "<Keyword: True>",
+    "related code": "    return True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(548, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "    if arrays is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(602, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "    if target_format == 'channels_first':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(610, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif target_format == 'channels_last':\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7760\n",
+    "training time": "50.34420299530029\n",
+    "line number": "(128, 63)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [<String: 'class_name'>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: config@128,31>]), <Keyword: or>, PythonNode(comparison, [<String: 'config'>, PythonNode(comp_op, [<Keyword: not>, <Keyword: in>]), <Name: config@128,57>])])",
+    "related code": "        if 'class_name' not in config or 'config' not in config:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(131, 58)",
+    "node content": "PythonNode(and_test, [<Name: custom_objects@131,11>, <Keyword: and>, PythonNode(comparison, [<Name: class_name@131,30>, <Keyword: in>, <Name: custom_objects@131,44>])])",
+    "related code": "        if custom_objects and class_name in custom_objects:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(159, 61)",
+    "node content": "PythonNode(and_test, [<Name: custom_objects@159,11>, <Keyword: and>, PythonNode(comparison, [<Name: function_name@159,30>, <Keyword: in>, <Name: custom_objects@159,47>])])",
+    "related code": "        if custom_objects and function_name in custom_objects:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "57.43926024436951\n",
+    "line number": "(329, 39)",
+    "node content": "<Number: 30>",
+    "related code": "    def __init__(self, target, width=30, verbose=1, interval=0.05,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "62.67418694496155\n",
+    "line number": "(329, 50)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, target, width=30, verbose=1, interval=0.05,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "59.14484357833862\n",
+    "line number": "(329, 65)",
+    "node content": "<Number: 0.05>",
+    "related code": "    def __init__(self, target, width=30, verbose=1, interval=0.05,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(133, 26)",
+    "node content": "<Keyword: in>",
+    "related code": "        elif class_name in _GLOBAL_CUSTOM_OBJECTS:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(161, 29)",
+    "node content": "<Keyword: in>",
+    "related code": "        elif function_name in _GLOBAL_CUSTOM_OBJECTS:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "57.9129900932312\n",
+    "line number": "(291, 28)",
+    "node content": "<Number: 3>",
+    "related code": "    if sys.version_info < (3,):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "55.66507959365845\n",
+    "line number": "(296, 30)",
+    "node content": "<Number: 3>",
+    "related code": "    elif sys.version_info < (3, 3):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "56.0226571559906\n",
+    "line number": "(296, 33)",
+    "node content": "<Number: 3>",
+    "related code": "    elif sys.version_info < (3, 3):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(305, 23)",
+    "node content": "<Keyword: is>",
+    "related code": "        if parameter is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "56.56073999404907\n",
+    "line number": "(343, 29)",
+    "node content": "<Number: 0>",
+    "related code": "        self._total_width = 0\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "55.372894048690796\n",
+    "line number": "(344, 29)",
+    "node content": "<Number: 0>",
+    "related code": "        self._seen_so_far = 0\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "55.06995916366577\n",
+    "line number": "(347, 29)",
+    "node content": "<Number: 0>",
+    "related code": "        self._last_update = 0\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "53.45504307746887\n",
+    "line number": "(360, 29)",
+    "node content": "PythonNode(or_test, [<Name: values@360,17>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "        values = values or []\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "55.051202058792114\n",
+    "line number": "(378, 26)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.verbose == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "58.493958950042725\n",
+    "line number": "(378, 28)",
+    "node content": "<Number: 1>",
+    "related code": "        if self.verbose == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "50.569941997528076\n",
+    "line number": "(455, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif self.verbose == 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "56.417240142822266\n",
+    "line number": "(455, 30)",
+    "node content": "<Number: 2>",
+    "related code": "        elif self.verbose == 2:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7779\n",
+    "training time": "56.89900803565979\n",
+    "line number": "(131, 43)",
+    "node content": "<Keyword: in>",
+    "related code": "        if custom_objects and class_name in custom_objects:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7685\n",
+    "training time": "58.87709307670593\n",
+    "line number": "(159, 46)",
+    "node content": "<Keyword: in>",
+    "related code": "        if custom_objects and function_name in custom_objects:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(377, 27)",
+    "node content": "<Operator: %>",
+    "related code": "        info = ' - %.0fs' % (now - self._start)\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "56.400720834732056\n",
+    "line number": "(456, 60)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@456,15>, PythonNode(trailer, [<Operator: .>, <Name: target@456,20>])]), <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(comparison, [<Name: current@456,38>, <Operator: >=>, PythonNode(atom_expr, [<Name: self@456,49>, PythonNode(trailer, [<Operator: .>, <Name: target@456,54>])])])])",
+    "related code": "            if self.target is None or current >= self.target:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7807\n",
+    "training time": "54.457422971725464\n",
+    "line number": "(523, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "        if element is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(128, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        if 'class_name' not in config or 'config' not in config:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(128, 53)",
+    "node content": "<Keyword: not>",
+    "related code": "        if 'class_name' not in config or 'config' not in config:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(136, 49)",
+    "node content": "PythonNode(or_test, [<Name: module_objects@136,29>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "            module_objects = module_objects or {}\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(138, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "            if cls is None:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(142, 49)",
+    "node content": "PythonNode(or_test, [<Name: custom_objects@142,29>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "            custom_objects = custom_objects or {}\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(154, 49)",
+    "node content": "PythonNode(or_test, [<Name: custom_objects@154,29>, <Keyword: or>, PythonNode(atom, [<Operator: {>, <Operator: }>])])",
+    "related code": "            custom_objects = custom_objects or {}\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(165, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "            if fn is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(310, 24)",
+    "node content": "<Keyword: False>",
+    "related code": "            return False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7685\n",
+    "training time": "52.995824098587036\n",
+    "line number": "(311, 33)",
+    "node content": "<Keyword: in>",
+    "related code": "        return (parameter.kind in (inspect.Parameter.POSITIONAL_OR_KEYWORD,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(511, 18)",
+    "node content": "<Number: 0>",
+    "related code": "        return x[0]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7807\n",
+    "training time": "55.803982973098755\n",
+    "line number": "(521, 60)",
+    "node content": "<Keyword: True>",
+    "related code": "    iterable = to_list(iterable_or_element, allow_tuple=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7751\n",
+    "training time": "56.8347749710083\n",
+    "line number": "(362, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "            if k not in self.stateful_metrics:\n"
+  }
+]

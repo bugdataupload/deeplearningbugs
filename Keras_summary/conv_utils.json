@@ -1,0 +1,138 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(99, 22)",
+    "node content": "<Keyword: is>",
+    "related code": "    if input_length is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(103, 17)",
+    "node content": "<Operator: ==>",
+    "related code": "    if padding == 'same':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(105, 19)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif padding == 'valid':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(56, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "    if padding not in allowed:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 21)",
+    "node content": "<Keyword: in>",
+    "related code": "    assert padding in {'same', 'valid', 'full', 'causal'}\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 56)",
+    "node content": "<Operator: +>",
+    "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 58)",
+    "node content": "<Number: 1>",
+    "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(111, 42)",
+    "node content": "<Operator: //>",
+    "related code": "    return (output_length + stride - 1) // stride\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 45)",
+    "node content": "<Operator: *>",
+    "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(30, 25)",
+    "node content": "<Operator: *>",
+    "related code": "        return (value,) * n\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 38)",
+    "node content": "<Operator: ->",
+    "related code": "        output_length = input_length - dilated_filter_size + 1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 60)",
+    "node content": "<Operator: +>",
+    "related code": "        output_length = input_length - dilated_filter_size + 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 62)",
+    "node content": "<Number: 1>",
+    "related code": "        output_length = input_length - dilated_filter_size + 1\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(111, 27)",
+    "node content": "<Operator: +>",
+    "related code": "    return (output_length + stride - 1) // stride\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(111, 36)",
+    "node content": "<Operator: ->",
+    "related code": "    return (output_length + stride - 1) // stride\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(111, 38)",
+    "node content": "<Number: 1>",
+    "related code": "    return (output_length + stride - 1) // stride\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(102, 40)",
+    "node content": "<Operator: ->",
+    "related code": "    dilated_filter_size = (filter_size - 1) * dilation + 1\n"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(22, 59)",
+    "node content": "PythonNode(or_test, [<Name: allowed_positional_args@22,30>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "    allowed_positional_args = allowed_positional_args or []\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7685\n",
+    "training time": "92.40345907211304\n",
+    "line number": "(23, 35)",
+    "node content": "PythonNode(or_test, [<Name: conversions@23,18>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "    conversions = conversions or []\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(24, 47)",
+    "node content": "PythonNode(or_test, [<Name: value_conversions@24,24>, <Keyword: or>, PythonNode(atom, [<Operator: [>, <Operator: ]>])])",
+    "related code": "    value_conversions = value_conversions or []\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(126, 19)",
+    "node content": "<Keyword: in>",
+    "related code": "    if 'dropout' in kwargs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(244, 21)",
+    "node content": "<Keyword: in>",
+    "related code": "    if 'input_dim' in kwargs:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "63.4451630115509\n",
+    "line number": "(647, 18)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(args) > 4:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "87.37937092781067\n",
+    "line number": "(647, 20)",
+    "node content": "<Number: 4>",
+    "related code": "    if len(args) > 4:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(650, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif len(args) == 4:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "63.684454917907715\n",
+    "line number": "(650, 23)",
+    "node content": "<Number: 4>",
+    "related code": "    elif len(args) == 4:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(656, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif len(args) == 3:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "59.18261933326721\n",
+    "line number": "(656, 23)",
+    "node content": "<Number: 3>",
+    "related code": "    elif len(args) == 3:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(19, 37)",
+    "node content": "<Keyword: False>",
+    "related code": "        check_positional_args = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7741\n",
+    "training time": "73.85718011856079\n",
+    "line number": "(21, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        check_positional_args = True\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7694\n",
+    "training time": "88.89242887496948\n",
+    "line number": "(29, 29)",
+    "node content": "<Operator: ==>",
+    "related code": "            if object_type == 'class':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(38, 30)",
+    "node content": "<Operator: >>",
+    "related code": "                if len(args) > len(allowed_positional_args) + 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(53, 30)",
+    "node content": "<Keyword: in>",
+    "related code": "                if old_name in kwargs:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(38, 61)",
+    "node content": "<Operator: +>",
+    "related code": "                if len(args) > len(allowed_positional_args) + 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "70.84968519210815\n",
+    "line number": "(38, 63)",
+    "node content": "<Number: 1>",
+    "related code": "                if len(args) > len(allowed_positional_args) + 1:\n"
+  }
+]

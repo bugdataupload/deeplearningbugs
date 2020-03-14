@@ -1,0 +1,378 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.5211\n",
+    "training time": "50.689969062805176\n",
+    "line number": "(478, 22)",
+    "node content": "<Number: 2>",
+    "related code": "    if len(shape) == 2:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "49.99792814254761\n",
+    "line number": "(481, 22)",
+    "node content": "<Keyword: in>",
+    "related code": "    elif len(shape) in {3, 4, 5}:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "50.35716509819031\n",
+    "line number": "(56, 30)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, value=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "49.431227922439575\n",
+    "line number": "(77, 30)",
+    "node content": "<Number: 0.>",
+    "related code": "    def __init__(self, mean=0., stddev=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7854\n",
+    "training time": "49.67843794822693\n",
+    "line number": "(77, 43)",
+    "node content": "<Number: 0.05>",
+    "related code": "    def __init__(self, mean=0., stddev=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7676\n",
+    "training time": "49.36975121498108\n",
+    "line number": "(108, 48)",
+    "node content": "<Number: 0.05>",
+    "related code": "    def __init__(self, minval=-0.05, maxval=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "49.733598947525024\n",
+    "line number": "(144, 30)",
+    "node content": "<Number: 0.>",
+    "related code": "    def __init__(self, mean=0., stddev=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7769\n",
+    "training time": "49.65765595436096\n",
+    "line number": "(144, 43)",
+    "node content": "<Number: 0.05>",
+    "related code": "    def __init__(self, mean=0., stddev=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "48.71058797836304\n",
+    "line number": "(189, 32)",
+    "node content": "<Number: 1.0>",
+    "related code": "    def __init__(self, scale=1.0,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "57.546162128448486\n",
+    "line number": "(253, 30)",
+    "node content": "<Number: 1.>",
+    "related code": "    def __init__(self, gain=1., seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7807\n",
+    "training time": "70.91713094711304\n",
+    "line number": "(292, 30)",
+    "node content": "<Number: 1.>",
+    "related code": "    def __init__(self, gain=1.):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7713\n",
+    "training time": "62.97658085823059\n",
+    "line number": "(108, 31)",
+    "node content": "<Operator: ->",
+    "related code": "    def __init__(self, minval=-0.05, maxval=0.05, seed=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "60.75182104110718\n",
+    "line number": "(108, 35)",
+    "node content": "<Number: 0.05>",
+    "related code": "    def __init__(self, minval=-0.05, maxval=0.05, seed=None):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "55.149369955062866\n",
+    "line number": "(193, 19)",
+    "node content": "<Operator: <=>",
+    "related code": "        if scale <= 0.:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(193, 22)",
+    "node content": "<Number: 0.>",
+    "related code": "        if scale <= 0.:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7873\n",
+    "training time": "61.123310804367065\n",
+    "line number": "(213, 23)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.mode == 'fan_in':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.4873\n",
+    "training time": "64.41950106620789\n",
+    "line number": "(215, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif self.mode == 'fan_out':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7835\n",
+    "training time": "56.374024868011475\n",
+    "line number": "(219, 31)",
+    "node content": "<Operator: ==>",
+    "related code": "        if self.distribution == 'normal':\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7704\n",
+    "training time": "56.28838896751404\n",
+    "line number": "(481, 25)",
+    "node content": "<Number: 3>",
+    "related code": "    elif len(shape) in {3, 4, 5}:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "54.02852010726929\n",
+    "line number": "(481, 28)",
+    "node content": "<Number: 4>",
+    "related code": "    elif len(shape) in {3, 4, 5}:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "53.720580101013184\n",
+    "line number": "(481, 31)",
+    "node content": "<Number: 5>",
+    "related code": "    elif len(shape) in {3, 4, 5}:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "57.693642139434814\n",
+    "line number": "(485, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "        if data_format == 'channels_first':\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(489, 27)",
+    "node content": "<Operator: ==>",
+    "related code": "        elif data_format == 'channels_last':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(26, 21)",
+    "node content": "<Keyword: in>",
+    "related code": "        if 'dtype' in config:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(116, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.seed is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(196, 19)",
+    "node content": "<Keyword: not>",
+    "related code": "        if mode not in {'fan_in', 'fan_out', 'fan_avg'}:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(201, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        if distribution not in {'normal', 'uniform'}:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(228, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "        if self.seed is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.5230\n",
+    "training time": "68.41754221916199\n",
+    "line number": "(218, 20)",
+    "node content": "<Operator: /=>",
+    "related code": "            scale /= max(1., float(fan_in + fan_out) / 2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7395\n",
+    "training time": "61.36732792854309\n",
+    "line number": "(373, 35)",
+    "node content": "<Number: 1.>",
+    "related code": "    return VarianceScaling(scale=1.,\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.4873\n",
+    "training time": "56.09023594856262\n",
+    "line number": "(479, 24)",
+    "node content": "<Number: 0>",
+    "related code": "        fan_in = shape[0]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(480, 25)",
+    "node content": "<Number: 1>",
+    "related code": "        fan_out = shape[1]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7507\n",
+    "training time": "55.605210065841675\n",
+    "line number": "(38, 27)",
+    "node content": "<Number: 0>",
+    "related code": "        return K.constant(0, shape=shape, dtype=dtype)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7713\n",
+    "training time": "51.01060390472412\n",
+    "line number": "(491, 32)",
+    "node content": "<Operator: *>",
+    "related code": "            fan_in = shape[-2] * receptive_field_size\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7657\n",
+    "training time": "49.51737880706787\n",
+    "line number": "(492, 33)",
+    "node content": "<Operator: *>",
+    "related code": "            fan_out = shape[-1] * receptive_field_size\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "49.82979202270508\n",
+    "line number": "(218, 27)",
+    "node content": "<Number: 1.>",
+    "related code": "            scale /= max(1., float(fan_in + fan_out) / 2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "49.248075008392334\n",
+    "line number": "(225, 30)",
+    "node content": "<Number: 3.>",
+    "related code": "            limit = np.sqrt(3. * scale)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.5305\n",
+    "training time": "49.51086211204529\n",
+    "line number": "(225, 32)",
+    "node content": "<Operator: *>",
+    "related code": "            limit = np.sqrt(3. * scale)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7751\n",
+    "training time": "49.28584408760071\n",
+    "line number": "(218, 54)",
+    "node content": "<Operator: />",
+    "related code": "            scale /= max(1., float(fan_in + fan_out) / 2)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "49.186723709106445\n",
+    "line number": "(218, 56)",
+    "node content": "<Number: 2>",
+    "related code": "            scale /= max(1., float(fan_in + fan_out) / 2)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.5155\n",
+    "training time": "49.2467999458313\n",
+    "line number": "(226, 41)",
+    "node content": "<Operator: ->",
+    "related code": "            x = K.random_uniform(shape, -limit, limit,\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7723\n",
+    "training time": "50.08238482475281\n",
+    "line number": "(491, 28)",
+    "node content": "<Operator: ->",
+    "related code": "            fan_in = shape[-2] * receptive_field_size\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7713\n",
+    "training time": "48.74141001701355\n",
+    "line number": "(491, 29)",
+    "node content": "<Number: 2>",
+    "related code": "            fan_in = shape[-2] * receptive_field_size\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7713\n",
+    "training time": "50.28150820732117\n",
+    "line number": "(492, 29)",
+    "node content": "<Operator: ->",
+    "related code": "            fan_out = shape[-1] * receptive_field_size\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7723\n",
+    "training time": "65.08208298683167\n",
+    "line number": "(492, 30)",
+    "node content": "<Number: 1>",
+    "related code": "            fan_out = shape[-1] * receptive_field_size\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7769\n",
+    "training time": "62.899879932403564\n",
+    "line number": "(490, 51)",
+    "node content": "<Operator: ->",
+    "related code": "            receptive_field_size = np.prod(shape[:-2])\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "55.68854093551636\n",
+    "line number": "(490, 52)",
+    "node content": "<Number: 2>",
+    "related code": "            receptive_field_size = np.prod(shape[:-2])\n"
+  }
+]

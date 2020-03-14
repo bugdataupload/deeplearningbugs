@@ -1,0 +1,50 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.7779\n",
+    "training time": "59.45309591293335\n",
+    "line number": "(47, 34)",
+    "node content": "<Number: 2>",
+    "related code": "    def __init__(self, max_value=2, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7685\n",
+    "training time": "54.82817101478577\n",
+    "line number": "(47, 42)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, max_value=2, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "51.65267825126648\n",
+    "line number": "(86, 29)",
+    "node content": "<Number: 0>",
+    "related code": "    def __init__(self, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7751\n",
+    "training time": "56.63363194465637\n",
+    "line number": "(127, 36)",
+    "node content": "<Number: 0.0>",
+    "related code": "    def __init__(self, min_value=0.0, max_value=1.0, rate=1.0, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "57.64234018325806\n",
+    "line number": "(127, 51)",
+    "node content": "<Number: 1.0>",
+    "related code": "    def __init__(self, min_value=0.0, max_value=1.0, rate=1.0, axis=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7732\n",
+    "training time": "53.822080850601196\n",
+    "line number": "(127, 61)",
+    "node content": "<Number: 1.0>",
+    "related code": "    def __init__(self, min_value=0.0, max_value=1.0, rate=1.0, axis=0):\n"
+  }
+]

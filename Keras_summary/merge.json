@@ -1,0 +1,274 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.7732\n",
+    "training time": "60.10150098800659\n",
+    "line number": "(638, 30)",
+    "node content": "<Operator: ->",
+    "related code": "def concatenate(inputs, axis=-1, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7741\n",
+    "training time": "53.63263535499573\n",
+    "line number": "(638, 31)",
+    "node content": "<Number: 1>",
+    "related code": "def concatenate(inputs, axis=-1, **kwargs):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(100, 39)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@100,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: inputs@100,26>, <Operator: ,>, <Name: list@100,34>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(inputs, list):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(368, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@368,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: input_shape@368,26>, <Operator: ,>, <Name: list@368,39>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(input_shape, list):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(383, 37)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@383,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: mask@383,26>, <Operator: ,>, <Name: list@383,32>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(mask, list):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(385, 39)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@385,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: inputs@385,26>, <Operator: ,>, <Name: list@385,34>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(inputs, list):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "57.23754096031189\n",
+    "line number": "(434, 44)",
+    "node content": "<Keyword: False>",
+    "related code": "    def __init__(self, axes, normalize=False, **kwargs):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7816\n",
+    "training time": "60.57046294212341\n",
+    "line number": "(22, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.supports_masking = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(100, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(inputs, list):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "59.32200288772583\n",
+    "line number": "(340, 29)",
+    "node content": "<Operator: ->",
+    "related code": "    def __init__(self, axis=-1, **kwargs):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(340, 30)",
+    "node content": "<Number: 1>",
+    "related code": "    def __init__(self, axis=-1, **kwargs):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7732\n",
+    "training time": "60.03753185272217\n",
+    "line number": "(343, 36)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.supports_masking = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7694\n",
+    "training time": "57.25989127159119\n",
+    "line number": "(344, 38)",
+    "node content": "<Keyword: False>",
+    "related code": "        self._reshape_required = False\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(348, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@348,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: input_shape@348,26>, <Operator: ,>, <Name: list@348,39>]), <Operator: )>])])])",
+    "related code": "        if not isinstance(input_shape, list) or len(input_shape) < 2:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(358, 27)",
+    "node content": "<Operator: >>",
+    "related code": "        if len(shape_set) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7816\n",
+    "training time": "58.84784007072449\n",
+    "line number": "(358, 29)",
+    "node content": "<Number: 1>",
+    "related code": "        if len(shape_set) > 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(368, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(input_shape, list):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7723\n",
+    "training time": "55.09910202026367\n",
+    "line number": "(381, 18)",
+    "node content": "<Keyword: is>",
+    "related code": "        if mask is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(383, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(mask, list):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(385, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(inputs, list):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(387, 23)",
+    "node content": "<Operator: !=>",
+    "related code": "        if len(mask) != len(inputs):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(348, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not isinstance(input_shape, list) or len(input_shape) < 2:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(348, 66)",
+    "node content": "<Operator: <>",
+    "related code": "        if not isinstance(input_shape, list) or len(input_shape) < 2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(348, 68)",
+    "node content": "<Number: 2>",
+    "related code": "        if not isinstance(input_shape, list) or len(input_shape) < 2:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.7779\n",
+    "training time": "54.4582359790802\n",
+    "line number": "(374, 74)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: output_shape@374,15>, PythonNode(trailer, [<Operator: [>, PythonNode(atom_expr, [<Name: self@374,28>, PythonNode(trailer, [<Operator: .>, <Name: axis@374,33>])]), <Operator: ]>])]), <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: shape@374,50>, PythonNode(trailer, [<Operator: [>, PythonNode(atom_expr, [<Name: self@374,56>, PythonNode(trailer, [<Operator: .>, <Name: axis@374,61>])]), <Operator: ]>])]), <Keyword: is>, <Keyword: None>])])",
+    "related code": "            if output_shape[self.axis] is None or shape[self.axis] is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(373, 35)",
+    "node content": "<Number: 1>",
+    "related code": "        for shape in input_shapes[1:]:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(377, 38)",
+    "node content": "<Operator: +=>",
+    "related code": "            output_shape[self.axis] += shape[self.axis]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(353, 57)",
+    "node content": "<Keyword: in>",
+    "related code": "        reduced_inputs_shapes = [list(shape) for shape in input_shape]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(374, 41)",
+    "node content": "<Keyword: is>",
+    "related code": "            if output_shape[self.axis] is None or shape[self.axis] is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7816\n",
+    "training time": "57.15205788612366\n",
+    "line number": "(374, 69)",
+    "node content": "<Keyword: is>",
+    "related code": "            if output_shape[self.axis] is None or shape[self.axis] is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(351, 24)",
+    "node content": "<Keyword: is>",
+    "related code": "        if all([shape is None for shape in input_shape]):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(351, 42)",
+    "node content": "<Keyword: in>",
+    "related code": "        if all([shape is None for shape in input_shape]):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7788\n",
+    "training time": "62.07063126564026\n",
+    "line number": "(372, 42)",
+    "node content": "<Number: 0>",
+    "related code": "        output_shape = list(input_shapes[0])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(390, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "        if all([m is None for m in mask]):\n"
+  }
+]

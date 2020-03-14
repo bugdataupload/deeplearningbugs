@@ -1,0 +1,138 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.7760\n",
+    "training time": "57.139132022857666\n",
+    "line number": "(113, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "        self.built = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(116, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not self.mask_zero:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7769\n",
+    "training time": "59.477097034454346\n",
+    "line number": "(122, 31)",
+    "node content": "<Keyword: is>",
+    "related code": "        if self.input_length is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(142, 29)",
+    "node content": "<Operator: !=>",
+    "related code": "        if K.dtype(inputs) != 'int32':\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7769\n",
+    "training time": "55.118067026138306\n",
+    "line number": "(88, 28)",
+    "node content": "<Keyword: not>",
+    "related code": "        if 'input_shape' not in kwargs:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(127, 30)",
+    "node content": "<Operator: !=>",
+    "related code": "            if len(in_lens) != len(input_shape) - 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(127, 49)",
+    "node content": "<Operator: ->",
+    "related code": "            if len(in_lens) != len(input_shape) - 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(127, 51)",
+    "node content": "<Number: 1>",
+    "related code": "            if len(in_lens) != len(input_shape) - 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(139, 38)",
+    "node content": "<Operator: +>",
+    "related code": "            return (input_shape[0],) + tuple(in_lens) + (self.output_dim,)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(139, 55)",
+    "node content": "<Operator: +>",
+    "related code": "            return (input_shape[0],) + tuple(in_lens) + (self.output_dim,)\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(133, 66)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: s1@133,23>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: s2@133,42>, <Keyword: is>, <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: s1@133,58>, <Operator: !=>, <Name: s2@133,64>])])",
+    "related code": "                    if s1 is not None and s2 is  None and s1 != s2:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7694\n",
+    "training time": "60.53688597679138\n",
+    "line number": "(126, 65)",
+    "node content": "<Keyword: True>",
+    "related code": "            in_lens = to_list(self.input_length, allow_tuple=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7760\n",
+    "training time": "54.561100006103516\n",
+    "line number": "(137, 30)",
+    "node content": "<Keyword: is>",
+    "related code": "                    elif s1 is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7723\n",
+    "training time": "55.788923025131226\n",
+    "line number": "(133, 47)",
+    "node content": "<Keyword: is>",
+    "related code": "                    if s1 is not None and s2 is  None and s1 != s2:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7779\n",
+    "training time": "52.931801080703735\n",
+    "line number": "(133, 63)",
+    "node content": "<Operator: !=>",
+    "related code": "                    if s1 is not None and s2 is  None and s1 != s2:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7638\n",
+    "training time": "56.13651895523071\n",
+    "line number": "(139, 33)",
+    "node content": "<Number: 0>",
+    "related code": "            return (input_shape[0],) + tuple(in_lens) + (self.output_dim,)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7694\n",
+    "training time": "60.397732734680176\n",
+    "line number": "(133, 32)",
+    "node content": "<Keyword: not>",
+    "related code": "                    if s1 is not None and s2 is  None and s1 != s2:\n"
+  }
+]

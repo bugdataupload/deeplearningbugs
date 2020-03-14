@@ -1,0 +1,114 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.7835\n",
+    "training time": "66.95657515525818\n",
+    "line number": "(679, 62)",
+    "node content": "<Keyword: False>",
+    "related code": "def categorical_crossentropy(y_true, y_pred, from_logits=False, label_smoothing=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7798\n",
+    "training time": "61.165416955947876\n",
+    "line number": "(679, 81)",
+    "node content": "<Number: 0>",
+    "related code": "def categorical_crossentropy(y_true, y_pred, from_logits=False, label_smoothing=0):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7704\n",
+    "training time": "61.707709312438965\n",
+    "line number": "(694, 69)",
+    "node content": "<Keyword: False>",
+    "related code": "def sparse_categorical_crossentropy(y_true, y_pred, from_logits=False, axis=-1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7629\n",
+    "training time": "56.218698024749756\n",
+    "line number": "(699, 57)",
+    "node content": "<Keyword: False>",
+    "related code": "def binary_crossentropy(y_true, y_pred, from_logits=False, label_smoothing=0):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.4986\n",
+    "training time": "58.990530014038086\n",
+    "line number": "(699, 76)",
+    "node content": "<Number: 0>",
+    "related code": "def binary_crossentropy(y_true, y_pred, from_logits=False, label_smoothing=0):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7788\n",
+    "training time": "58.59693121910095\n",
+    "line number": "(694, 77)",
+    "node content": "<Operator: ->",
+    "related code": "def sparse_categorical_crossentropy(y_true, y_pred, from_logits=False, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7816\n",
+    "training time": "55.43525815010071\n",
+    "line number": "(694, 78)",
+    "node content": "<Number: 1>",
+    "related code": "def sparse_categorical_crossentropy(y_true, y_pred, from_logits=False, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "56.462605237960815\n",
+    "line number": "(702, 31)",
+    "node content": "<Number: 0>",
+    "related code": "    if label_smoothing is not 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.7760\n",
+    "training time": "54.17077994346619\n",
+    "line number": "(721, 43)",
+    "node content": "<Operator: ->",
+    "related code": "def cosine_proximity(y_true, y_pred, axis=-1):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "58.66061210632324\n",
+    "line number": "(721, 44)",
+    "node content": "<Number: 1>",
+    "related code": "def cosine_proximity(y_true, y_pred, axis=-1):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(791, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if identifier is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(700, 58)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: K@700,39>, PythonNode(trailer, [<Operator: .>, <Name: is_tensor@700,41>]), PythonNode(trailer, [<Operator: (>, <Name: y_pred@700,51>, <Operator: )>])])])",
+    "related code": "    y_pred = K.constant(y_pred) if not K.is_tensor(y_pred) else y_pred\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.7713\n",
+    "training time": "58.32879686355591\n",
+    "line number": "(702, 29)",
+    "node content": "<Keyword: not>",
+    "related code": "    if label_smoothing is not 0:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(700, 38)",
+    "node content": "<Keyword: not>",
+    "related code": "    y_pred = K.constant(y_pred) if not K.is_tensor(y_pred) else y_pred\n"
+  }
+]

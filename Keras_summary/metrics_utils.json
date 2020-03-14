@@ -1,0 +1,18 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.7694\n",
+    "training time": "77.88880014419556\n",
+    "line number": "(12, 15)",
+    "node content": "<Number: 1e10>",
+    "related code": "NEG_INF = -1e10\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.7760\n",
+    "training time": "65.0954418182373\n",
+    "line number": "(105, 59)",
+    "node content": "<Number: 0.5>",
+    "related code": "def parse_init_thresholds(thresholds, default_threshold=0.5):\n"
+  }
+]
