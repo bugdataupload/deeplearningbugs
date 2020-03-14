@@ -22,7 +22,7 @@ In our study, we choose [mutmut](https://github.com/boxed/mutmut) to instrument 
 ## Result
 ### Our instrumented bugs
 
-In total, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. The execution logs of the buggy and clearn versions can be found in Theano_logs, TF_logs and Keras_logs directories.
+In total, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. The execution logs of the buggy and clearn versions can be found in Theano_logs, TF_logs and [Keras_logs](https://github.com/bugdataupload/deeplearningbugs/tree/master/Keras_logs) directories.
 
 
 A bug example in Keras is shown as following:
