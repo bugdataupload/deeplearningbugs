@@ -47,6 +47,8 @@ def result(self):
 ```
 Our mutation tool replaces the arithmetic operator from “/” to “*”, the modification causes a wrong calculation of a metric accuracy.
 
+Please explain the format of your logs.
+
 ### Our summaries
 
 The summaries can be found in Theano_summary, TF_summary and Keras_summary directories, and we store them in json files.
@@ -59,3 +61,5 @@ For example:
 mutation node type  | accuracy | training time | line number | node content|related code
   ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
  operator|0.7732|57.39143395423889|(502, 20)|<Operator: +=>|self.seen += batch_size
+ 
+ Please explain the format of your summaries.
