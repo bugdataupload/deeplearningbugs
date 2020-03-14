@@ -52,7 +52,7 @@ Our mutation tool replaces the arithmetic operator from “/” to “*”, the 
 
 ## Our summaries
 
-The summaries can be found in Theano_summary, TF_summary and Keras_summary directories
+The summaries can be found in Theano_summary, TF_summary and Keras_summary directories, and we store them in json files.
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
