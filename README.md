@@ -68,14 +68,14 @@ The summaries can be found in [Theano_summary](https://github.com/bugdataupload/
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
-For example, a bug summary in activations of Keras is recorded as following:
+For example, a bug summary in base_layer of Keras is recorded as following:
 
 
 >{  
->    "node type": "keyword",  
->    "accuracy": "0.0000e+00\n",  
->    "training time": "58.76871991157532\n",  
->    "line number": "(223, 20)",  
->    "node content": "<Keyword: is>",  
->    "related code": "    if identifier is None:\n"  
+>    "node type": "operator",  
+>    "accuracy": "0.7723\n",  
+>    "training time": "52.12230920791626\n",  
+>    "line number": "(1453, 21)",  
+>    "node content": "<Operator: !=>",  
+>    "related code": "    if insecure[0] != '_':\n"  
 >  }  
