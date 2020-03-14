@@ -22,7 +22,7 @@ In our study, we choose [mutmut](https://github.com/boxed/mutmut) to instrument 
 ## Result
 ### Our instrumented bugs
 
-In total, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. The execution logs of the buggy and clearn versions can be found in Theano_logs, TF_logs and [Keras_logs](https://github.com/bugdataupload/deeplearningbugs/tree/master/Keras_logs) directories.
+In total, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. The execution logs of the buggy and clearn versions can be found in [Theano_logs](https://github.com/bugdataupload/deeplearningbugs/tree/master/Theano_logs), [TF_logs](https://github.com/bugdataupload/deeplearningbugs/tree/master/TF_logs) and [Keras_logs](https://github.com/bugdataupload/deeplearningbugs/tree/master/Keras_logs) directories.
 
 
 A bug example in Keras is shown as following:
@@ -51,7 +51,7 @@ Please explain the format of your logs.
 
 ### Our summaries
 
-The summaries can be found in Theano_summary, TF_summary and Keras_summary directories, and we store them in json files.
+The summaries can be found in [Theano_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/Theano_summary), [TF_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/TF_summary) and [Keras_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/Keras_summary) directories, and we store them in json files.
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
