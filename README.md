@@ -60,6 +60,7 @@ A sample log of Theano version is shown as below:
 >epoch: 4, training time: 402.08 secs, train perf: 95.87 %, val perf: 80.42 %  
 >epoch: 5, training time: 410.46 secs, train perf: 96.24 %, val perf: 82.74 %  
 >cv: 0, perf: 0.800186741363212
+The accuracy is obtained from the end and the training time can be calculated by adding training time of each epoch. 
 
 ### Our summaries
 
@@ -67,11 +68,14 @@ The summaries can be found in [Theano_summary](https://github.com/bugdataupload/
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
-For example:
+For example, a bug summary in activations of Keras is recorded as following:
 
 
-mutation node type  | accuracy | training time | line number | node content|related code
-  ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
- operator|0.7732|57.39143395423889|(502, 20)|<Operator: +=>|self.seen += batch_size
- 
- Please explain the format of your summaries.
+>{  
+>    "node type": "number",  
+>    "accuracy": "0.7798\n",  
+>    "training time": "55.92367100715637\n",  
+>    "line number": "(39, 20)",  
+>    "node content": "<Number: 1.0>",  
+>    "related code": "def elu(x, alpha=1.0):\n"  
+>  }  
