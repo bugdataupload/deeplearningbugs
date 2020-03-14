@@ -1,0 +1,50 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.726079\n",
+    "training time": 510.0,
+    "line number": "(374, 40)",
+    "node content": "<Keyword: True>",
+    "related code": "    layer._use_resource_variables = True\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.743902\n",
+    "training time": 454.0,
+    "line number": "(481, 16)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: value@481,11>])",
+    "related code": "    if not value:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.719512\n",
+    "training time": 454.0,
+    "line number": "(250, 27)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: parent_network@250,13>])",
+    "related code": "      if not parent_network:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.742964\n",
+    "training time": 452.0,
+    "line number": "(481, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not value:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.721388\n",
+    "training time": 490.0,
+    "line number": "(250, 12)",
+    "node content": "<Keyword: not>",
+    "related code": "      if not parent_network:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.738274\n",
+    "training time": 441.0,
+    "line number": "(384, 46)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@384,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: layer@384,23>, <Operator: ,>, <String: \"_first_parent\">]), <Operator: )>])])])",
+    "related code": "        if not hasattr(layer, \"_first_parent\"):\n"
+  }
+]

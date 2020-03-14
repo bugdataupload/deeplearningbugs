@@ -1,0 +1,226 @@
+[
+  {
+    "node type": "operator",
+    "accuracy": "0.739212\n",
+    "training time": 668.0,
+    "line number": "(891, 26)",
+    "node content": "<Operator: %>",
+    "related code": "  default_name = 'lt_%s' % op_name\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.72045\n",
+    "training time": 652.0,
+    "line number": "(1057, 66)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: set@1057,11>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: paddings@1057,15>, PythonNode(trailer, [<Operator: .>, <Name: keys@1057,24>]), PythonNode(trailer, [<Operator: (>, <Operator: )>])]), <Operator: )>])]), <Operator: <=>, PythonNode(atom_expr, [<Name: set@1057,35>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: labeled_tensor@1057,39>, PythonNode(trailer, [<Operator: .>, <Name: axes@1057,54>]), PythonNode(trailer, [<Operator: .>, <Name: keys@1057,59>]), PythonNode(trailer, [<Operator: (>, <Operator: )>])]), <Operator: )>])])])])",
+    "related code": "    if not set(paddings.keys()) <= set(labeled_tensor.axes.keys()):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(632, 30)",
+    "node content": "<Operator: ==>",
+    "related code": "    if labeled_tensor.dtype == dtypes.string:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.716698\n",
+    "training time": 667.0,
+    "line number": "(860, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    if len(b.axes) == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.734522\n",
+    "training time": 457.0,
+    "line number": "(860, 23)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(b.axes) == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.726079\n",
+    "training time": 416.0,
+    "line number": "(1057, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not set(paddings.keys()) <= set(labeled_tensor.axes.keys()):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1237, 23)",
+    "node content": "<Operator: >>",
+    "related code": "    if len(mask.axes) > 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1237, 25)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(mask.axes) > 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.729831\n",
+    "training time": 417.0,
+    "line number": "(287, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "    if axis_name not in axis_names:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 422.0,
+    "line number": "(394, 24)",
+    "node content": "<Keyword: not>",
+    "related code": "    if existing_name not in labeled_tensor.axes:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.737336\n",
+    "training time": 412.0,
+    "line number": "(1057, 34)",
+    "node content": "<Operator: <=>",
+    "related code": "    if not set(paddings.keys()) <= set(labeled_tensor.axes.keys()):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.726079\n",
+    "training time": 406.0,
+    "line number": "(89, 23)",
+    "node content": "<Keyword: is>",
+    "related code": "      if axis.labels is None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(178, 30)",
+    "node content": "<Number: 0>",
+    "related code": "    axes_0 = labeled_tensors[0].axes\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(247, 30)",
+    "node content": "<Number: 0>",
+    "related code": "    axes_0 = labeled_tensors[0].axes\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.732645\n",
+    "training time": 412.0,
+    "line number": "(855, 25)",
+    "node content": "<Keyword: False>",
+    "related code": "      transpose_a = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 411.0,
+    "line number": "(863, 25)",
+    "node content": "<Keyword: False>",
+    "related code": "      transpose_b = False\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(44, 34)",
+    "node content": "<Operator: +>",
+    "related code": "    temp_axes = core.Axes([axis] + list(\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.739212\n",
+    "training time": 402.0,
+    "line number": "(84, 22)",
+    "node content": "<Keyword: not>",
+    "related code": "      if axis_name not in labeled_tensor.axes:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(415, 52)",
+    "node content": "<Keyword: in>",
+    "related code": "        core.convert_to_labeled_tensor(lt) for lt in labeled_tensors\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(866, 61)",
+    "node content": "<Operator: ==>",
+    "related code": "      transpose_b = list(b.axes.keys()).index(shared_axis) == 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.723265\n",
+    "training time": 404.0,
+    "line number": "(866, 63)",
+    "node content": "<Number: 1>",
+    "related code": "      transpose_b = list(b.axes.keys()).index(shared_axis) == 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.725141\n",
+    "training time": 405.0,
+    "line number": "(1013, 24)",
+    "node content": "<Keyword: in>",
+    "related code": "        name for name in multiples\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(101, 24)",
+    "node content": "<Keyword: is>",
+    "related code": "        if value.stop is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.725141\n",
+    "training time": 405.0,
+    "line number": "(288, 39)",
+    "node content": "<Operator: %>",
+    "related code": "      raise ValueError('%s not in %s' % (axis_name, axis_names))\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(636, 31)",
+    "node content": "<Keyword: in>",
+    "related code": "      map_lts = [fn(t) for t in unpack_lts]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(418, 43)",
+    "node content": "<Keyword: in>",
+    "related code": "    batch_ops = batch_fn([t.tensor for t in labeled_tensors], scope)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(91, 71)",
+    "node content": "<Operator: %>",
+    "related code": "            'The axis named %s does not have labels. The axis is: %r' %\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 41)",
+    "node content": "<Operator: +>",
+    "related code": "          stop = axis.index(value.stop) + 1\n"
+  }
+]

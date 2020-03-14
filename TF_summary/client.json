@@ -1,0 +1,258 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(16, 49)",
+    "node content": "<Number: .1>",
+    "related code": "tf.flags.DEFINE_float(\"dev_sample_percentage\", .1, \"Percentage of the training data to use for validation\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.730769\n",
+    "training time": 448.0,
+    "line number": "(21, 44)",
+    "node content": "<Number: 128>",
+    "related code": "tf.flags.DEFINE_integer(\"embedding_dim\", 128, \"Dimensionality of character embedding (default: 128)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.727017\n",
+    "training time": 478.0,
+    "line number": "(23, 42)",
+    "node content": "<Number: 128>",
+    "related code": "tf.flags.DEFINE_integer(\"num_filters\", 128, \"Number of filters per filter size (default: 128)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.728893\n",
+    "training time": 451.0,
+    "line number": "(24, 46)",
+    "node content": "<Number: 0.5>",
+    "related code": "tf.flags.DEFINE_float(\"dropout_keep_prob\", 0.5, \"Dropout keep probability (default: 0.5)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.749531\n",
+    "training time": 592.0,
+    "line number": "(25, 42)",
+    "node content": "<Number: 0.0>",
+    "related code": "tf.flags.DEFINE_float(\"l2_reg_lambda\", 0.0, \"L2 regularization lambda (default: 0.0)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.730769,
+    "training time": 696.0,
+    "line number": "(28, 40)",
+    "node content": "<Number: 64>",
+    "related code": "tf.flags.DEFINE_integer(\"batch_size\", 64, \"Batch Size (default: 64)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.738274,
+    "training time": 678.0,
+    "line number": "(29, 40)",
+    "node content": "<Number: 20>",
+    "related code": "tf.flags.DEFINE_integer(\"num_epochs\", 20, \"Number of training epochs (default: 200)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.732645,
+    "training time": 695.0,
+    "line number": "(30, 45)",
+    "node content": "<Number: 100>",
+    "related code": "tf.flags.DEFINE_integer(\"evaluate_every\", 100, \"Evaluate model on dev set after this many steps (default: 100)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.726079,
+    "training time": 660.0,
+    "line number": "(31, 47)",
+    "node content": "<Number: 100>",
+    "related code": "tf.flags.DEFINE_integer(\"checkpoint_every\", 100, \"Save model after this many steps (default: 100)\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.721388,
+    "training time": 521.0,
+    "line number": "(32, 44)",
+    "node content": "<Number: 5>",
+    "related code": "tf.flags.DEFINE_integer(\"num_checkpoints\", 5, \"Number of checkpoints to store (default: 5)\")\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.742026\n",
+    "training time": 493.0,
+    "line number": "(34, 52)",
+    "node content": "<Keyword: True>",
+    "related code": "tf.flags.DEFINE_boolean(\"allow_soft_placement\", True, \"Allow device soft device placement\")\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": 0.730769,
+    "training time": 427.0,
+    "line number": "(35, 53)",
+    "node content": "<Keyword: False>",
+    "related code": "tf.flags.DEFINE_boolean(\"log_device_placement\", False, \"Log placement of ops on devices\")\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.730769\n",
+    "training time": 423.0,
+    "line number": "(58, 21)",
+    "node content": "<Number: 10>",
+    "related code": "    np.random.seed(10)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(65, 27)",
+    "node content": "<Operator: *>",
+    "related code": "    dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": 0.609629,
+    "training time": 69.0,
+    "line number": "(65, 24)",
+    "node content": "<Operator: ->",
+    "related code": "    dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.745779,
+    "training time": 389.0,
+    "line number": "(65, 25)",
+    "node content": "<Number: 1>",
+    "related code": "    dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.731707\n",
+    "training time": 427.0,
+    "line number": "(132, 49)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: os@132,19>, PythonNode(trailer, [<Operator: .>, <Name: path@132,22>]), PythonNode(trailer, [<Operator: .>, <Name: exists@132,27>]), PythonNode(trailer, [<Operator: (>, <Name: checkpoint_dir@132,34>, <Operator: )>])])])",
+    "related code": "            if not os.path.exists(checkpoint_dir):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(65, 61)",
+    "node content": "<Operator: *>",
+    "related code": "    dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 429.0,
+    "line number": "(132, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "            if not os.path.exists(checkpoint_dir):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(53, 57)",
+    "node content": "<Keyword: in>",
+    "related code": "    max_document_length = max([len(x.split(\" \")) for x in x_text])\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.514071\n",
+    "training time": 410.0,
+    "line number": "(96, 51)",
+    "node content": "<Number: 1e-3>",
+    "related code": "            optimizer = tf.train.AdamOptimizer(1e-3)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": 0.737336,
+    "training time": 1034.0,
+    "line number": "(183, 57)",
+    "node content": "<Operator: ==>",
+    "related code": "                if current_step % FLAGS.evaluate_every == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.747655,
+    "training time": 425.0,
+    "line number": "(183, 59)",
+    "node content": "<Number: 0>",
+    "related code": "                if current_step % FLAGS.evaluate_every == 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": 0.736398,
+    "training time": 4295.0,
+    "line number": "(187, 59)",
+    "node content": "<Operator: ==>",
+    "related code": "                if current_step % FLAGS.checkpoint_every == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.728893,
+    "training time": 405.0,
+    "line number": "(187, 61)",
+    "node content": "<Number: 0>",
+    "related code": "                if current_step % FLAGS.checkpoint_every == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": 0.731707,
+    "training time": 814.0,
+    "line number": "(95, 39)",
+    "node content": "<Number: 0>",
+    "related code": "            global_step = tf.Variable(0, name=\"global_step\", trainable=False)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(103, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "                if g is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": 398.0,
+    "line number": "(183, 33)",
+    "node content": "<Operator: %>",
+    "related code": "                if current_step % FLAGS.evaluate_every == 0:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": 0.745779,
+    "training time": 367.0,
+    "line number": "(187, 33)",
+    "node content": "<Operator: %>",
+    "related code": "                if current_step % FLAGS.checkpoint_every == 0:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.717636\n",
+    "training time": 403.0,
+    "line number": "(95, 76)",
+    "node content": "<Keyword: False>",
+    "related code": "            global_step = tf.Variable(0, name=\"global_step\", trainable=False)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.728893\n",
+    "training time": 404.0,
+    "line number": "(165, 44)",
+    "node content": "<Number: 1.0>",
+    "related code": "                  cnn.dropout_keep_prob: 1.0\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(86, 47)",
+    "node content": "<Number: 1>",
+    "related code": "                sequence_length=x_train.shape[1],\n"
+  }
+]

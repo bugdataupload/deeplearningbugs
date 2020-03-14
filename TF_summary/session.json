@@ -1,0 +1,434 @@
+[
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(322, 17)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: values@322,11>])",
+    "related code": "    if not values:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(499, 33)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: graph@499,11>, PythonNode(trailer, [<Operator: .>, <Name: is_fetchable@499,17>]), PythonNode(trailer, [<Operator: (>, <Name: op@499,30>, <Operator: )>])])])",
+    "related code": "    if not graph.is_fetchable(op):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(676, 53)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@676,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: config@676,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: config_pb2@676,30>, PythonNode(trailer, [<Operator: .>, <Name: ConfigProto@676,41>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(config, config_pb2.ConfigProto):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.748593\n",
+    "training time": 429.0,
+    "line number": "(751, 41)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@751,7>, PythonNode(trailer, [<Operator: .>, <Name: _session@751,12>])]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@751,29>, PythonNode(trailer, [<Operator: .>, <Name: _closed@751,34>])])])])",
+    "related code": "    if self._session and not self._closed:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1178, 70)",
+    "node content": "PythonNode(or_test, [<Name: final_fetches@1178,7>, <Keyword: or>, <Name: final_targets@1178,24>, <Keyword: or>, PythonNode(atom, [<Operator: (>, PythonNode(and_test, [<Name: handle@1178,42>, <Keyword: and>, <Name: feed_dict_tensor@1178,53>]), <Operator: )>])])",
+    "related code": "    if final_fetches or final_targets or (handle and feed_dict_tensor):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.712946\n",
+    "training time": 414.0,
+    "line number": "(1185, 71)",
+    "node content": "<Keyword: False>",
+    "related code": "  def make_callable(self, fetches, feed_list=None, accept_options=False):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1423, 24)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: handle_movers@1423,11>])",
+    "related code": "    if not handle_movers:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.719512\n",
+    "training time": 431.0,
+    "line number": "(1718, 27)",
+    "node content": "<Number: 0>",
+    "related code": "  _active_session_count = 0  # GUARDED_BY(_count_lock)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.736398\n",
+    "training time": 458.0,
+    "line number": "(195, 33)",
+    "node content": "<Number: 0>",
+    "related code": "  _REGISTERED_EXPANSIONS.insert(0, (tensor_type, fetch_function, feed_function,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(201, 63)",
+    "node content": "<Keyword: not>",
+    "related code": "  return getattr(obj.__class__, '__attrs_attrs__', None) is not None\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(322, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not values:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(499, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not graph.is_fetchable(op):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(544, 9)",
+    "node content": "<Number: 0>",
+    "related code": "    i = 0\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(545, 9)",
+    "node content": "<Number: 0>",
+    "related code": "    j = 0\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(649, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "    if graph is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(656, 24)",
+    "node content": "<Keyword: False>",
+    "related code": "    self._closed = False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 416.0,
+    "line number": "(673, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "    if config is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(676, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(config, config_pb2.ConfigProto):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.733584\n",
+    "training time": 417.0,
+    "line number": "(751, 41)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@751,29>, PythonNode(trailer, [<Operator: .>, <Name: _closed@751,34>])])])",
+    "related code": "    if self._session and not self._closed:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1104, 28)",
+    "node content": "<Operator: ==>",
+    "related code": "    if self.graph.version == 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.751407\n",
+    "training time": 439.0,
+    "line number": "(1104, 30)",
+    "node content": "<Number: 0>",
+    "related code": "    if self.graph.version == 0:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1357, 16)",
+    "node content": "<Keyword: is>",
+    "related code": "    if handle is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1423, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not handle_movers:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(261, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "    if fetch is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(543, 38)",
+    "node content": "<Operator: ==>",
+    "related code": "    assert len(self._final_fetches) == len(tensor_values)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(567, 15)",
+    "node content": "<Operator: ==>",
+    "related code": "    assert j == len(tensor_values)\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.731707\n",
+    "training time": 485.0,
+    "line number": "(648, 59)",
+    "node content": "<Number: 1>",
+    "related code": "    _python_session_create_counter.get_cell().increase_by(1)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.753283\n",
+    "training time": 479.0,
+    "line number": "(658, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "    if target is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.74015\n",
+    "training time": 452.0,
+    "line number": "(688, 70)",
+    "node content": "<Operator: !=>",
+    "related code": "    elif (config.graph_options.rewrite_options.auto_mixed_precision !=\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.733584\n",
+    "training time": 432.0,
+    "line number": "(751, 28)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._session and not self._closed:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.729831\n",
+    "training time": 423.0,
+    "line number": "(761, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._session is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.726079\n",
+    "training time": 449.0,
+    "line number": "(1178, 69)",
+    "node content": "PythonNode(and_test, [<Name: handle@1178,42>, <Keyword: and>, <Name: feed_dict_tensor@1178,53>])",
+    "related code": "    if final_fetches or final_targets or (handle and feed_dict_tensor):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(356, 13)",
+    "node content": "<Keyword: is>",
+    "related code": "      if j is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.74015\n",
+    "training time": 456.0,
+    "line number": "(690, 77)",
+    "node content": "<Keyword: True>",
+    "related code": "      mixed_precision_global_state.non_mixed_precision_session_created = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.721388\n",
+    "training time": 474.0,
+    "line number": "(752, 25)",
+    "node content": "<Keyword: True>",
+    "related code": "      self._closed = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(375, 63)",
+    "node content": "<Keyword: in>",
+    "related code": "    self._mappers = [_FetchMapper.for_fetch(fetch) for fetch in fetches]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(496, 37)",
+    "node content": "<Keyword: in>",
+    "related code": "    self._final_fetches = [x for x in self._fetches if x not in feeds]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1341, 41)",
+    "node content": "<Keyword: in>",
+    "related code": "    fetches = [t._as_tf_output() for t in fetch_list]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1342, 33)",
+    "node content": "<Keyword: in>",
+    "related code": "    targets = [op._c_op for op in target_list]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(191, 39)",
+    "node content": "<Number: 0>",
+    "related code": "    if issubclass(conversion_function[0], tensor_type):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(552, 30)",
+    "node content": "<Keyword: in>",
+    "related code": "        if self._fetches[i] in self._feed_handles:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(558, 19)",
+    "node content": "<Keyword: is>",
+    "related code": "        if value is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.752345\n",
+    "training time": 479.0,
+    "line number": "(566, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "        i += 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(566, 14)",
+    "node content": "<Number: 1>",
+    "related code": "        i += 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1340, 51)",
+    "node content": "<Keyword: in>",
+    "related code": "    feeds = dict((t._as_tf_output(), v) for t, v in feed_dict.items())\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(486, 29)",
+    "node content": "<Keyword: True>",
+    "related code": "        self._ops.append(True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(490, 30)",
+    "node content": "<Keyword: False>",
+    "related code": "        self._ops.append(False)\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1157, 50)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@1157,17>, PythonNode(trailer, [<Operator: .>, <Name: graph@1157,22>]), PythonNode(trailer, [<Operator: .>, <Name: is_feedable@1157,28>]), PythonNode(trailer, [<Operator: (>, <Name: subfeed_t@1157,40>, <Operator: )>])])])",
+    "related code": "          if not self.graph.is_feedable(subfeed_t):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(496, 60)",
+    "node content": "<Keyword: not>",
+    "related code": "    self._final_fetches = [x for x in self._fetches if x not in feeds]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(560, 14)",
+    "node content": "<Operator: +=>",
+    "related code": "          j += 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(560, 16)",
+    "node content": "<Number: 1>",
+    "related code": "          j += 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1157, 16)",
+    "node content": "<Keyword: not>",
+    "related code": "          if not self.graph.is_feedable(subfeed_t):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.749531\n",
+    "training time": 458.0,
+    "line number": "(1151, 39)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: is_tensor_handle_feed@1151,18>])",
+    "related code": "          if (not is_tensor_handle_feed and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(385, 56)",
+    "node content": "<Keyword: in>",
+    "related code": "      results.append(m.build_results([values[j] for j in vi]))\n"
+  }
+]

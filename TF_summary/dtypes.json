@@ -1,0 +1,146 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 639.0,
+    "line number": "(565, 12)",
+    "node content": "<Keyword: not>",
+    "related code": "  if pdt not in _NP_TO_TF:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 509.0,
+    "line number": "(225, 37)",
+    "node content": "<Keyword: True>",
+    "related code": "  def limits(self, clip_negative=True):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(262, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "    if other is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(272, 33)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@272,15>, PythonNode(trailer, [<Operator: .>, <Name: __eq__@272,20>]), PythonNode(trailer, [<Operator: (>, <Name: other@272,27>, <Operator: )>])])])",
+    "related code": "    return not self.__eq__(other)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(257, 29)",
+    "node content": "<Keyword: in>",
+    "related code": "    return self._type_enum in (other.as_datatype_enum,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(272, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "    return not self.__eq__(other)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(283, 18)",
+    "node content": "<Operator: +>",
+    "related code": "    return \"tf.\" + self.name\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.73546\n",
+    "training time": 421.0,
+    "line number": "(90, 28)",
+    "node content": "<Operator: >>",
+    "related code": "    return self._type_enum > 100\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(90, 32)",
+    "node content": "<Number: 100>",
+    "related code": "    return self._type_enum > 100\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(154, 29)",
+    "node content": "<Keyword: in>",
+    "related code": "    return self.base_dtype in (complex64, complex128)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(159, 29)",
+    "node content": "<Keyword: in>",
+    "related code": "    return self.base_dtype in _QUANTIZED_DTYPES_NO_REF\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(263, 18)",
+    "node content": "<Keyword: False>",
+    "related code": "      return False\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(81, 21)",
+    "node content": "<Keyword: not>",
+    "related code": "    if (type_enum not in types_pb2.DataType.values() or\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(121, 30)",
+    "node content": "<Keyword: not>",
+    "related code": "    return self._type_enum not in _NUMPY_INCOMPATIBLE\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.747655\n",
+    "training time": 531.0,
+    "line number": "(141, 62)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@141,45>, PythonNode(trailer, [<Operator: .>, <Name: is_quantized@141,50>])])])",
+    "related code": "    return (self.is_numpy_compatible and not self.is_quantized and\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(266, 31)",
+    "node content": "<Operator: ==>",
+    "related code": "      return self._type_enum == dtype  # pylint: disable=protected-access\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.737336\n",
+    "training time": 580.0,
+    "line number": "(141, 44)",
+    "node content": "<Keyword: not>",
+    "related code": "    return (self.is_numpy_compatible and not self.is_quantized and\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(104, 44)",
+    "node content": "<Operator: ->",
+    "related code": "      return _INTERN_TABLE[self._type_enum - 100]\n"
+  }
+]

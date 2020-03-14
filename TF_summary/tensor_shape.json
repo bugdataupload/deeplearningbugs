@@ -1,0 +1,394 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1236, 12)",
+    "node content": "<Keyword: is>",
+    "related code": "  if rank is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 451.0,
+    "line number": "(1232, 12)",
+    "node content": "<Keyword: is>",
+    "related code": "  if rank is None and \"ndims\" in kwargs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1232, 32)",
+    "node content": "<Keyword: in>",
+    "related code": "  if rank is None and \"ndims\" in kwargs:\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.726079\n",
+    "training time": 458.0,
+    "line number": "(213, 49)",
+    "node content": "PythonNode(or_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@213,7>, PythonNode(trailer, [<Operator: .>, <Name: _value@213,12>])]), <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: other@213,30>, PythonNode(trailer, [<Operator: .>, <Name: value@213,36>])]), <Keyword: is>, <Keyword: None>])])",
+    "related code": "    if self._value is None or other.value is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(273, 41)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: self@273,11>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@273,16>]), PythonNode(trailer, [<Operator: (>, <Name: other@273,35>, <Operator: )>])])])",
+    "related code": "    if not self.is_compatible_with(other):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.725141\n",
+    "training time": 443.0,
+    "line number": "(980, 55)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@980,7>, PythonNode(trailer, [<Operator: .>, <Name: rank@980,12>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: other@980,33>, PythonNode(trailer, [<Operator: .>, <Name: rank@980,39>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    if self.rank is not None and other.rank is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1094, 56)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: self@1094,7>, PythonNode(trailer, [<Operator: .>, <Name: _dims@1094,12>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: other@1094,34>, PythonNode(trailer, [<Operator: .>, <Name: dims@1094,40>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    if self._dims is not None and other.dims is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(186, 15)",
+    "node content": "<Keyword: is>",
+    "related code": "    if value is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(273, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not self.is_compatible_with(other):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.742026\n",
+    "training time": 454.0,
+    "line number": "(312, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._value is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(752, 14)",
+    "node content": "<Keyword: is>",
+    "related code": "    if dims is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.73546\n",
+    "training time": 459.0,
+    "line number": "(794, 19)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self.rank is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.736398\n",
+    "training time": 517.0,
+    "line number": "(796, 21)",
+    "node content": "<Operator: ==>",
+    "related code": "    elif self.rank == 1:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.727017\n",
+    "training time": 590.0,
+    "line number": "(796, 23)",
+    "node content": "<Number: 1>",
+    "related code": "    elif self.rank == 1:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(924, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._dims is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1100, 15)",
+    "node content": "<Keyword: True>",
+    "related code": "    return True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1170, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._dims is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1176, 20)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._dims is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.73546\n",
+    "training time": 599.0,
+    "line number": "(213, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._value is None or other.value is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.737336\n",
+    "training time": 580.0,
+    "line number": "(213, 44)",
+    "node content": "<Keyword: is>",
+    "related code": "    if self._value is None or other.value is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(215, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "    return self._value == other.value\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 588.0,
+    "line number": "(780, 34)",
+    "node content": "<Keyword: is>",
+    "related code": "    if _TENSORSHAPE_V2_OVERRIDE is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.737336\n",
+    "training time": 592.0,
+    "line number": "(863, 24)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._dims is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(994, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self.rank not in (None, rank):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(197, 22)",
+    "node content": "<Operator: <>",
+    "related code": "      if self._value < 0:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(197, 24)",
+    "node content": "<Number: 0>",
+    "related code": "      if self._value < 0:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 667.0,
+    "line number": "(205, 26)",
+    "node content": "<Keyword: is>",
+    "related code": "    return \"?\" if value is None else str(value)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(810, 24)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._dims is not None:\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.731707\n",
+    "training time": 419.0,
+    "line number": "(900, 14)",
+    "node content": "<Number: 1>",
+    "related code": "      size = 1\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.749531\n",
+    "training time": 491.0,
+    "line number": "(980, 23)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self.rank is not None and other.rank is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.719512\n",
+    "training time": 476.0,
+    "line number": "(980, 50)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self.rank is not None and other.rank is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(981, 21)",
+    "node content": "<Operator: !=>",
+    "related code": "      if self.rank != other.rank:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1094, 24)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._dims is not None and other.dims is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 481.0,
+    "line number": "(1094, 51)",
+    "node content": "<Keyword: not>",
+    "related code": "    if self._dims is not None and other.dims is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1095, 21)",
+    "node content": "<Operator: !=>",
+    "related code": "      if self.rank != other.rank:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.743902\n",
+    "training time": 478.0,
+    "line number": "(194, 59)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@194,14>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: value@194,25>, <Operator: ,>, PythonNode(atom_expr, [<Name: compat@194,32>, PythonNode(trailer, [<Operator: .>, <Name: bytes_or_text_types@194,39>])])]), <Operator: )>])])])",
+    "related code": "      if (not isinstance(value, compat.bytes_or_text_types) and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(260, 26)",
+    "node content": "<Keyword: is>",
+    "related code": "    return (self._value is None or other.value is None or\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.73546\n",
+    "training time": 462.0,
+    "line number": "(260, 49)",
+    "node content": "<Keyword: is>",
+    "related code": "    return (self._value is None or other.value is None or\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1098, 46)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: x_dim@1098,15>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@1098,21>]), PythonNode(trailer, [<Operator: (>, <Name: y_dim@1098,40>, <Operator: )>])])])",
+    "related code": "        if not x_dim.is_compatible_with(y_dim):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1172, 32)",
+    "node content": "<Keyword: in>",
+    "related code": "    return [dim.value for dim in self._dims]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.749531\n",
+    "training time": 429.0,
+    "line number": "(194, 13)",
+    "node content": "<Keyword: not>",
+    "related code": "      if (not isinstance(value, compat.bytes_or_text_types) and\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.727955\n",
+    "training time": 424.0,
+    "line number": "(902, 15)",
+    "node content": "<Operator: *=>",
+    "related code": "        size *= dim.value\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1098, 14)",
+    "node content": "<Keyword: not>",
+    "related code": "        if not x_dim.is_compatible_with(y_dim):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1149, 29)",
+    "node content": "<Keyword: not>",
+    "related code": "    return (self._dims is not None and\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(800, 24)",
+    "node content": "<Operator: %>",
+    "related code": "        return \"(%s,)\" % self._dims[0]\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(805, 23)",
+    "node content": "<Operator: %>",
+    "related code": "        return \"(%s)\" % \", \".join(str(d) for d in self._dims)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 437.0,
+    "line number": "(1177, 64)",
+    "node content": "<Keyword: True>",
+    "related code": "      return tensor_shape_pb2.TensorShapeProto(unknown_rank=True)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(776, 46)",
+    "node content": "<Keyword: in>",
+    "related code": "        self._dims = [as_dimension(d) for d in dims_iter]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(800, 37)",
+    "node content": "<Number: 0>",
+    "related code": "        return \"(%s,)\" % self._dims[0]\n"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.74015\n",
+    "training time": 647.0,
+    "line number": "(3150, 46)",
+    "node content": "<Number: 1e-5>",
+    "related code": "def poincare_normalize(x, axis=1, epsilon=1e-5, name=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.74015\n",
+    "training time": 487.0,
+    "line number": "(1548, 39)",
+    "node content": "<Number: 0>",
+    "related code": "def dense_to_sparse(tensor, eos_token=0, outputs_collections=None, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.726079\n",
+    "training time": 474.0,
+    "line number": "(3066, 39)",
+    "node content": "<Number: 1e-7>",
+    "related code": "def unit_norm(inputs, dim, epsilon=1e-7, scope=None):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.743902\n",
+    "training time": 480.0,
+    "line number": "(3104, 36)",
+    "node content": "<Operator: ->",
+    "related code": "def maxout(inputs, num_units, axis=-1, scope=None):\n"
+  }
+]

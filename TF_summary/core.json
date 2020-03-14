@@ -1,0 +1,82 @@
+[
+  {
+    "node type": "or_test",
+    "accuracy": "0.72045\n",
+    "training time": 467.0,
+    "line number": "(89, 48)",
+    "node content": "PythonNode(or_test, [PythonNode(atom_expr, [<Name: isinstance@89,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: value@89,20>, <Operator: ,>, <Name: int@89,27>]), <Operator: )>])]), <Keyword: or>, PythonNode(comparison, [<Name: value@89,35>, <Keyword: is>, <Keyword: None>])])",
+    "related code": "    elif isinstance(value, int) or value is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.73546\n",
+    "training time": 486.0,
+    "line number": "(479, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(other, LabeledTensor):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1073, 26)",
+    "node content": "<Operator: %>",
+    "related code": "  default_name = 'lt_%s' % op_name\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1142, 26)",
+    "node content": "<Operator: %>",
+    "related code": "  default_name = 'lt_%s' % op_name\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.753283\n",
+    "training time": 491.0,
+    "line number": "(89, 43)",
+    "node content": "<Keyword: is>",
+    "related code": "    elif isinstance(value, int) or value is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.728893\n",
+    "training time": 508.0,
+    "line number": "(100, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "    if labels is not None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.743902\n",
+    "training time": 477.0,
+    "line number": "(338, 55)",
+    "node content": "<Operator: %>",
+    "related code": "    return (\"<%s '%s' shape=%s dtype=%s\\n axes=[%s]>\" %\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.744841\n",
+    "training time": 445.0,
+    "line number": "(480, 18)",
+    "node content": "<Keyword: False>",
+    "related code": "      return False\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.742026\n",
+    "training time": 457.0,
+    "line number": "(337, 24)",
+    "node content": "<Operator: +>",
+    "related code": "    axes_repr = (',\\n' + ' ' * len(' axes=[')).join(axes)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.743902\n",
+    "training time": 481.0,
+    "line number": "(337, 30)",
+    "node content": "<Operator: *>",
+    "related code": "    axes_repr = (',\\n' + ' ' * len(' axes=[')).join(axes)\n"
+  }
+]

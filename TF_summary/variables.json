@@ -1,0 +1,98 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.717636\n",
+    "training time": 426.0,
+    "line number": "(622, 74)",
+    "node content": "<Keyword: False>",
+    "related code": "def assign_from_checkpoint(model_path, var_list, ignore_missing_vars=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 411.0,
+    "line number": "(711, 55)",
+    "node content": "<Keyword: False>",
+    "related code": "                              ignore_missing_vars=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 410.0,
+    "line number": "(115, 26)",
+    "node content": "<Keyword: is>",
+    "related code": "  if global_step_tensor is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.724203\n",
+    "training time": 437.0,
+    "line number": "(456, 45)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@456,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: exclude@456,22>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: list@456,32>, <Operator: ,>, <Name: tuple@456,38>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(exclude, (list, tuple)):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.726079\n",
+    "training time": 491.0,
+    "line number": "(487, 16)",
+    "node content": "<Operator: +>",
+    "related code": "  suffix = '/' + given_name + ':|^' + given_name + ':'\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.734522\n",
+    "training time": 484.0,
+    "line number": "(487, 29)",
+    "node content": "<Operator: +>",
+    "related code": "  suffix = '/' + given_name + ':|^' + given_name + ':'\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.747655\n",
+    "training time": 502.0,
+    "line number": "(487, 37)",
+    "node content": "<Operator: +>",
+    "related code": "  suffix = '/' + given_name + ':|^' + given_name + ':'\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.725141\n",
+    "training time": 549.0,
+    "line number": "(487, 50)",
+    "node content": "<Operator: +>",
+    "related code": "  suffix = '/' + given_name + ':|^' + given_name + ':'\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.728893\n",
+    "training time": 503.0,
+    "line number": "(265, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "  if custom_getter is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.742964\n",
+    "training time": 451.0,
+    "line number": "(456, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(exclude, (list, tuple)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 431.0,
+    "line number": "(202, 21)",
+    "node content": "<Keyword: False>",
+    "related code": "      trainable=False,\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.719512\n",
+    "training time": 418.0,
+    "line number": "(259, 54)",
+    "node content": "<Keyword: not>",
+    "related code": "  collections = list(collections if collections is not None else\n"
+  }
+]

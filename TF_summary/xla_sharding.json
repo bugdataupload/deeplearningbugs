@@ -1,0 +1,26 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 412.0,
+    "line number": "(181, 61)",
+    "node content": "<Keyword: False>",
+    "related code": "def assign_device(tensor, device, assign_tuple_sharding=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.722326\n",
+    "training time": 420.0,
+    "line number": "(188, 61)",
+    "node content": "<Keyword: False>",
+    "related code": "def tile(tensor, tile_assignment, assign_tuple_sharding=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.76454\n",
+    "training time": 461.0,
+    "line number": "(196, 75)",
+    "node content": "<Keyword: False>",
+    "related code": "def split(tensor, split_dimension, num_devices, assign_tuple_sharding=False):\n"
+  }
+]

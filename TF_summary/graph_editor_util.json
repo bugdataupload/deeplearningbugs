@@ -1,0 +1,146 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 601.0,
+    "line number": "(224, 41)",
+    "node content": "<Keyword: True>",
+    "related code": "def make_list_of_op(ops, check_graph=True, allow_graph=True, ignore_ts=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 568.0,
+    "line number": "(224, 59)",
+    "node content": "<Keyword: True>",
+    "related code": "def make_list_of_op(ops, check_graph=True, allow_graph=True, ignore_ts=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.730769\n",
+    "training time": 551.0,
+    "line number": "(224, 76)",
+    "node content": "<Keyword: False>",
+    "related code": "def make_list_of_op(ops, check_graph=True, allow_graph=True, ignore_ts=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(275, 39)",
+    "node content": "<Keyword: True>",
+    "related code": "def make_list_of_t(ts, check_graph=True, allow_graph=True, ignore_ops=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(275, 57)",
+    "node content": "<Keyword: True>",
+    "related code": "def make_list_of_t(ts, check_graph=True, allow_graph=True, ignore_ops=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(275, 75)",
+    "node content": "<Keyword: False>",
+    "related code": "def make_list_of_t(ts, check_graph=True, allow_graph=True, ignore_ops=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(107, 13)",
+    "node content": "<Keyword: True>",
+    "related code": "  return True\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(182, 57)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [PythonNode(atom_expr, [<Name: sgv@182,9>, PythonNode(trailer, [<Operator: .>, <Name: graph@182,13>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: sgv@182,35>, PythonNode(trailer, [<Operator: .>, <Name: graph@182,39>])]), PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Name: graph@182,52>])])",
+    "related code": "    elif sgv.graph is not None and sgv.graph is not graph:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(212, 38)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@212,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op@212,22>, <Operator: ,>, <Name: check_types@212,26>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op, check_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(246, 27)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: is_iterable@246,11>, PythonNode(trailer, [<Operator: (>, <Name: ops@246,23>, <Operator: )>])])])",
+    "related code": "    if not is_iterable(ops):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(212, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(op, check_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(246, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not is_iterable(ops):\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(271, 9)",
+    "node content": "<Operator: +=>",
+    "related code": "    ts += op.outputs\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(182, 25)",
+    "node content": "<Keyword: not>",
+    "related code": "    elif sgv.graph is not None and sgv.graph is not graph:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(182, 51)",
+    "node content": "<Keyword: not>",
+    "related code": "    elif sgv.graph is not None and sgv.graph is not graph:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(253, 24)",
+    "node content": "<Keyword: in>",
+    "related code": "    return [op for op in ops if isinstance(op, tf_ops.Operation)]\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(162, 57)",
+    "node content": "<Keyword: in>",
+    "related code": "      res.__init__(transform_tree(child, fn) for child in tree)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(165, 65)",
+    "node content": "<Keyword: in>",
+    "related code": "      return iterable_type(transform_tree(child, fn) for child in tree)\n"
+  }
+]

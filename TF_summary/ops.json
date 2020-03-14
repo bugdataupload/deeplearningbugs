@@ -1,0 +1,786 @@
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.739212\n",
+    "training time": 668.0,
+    "line number": "(82, 20)",
+    "node content": "<Keyword: True>",
+    "related code": "_USE_C_SHAPES = True\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.72045\n",
+    "training time": 652.0,
+    "line number": "(2760, 24)",
+    "node content": "<Number: 0>",
+    "related code": "_MUTATION_LOCK_GROUP = 0\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2761, 27)",
+    "node content": "<Number: 1>",
+    "related code": "_SESSION_RUN_LOCK_GROUP = 1\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.716698\n",
+    "training time": 667.0,
+    "line number": "(194, 34)",
+    "node content": "PythonNode(and_test, [<Name: conv_fn@194,5>, <Keyword: and>, PythonNode(atom_expr, [<Name: callable@194,17>, PythonNode(trailer, [<Operator: (>, <Name: conv_fn@194,26>, <Operator: )>])])])",
+    "related code": "  if conv_fn and callable(conv_fn):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 457.0,
+    "line number": "(255, 36)",
+    "node content": "<Keyword: False>",
+    "related code": "def numpy_text(tensor, is_repr=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.726079\n",
+    "training time": 416.0,
+    "line number": "(1252, 43)",
+    "node content": "<Keyword: False>",
+    "related code": "                               as_ref=False,\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1348, 53)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1348,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: values@1348,20>, <Operator: ,>, PythonNode(atom_expr, [<Name: collections_abc@1348,28>, PythonNode(trailer, [<Operator: .>, <Name: Sequence@1348,44>])])]), <Operator: )>])])])",
+    "related code": "  if not isinstance(values, collections_abc.Sequence):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2532, 18)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: op@2532,9>, PythonNode(trailer, [<Operator: .>, <Name: inputs@2532,12>])])])",
+    "related code": "  if not op.inputs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.729831\n",
+    "training time": 417.0,
+    "line number": "(5191, 71)",
+    "node content": "<Keyword: False>",
+    "related code": "def _colocate_with_for_gradient(op, gradient_uid, ignore_existing=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 422.0,
+    "line number": "(5214, 43)",
+    "node content": "<Keyword: False>",
+    "related code": "def colocate_with(op, ignore_existing=False):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.737336\n",
+    "training time": 412.0,
+    "line number": "(5499, 35)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: _default_graph_stack@5499,9>, PythonNode(trailer, [<Operator: .>, <Name: stack@5499,30>])])])",
+    "related code": "  if not _default_graph_stack.stack:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.726079\n",
+    "training time": 406.0,
+    "line number": "(5954, 43)",
+    "node content": "PythonNode(and_test, [<Name: graph@5954,5>, <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@5954,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: graph@5954,30>, <Operator: ,>, <Name: Graph@5954,37>]), <Operator: )>])])])])",
+    "related code": "  if graph and not isinstance(graph, Graph):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6543, 40)",
+    "node content": "PythonNode(and_test, [<Name: to_proto@6543,5>, <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: callable@6543,22>, PythonNode(trailer, [<Operator: (>, <Name: to_proto@6543,31>, <Operator: )>])])])])",
+    "related code": "  if to_proto and not callable(to_proto):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6545, 44)",
+    "node content": "PythonNode(and_test, [<Name: from_proto@6545,5>, <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: callable@6545,24>, PythonNode(trailer, [<Operator: (>, <Name: from_proto@6545,33>, <Operator: )>])])])])",
+    "related code": "  if from_proto and not callable(from_proto):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.732645\n",
+    "training time": 412.0,
+    "line number": "(6576, 71)",
+    "node content": "<Keyword: False>",
+    "related code": "def _operation_conversion_error(op, dtype=None, name=None, as_ref=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 411.0,
+    "line number": "(263, 12)",
+    "node content": "<Keyword: in>",
+    "related code": "  if \"\\n\" in text:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1348, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not isinstance(values, collections_abc.Sequence):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.739212\n",
+    "training time": 402.0,
+    "line number": "(1351, 11)",
+    "node content": "<Keyword: is>",
+    "related code": "  if ctx is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2520, 46)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2520,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op_type@2520,20>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@2520,29>, PythonNode(trailer, [<Operator: .>, <Name: string_types@2520,33>])])]), <Operator: )>])])])",
+    "related code": "  if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2532, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not op.inputs:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 404.0,
+    "line number": "(5221, 44)",
+    "node content": "<Keyword: False>",
+    "related code": "def _colocate_with(op, ignore_existing=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.725141\n",
+    "training time": 405.0,
+    "line number": "(5499, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not _default_graph_stack.stack:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5522, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "  if outer_context is None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.725141\n",
+    "training time": 405.0,
+    "line number": "(5954, 43)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@5954,19>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: graph@5954,30>, <Operator: ,>, <Name: Graph@5954,37>]), <Operator: )>])])])",
+    "related code": "  if graph and not isinstance(graph, Graph):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5984, 39)",
+    "node content": "PythonNode(or_test, [<Name: graph@5984,9>, <Keyword: or>, <Name: current_default_graph@5984,18>])",
+    "related code": "  return graph or current_default_graph\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6543, 40)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: callable@6543,22>, PythonNode(trailer, [<Operator: (>, <Name: to_proto@6543,31>, <Operator: )>])])])",
+    "related code": "  if to_proto and not callable(to_proto):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6545, 44)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: callable@6545,24>, PythonNode(trailer, [<Operator: (>, <Name: from_proto@6545,33>, <Operator: )>])])])",
+    "related code": "  if from_proto and not callable(from_proto):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6585, 9)",
+    "node content": "<Keyword: is>",
+    "related code": "  if v is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(172, 20)",
+    "node content": "<Keyword: not>",
+    "related code": "  if existing is not None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(175, 52)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@175,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: existing@175,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: type@175,32>, PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: object@175,37>, PythonNode(trailer, [<Operator: .>, <Name: __lt__@175,44>])]), <Operator: )>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(existing, type(object.__lt__)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(178, 17)",
+    "node content": "<Keyword: not>",
+    "related code": "  if operator not in Tensor.OVERLOADABLE_OPERATORS:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(230, 49)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@230,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: tensor_type@230,22>, PythonNode(trailer, [<Operator: .>, <Name: name@230,34>])]), <Operator: ,>, <Name: property@230,40>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(tensor_type.name, property):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(237, 50)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@237,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(atom_expr, [<Name: tensor_type@237,22>, PythonNode(trailer, [<Operator: .>, <Name: dtype@237,34>])]), <Operator: ,>, <Name: property@237,41>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(tensor_type.dtype, property):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(732, 26)",
+    "node content": "<Number: 100>",
+    "related code": "  __array_priority__ = 100\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1267, 17)",
+    "node content": "<Keyword: not>",
+    "related code": "  if dtype is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1270, 70)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: dtype@1270,7>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>]), <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: dtype@1270,33>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@1270,39>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: value@1270,58>, PythonNode(trailer, [<Operator: .>, <Name: dtype@1270,64>])]), <Operator: )>])])])])",
+    "related code": "    if dtype is not None and not dtype.is_compatible_with(value.dtype):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1276, 27)",
+    "node content": "<Keyword: not>",
+    "related code": "  if preferred_dtype is not None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1282, 52)",
+    "node content": "PythonNode(and_test, [PythonNode(comparison, [<Name: dtype@1282,7>, <Keyword: is>, <Keyword: None>]), <Keyword: and>, PythonNode(comparison, [<Name: preferred_dtype@1282,25>, PythonNode(comp_op, [<Keyword: is>, <Keyword: not>]), <Keyword: None>])])",
+    "related code": "    if dtype is None and preferred_dtype is not None:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1302, 49)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1302,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: ret@1302,22>, <Operator: ,>, <Name: accepted_result_types@1302,27>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(ret, accepted_result_types):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1306, 56)",
+    "node content": "PythonNode(and_test, [<Name: dtype@1306,7>, <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: dtype@1306,21>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@1306,27>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: ret@1306,46>, PythonNode(trailer, [<Operator: .>, <Name: dtype@1306,50>])]), <Operator: )>])])])])",
+    "related code": "    if dtype and not dtype.is_compatible_with(ret.dtype):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1550, 17)",
+    "node content": "<Keyword: not>",
+    "related code": "  if attrs is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1553, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "  if device is not None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2520, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2580, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2580,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op_type@2580,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@2580,31>, PythonNode(trailer, [<Operator: .>, <Name: string_types@2580,35>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2706, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2706,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op_type@2706,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@2706,31>, PythonNode(trailer, [<Operator: .>, <Name: string_types@2706,35>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2711, 55)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2711,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: statistic_type@2711,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@2711,38>, PythonNode(trailer, [<Operator: .>, <Name: string_types@2711,42>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(statistic_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5912, 31)",
+    "node content": "<Keyword: not>",
+    "related code": "  if original_item.graph is not item.graph:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5954, 18)",
+    "node content": "<Keyword: not>",
+    "related code": "  if graph and not isinstance(graph, Graph):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.727017\n",
+    "training time": 451.0,
+    "line number": "(6543, 21)",
+    "node content": "<Keyword: not>",
+    "related code": "  if to_proto and not callable(to_proto):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6545, 23)",
+    "node content": "<Keyword: not>",
+    "related code": "  if from_proto and not callable(from_proto):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(125, 35)",
+    "node content": "<Keyword: is>",
+    "related code": "    elif device_name_or_function is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(156, 16)",
+    "node content": "<Keyword: False>",
+    "related code": "    return False  # False values do not suppress exceptions\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.722326\n",
+    "training time": 439.0,
+    "line number": "(175, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(existing, type(object.__lt__)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(230, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(tensor_type.name, property):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(237, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(tensor_type.dtype, property):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(382, 36)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@382,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op@382,22>, <Operator: ,>, <Name: Operation@382,26>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op, Operation):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(625, 54)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@625,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: shape@625,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: tensor_shape@625,29>, PythonNode(trailer, [<Operator: .>, <Name: TensorShape@625,42>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(shape, tensor_shape.TensorShape):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1057, 27)",
+    "node content": "<Number: 0>",
+    "related code": "  def gpu(self, gpu_index=0):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.714822\n",
+    "training time": 468.0,
+    "line number": "(1270, 70)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: dtype@1270,33>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@1270,39>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: value@1270,58>, PythonNode(trailer, [<Operator: .>, <Name: dtype@1270,64>])]), <Operator: )>])])])",
+    "related code": "    if dtype is not None and not dtype.is_compatible_with(value.dtype):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1296, 13)",
+    "node content": "<Keyword: is>",
+    "related code": "    if ret is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1299, 13)",
+    "node content": "<Keyword: is>",
+    "related code": "    if ret is NotImplemented:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1302, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(ret, accepted_result_types):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1306, 56)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: dtype@1306,21>, PythonNode(trailer, [<Operator: .>, <Name: is_compatible_with@1306,27>]), PythonNode(trailer, [<Operator: (>, PythonNode(atom_expr, [<Name: ret@1306,46>, PythonNode(trailer, [<Operator: .>, <Name: dtype@1306,50>])]), <Operator: )>])])])",
+    "related code": "    if dtype and not dtype.is_compatible_with(ret.dtype):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1708, 31)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1708,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: g@1708,22>, <Operator: ,>, <Name: Graph@1708,25>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(g, Graph):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1714, 37)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1714,13>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: inputs@1714,24>, <Operator: ,>, <Name: list@1714,32>]), <Operator: )>])])])",
+    "related code": "    elif not isinstance(inputs, list):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1788, 15)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, <Name: c_op@1788,11>])",
+    "related code": "    if not c_op:\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.737336\n",
+    "training time": 500.0,
+    "line number": "(2038, 37)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2038,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: tensor@2038,22>, <Operator: ,>, <Name: Tensor@2038,30>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(tensor, Tensor):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2099, 36)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2099,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op@2099,22>, <Operator: ,>, <Name: Operation@2099,26>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op, Operation):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2480, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2480,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op_type@2480,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@2480,31>, PythonNode(trailer, [<Operator: .>, <Name: string_types@2480,35>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2580, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2586, 11)",
+    "node content": "<Keyword: is>",
+    "related code": "    if f is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2706, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(op_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2708, 13)",
+    "node content": "<Keyword: in>",
+    "related code": "    if \",\" in op_type:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2711, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(statistic_type, six.string_types):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2713, 13)",
+    "node content": "<Keyword: in>",
+    "related code": "    if \",\" in statistic_type:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2757, 47)",
+    "node content": "PythonNode(and_test, [<Name: name@2757,23>, <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: name@2757,32>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: ==>, <String: \"/\">])])",
+    "related code": "  return name[:-1] if (name and name[-1] == \"/\") else name\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.724203\n",
+    "training time": 445.0,
+    "line number": "(3011, 46)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@3011,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: op@3011,22>, <Operator: ,>, PythonNode(atom, [<Operator: (>, PythonNode(testlist_comp, [<Name: Tensor@3011,27>, <Operator: ,>, <Name: Operation@3011,35>]), <Operator: )>])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(op, (Tensor, Operation)):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(3133, 61)",
+    "node content": "<Keyword: False>",
+    "related code": "  def _as_graph_def(self, from_version=None, add_shapes=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.734522\n",
+    "training time": 514.0,
+    "line number": "(3212, 60)",
+    "node content": "<Keyword: False>",
+    "related code": "  def as_graph_def(self, from_version=None, add_shapes=False):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.724203\n",
+    "training time": 621.0,
+    "line number": "(3406, 31)",
+    "node content": "PythonNode(and_test, [<Name: name@3406,7>, <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: name@3406,16>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: ==>, <String: \"/\">])])",
+    "related code": "    if name and name[-1] == \"/\":\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(3430, 66)",
+    "node content": "<Keyword: True>",
+    "related code": "  def _create_op_from_tf_operation(self, c_op, compute_device=True):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.747655\n",
+    "training time": 600.0,
+    "line number": "(3462, 53)",
+    "node content": "<Keyword: True>",
+    "related code": "  def _create_op_helper(self, op, compute_device=True):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.736398\n",
+    "training time": 518.0,
+    "line number": "(3531, 42)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@3531,7>, PythonNode(trailer, [<Operator: .>, <Name: _container@3531,12>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: op@3531,27>, PythonNode(trailer, [<Operator: .>, <Name: _is_stateful@3531,30>])])])",
+    "related code": "    if self._container and op._is_stateful:  # pylint: disable=protected-access\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 466.0,
+    "line number": "(3542, 55)",
+    "node content": "<Keyword: True>",
+    "related code": "  def _add_new_tf_operations(self, compute_devices=True):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.742964\n",
+    "training time": 481.0,
+    "line number": "(3573, 51)",
+    "node content": "<Keyword: True>",
+    "related code": "  def as_graph_element(self, obj, allow_tensor=True, allow_operation=True):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(3573, 73)",
+    "node content": "<Keyword: True>",
+    "related code": "  def as_graph_element(self, obj, allow_tensor=True, allow_operation=True):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(3618, 39)",
+    "node content": "PythonNode(and_test, [<Name: allow_tensor@3618,7>, <Keyword: and>, <Name: allow_operation@3618,24>])",
+    "related code": "    if allow_tensor and allow_operation:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.718574\n",
+    "training time": 548.0,
+    "line number": "(3683, 49)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@3683,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: obj@3683,20>, <Operator: ,>, <Name: Tensor@3683,25>]), <Operator: )>])]), <Keyword: and>, <Name: allow_tensor@3683,37>])",
+    "related code": "    elif isinstance(obj, Tensor) and allow_tensor:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.742964\n",
+    "training time": 513.0,
+    "line number": "(3688, 55)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: isinstance@3688,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: obj@3688,20>, <Operator: ,>, <Name: Operation@3688,25>]), <Operator: )>])]), <Keyword: and>, <Name: allow_operation@3688,40>])",
+    "related code": "    elif isinstance(obj, Operation) and allow_operation:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.741088\n",
+    "training time": 469.0,
+    "line number": "(4145, 47)",
+    "node content": "<Keyword: True>",
+    "related code": "  def unique_name(self, name, mark_as_used=True):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(4300, 66)",
+    "node content": "<Number: 0>",
+    "related code": "  def _add_device_to_stack(self, device_name_or_function, offset=0):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.729831\n",
+    "training time": 494.0,
+    "line number": "(5262, 32)",
+    "node content": "<Keyword: True>",
+    "related code": "    self._enforce_nesting = True\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 506.0,
+    "line number": "(5455, 13)",
+    "node content": "<Keyword: is>",
+    "related code": "    if ret is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.723265\n",
+    "training time": 504.0,
+    "line number": "(5515, 23)",
+    "node content": "<Keyword: is>",
+    "related code": "    if outer_context is None:\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(5591, 33)",
+    "node content": "PythonNode(and_test, [<Name: scope@5591,7>, <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: scope@5591,17>, PythonNode(trailer, [<Operator: [>, PythonNode(factor, [<Operator: ->, <Number: 1>]), <Operator: ]>])]), <Operator: !=>, <String: \"/\">])])",
+    "related code": "    if scope and scope[-1] != \"/\":\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6288, 79)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom, [<Operator: (>, PythonNode(or_test, [PythonNode(comparison, [<Name: default_name@6288,12>, <Keyword: is>, <Keyword: None>]), <Keyword: or>, PythonNode(atom_expr, [<Name: isinstance@6288,36>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: default_name@6288,47>, <Operator: ,>, PythonNode(atom_expr, [<Name: six@6288,61>, PythonNode(trailer, [<Operator: .>, <Name: string_types@6288,65>])])]), <Operator: )>])])]), <Operator: )>])])",
+    "related code": "    if not (default_name is None or isinstance(default_name, six.string_types)):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(6298, 43)",
+    "node content": "PythonNode(and_test, [PythonNode(atom_expr, [<Name: self@6298,7>, PythonNode(trailer, [<Operator: .>, <Name: _values@6298,12>])]), <Keyword: and>, PythonNode(atom_expr, [<Name: self@6298,24>, PythonNode(trailer, [<Operator: .>, <Name: _in_eager_mode@6298,29>])])])",
+    "related code": "    if self._values and self._in_eager_mode:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.728893\n",
+    "training time": 485.0,
+    "line number": "(247, 55)",
+    "node content": "<Operator: +>",
+    "related code": "  _TENSOR_LIKE_TYPES = tuple(list(_TENSOR_LIKE_TYPES) + [tensor_type])\n"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.726079\n",
+    "training time": 444.0,
+    "line number": "(85, 45)",
+    "node content": "<Number: 1.0>",
+    "related code": "def compute_weighted_loss(losses, weights=1.0, scope=None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 431.0,
+    "line number": "(217, 49)",
+    "node content": "<Keyword: True>",
+    "related code": "def get_total_loss(add_regularization_losses=True, name=\"total_loss\"):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.724203\n",
+    "training time": 453.0,
+    "line number": "(240, 61)",
+    "node content": "<Number: 1.0>",
+    "related code": "def absolute_difference(predictions, labels=None, weights=1.0, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.733584\n",
+    "training time": 438.0,
+    "line number": "(380, 60)",
+    "node content": "<Number: 1.0>",
+    "related code": "def sparse_softmax_cross_entropy(logits, labels, weights=1.0, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.736398\n",
+    "training time": 455.0,
+    "line number": "(415, 50)",
+    "node content": "<Number: 1.0>",
+    "related code": "def log_loss(predictions, labels=None, weights=1.0, epsilon=1e-7, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.722326\n",
+    "training time": 427.0,
+    "line number": "(415, 64)",
+    "node content": "<Number: 1e-7>",
+    "related code": "def log_loss(predictions, labels=None, weights=1.0, epsilon=1e-7, scope=None):\n"
+  }
+]

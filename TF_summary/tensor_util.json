@@ -1,0 +1,50 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.725141\n",
+    "training time": 411.0,
+    "line number": "(77, 24)",
+    "node content": "<Number: 1>",
+    "related code": "    if len(tensors) == 1:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.737336\n",
+    "training time": 415.0,
+    "line number": "(270, 30)",
+    "node content": "<Operator: !=>",
+    "related code": "    if expected_shape.dtype != np.int32:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(76, 66)",
+    "node content": "<Keyword: in>",
+    "related code": "        math_ops.reduce_sum(t, name='%s/sum' % t.op.name) for t in tensors]\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.731707\n",
+    "training time": 482.0,
+    "line number": "(280, 51)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: tensor_util@280,14>, PythonNode(trailer, [<Operator: .>, <Name: is_tensor@280,26>]), PythonNode(trailer, [<Operator: (>, <Name: expected_shape@280,36>, <Operator: )>])])])",
+    "related code": "      if (not tensor_util.is_tensor(expected_shape)\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 446.0,
+    "line number": "(280, 13)",
+    "node content": "<Keyword: not>",
+    "related code": "      if (not tensor_util.is_tensor(expected_shape)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.743902\n",
+    "training time": 475.0,
+    "line number": "(272, 66)",
+    "node content": "<Operator: %>",
+    "related code": "          'Invalid dtype %s for shape %s expected of tensor %s.' % (\n"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "node type": "number",
+    "accuracy": "0.730769\n",
+    "training time": 546.0,
+    "line number": "(48, 30)",
+    "node content": "<Number: 6>",
+    "related code": "CUDNN_GRU_PARAMS_PER_LAYER = 6\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.730769\n",
+    "training time": 461.0,
+    "line number": "(49, 35)",
+    "node content": "<Number: 2>",
+    "related code": "CUDNN_RNN_TANH_PARAMS_PER_LAYER = 2\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.744841\n",
+    "training time": 426.0,
+    "line number": "(50, 35)",
+    "node content": "<Number: 2>",
+    "related code": "CUDNN_RNN_RELU_PARAMS_PER_LAYER = 2\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.734522\n",
+    "training time": 463.0,
+    "line number": "(1652, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.719512\n",
+    "training time": 460.0,
+    "line number": "(1850, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.728893\n",
+    "training time": 559.0,
+    "line number": "(1947, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.752345\n",
+    "training time": 557.0,
+    "line number": "(2043, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.730769\n",
+    "training time": 466.0,
+    "line number": "(2052, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.723265\n",
+    "training time": 438.0,
+    "line number": "(2061, 12)",
+    "node content": "<Operator: +=>",
+    "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  }
+]

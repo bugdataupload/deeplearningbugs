@@ -1,0 +1,154 @@
+[
+  {
+    "node type": "not_test",
+    "accuracy": "0.719512\n",
+    "training time": 434.0,
+    "line number": "(1975, 48)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom, [<Operator: (>, PythonNode(or_test, [PythonNode(atom_expr, [<Name: dtype@1975,10>, PythonNode(trailer, [<Operator: .>, <Name: is_integer@1975,16>])]), <Keyword: or>, PythonNode(atom_expr, [<Name: dtype@1975,30>, PythonNode(trailer, [<Operator: .>, <Name: is_floating@1975,36>])])]), <Operator: )>])])",
+    "related code": "  if not (dtype.is_integer or dtype.is_floating):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.742964\n",
+    "training time": 406.0,
+    "line number": "(2567, 51)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2567,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: feature_column@2567,20>, <Operator: ,>, <Name: _FeatureColumn@2567,36>]), <Operator: )>])])])",
+    "related code": "  if not isinstance(feature_column, _FeatureColumn):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.722326\n",
+    "training time": 434.0,
+    "line number": "(1966, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not isinstance(dimension, int):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.738274\n",
+    "training time": 425.0,
+    "line number": "(1975, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not (dtype.is_integer or dtype.is_floating):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.725141\n",
+    "training time": 434.0,
+    "line number": "(2567, 8)",
+    "node content": "<Keyword: not>",
+    "related code": "  if not isinstance(feature_column, _FeatureColumn):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.728893\n",
+    "training time": 438.0,
+    "line number": "(327, 34)",
+    "node content": "<Keyword: False>",
+    "related code": "              is_integerized=False,\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.730769\n",
+    "training time": 443.0,
+    "line number": "(427, 66)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@427,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: input_tensor@427,22>, <Operator: ,>, PythonNode(atom_expr, [<Name: sparse_tensor_py@427,36>, PythonNode(trailer, [<Operator: .>, <Name: SparseTensor@427,53>])])]), <Operator: )>])])])",
+    "related code": "    if not isinstance(input_tensor, sparse_tensor_py.SparseTensor):\n"
+  },
+  {
+    "node type": "or_test",
+    "accuracy": "0.731707\n",
+    "training time": 454.0,
+    "line number": "(1975, 47)",
+    "node content": "PythonNode(or_test, [PythonNode(atom_expr, [<Name: dtype@1975,10>, PythonNode(trailer, [<Operator: .>, <Name: is_integer@1975,16>])]), <Keyword: or>, PythonNode(atom_expr, [<Name: dtype@1975,30>, PythonNode(trailer, [<Operator: .>, <Name: is_floating@1975,36>])])])",
+    "related code": "  if not (dtype.is_integer or dtype.is_floating):\n"
+  },
+  {
+    "node type": "and_test",
+    "accuracy": "0.73546\n",
+    "training time": 465.0,
+    "line number": "(364, 40)",
+    "node content": "PythonNode(and_test, [<Name: lookup_config@363,8>, <Keyword: and>, PythonNode(atom_expr, [<Name: lookup_config@363,26>, PythonNode(trailer, [<Operator: .>, <Name: vocabulary_file@363,40>])]), <Keyword: and>, PythonNode(comparison, [PythonNode(atom_expr, [<Name: lookup_config@364,8>, PythonNode(trailer, [<Operator: .>, <Name: vocab_size@364,22>])]), <Keyword: is>, <Keyword: None>])])",
+    "related code": "        lookup_config.vocab_size is None):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.706379\n",
+    "training time": 436.0,
+    "line number": "(427, 10)",
+    "node content": "<Keyword: not>",
+    "related code": "    if not isinstance(input_tensor, sparse_tensor_py.SparseTensor):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.72045\n",
+    "training time": 422.0,
+    "line number": "(1091, 21)",
+    "node content": "<Keyword: is>",
+    "related code": "    if initializer is None:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.739212\n",
+    "training time": 451.0,
+    "line number": "(2069, 33)",
+    "node content": "<Keyword: is>",
+    "related code": "    if source_column.dimension is None:\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.734522\n",
+    "training time": 550.0,
+    "line number": "(2548, 28)",
+    "node content": "<Operator: !=>",
+    "related code": "    if input_tensor.dtype != dtypes.float32:\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.727955\n",
+    "training time": 526.0,
+    "line number": "(364, 35)",
+    "node content": "<Keyword: is>",
+    "related code": "        lookup_config.vocab_size is None):\n"
+  },
+  {
+    "node type": "not_test",
+    "accuracy": "0.734522\n",
+    "training time": 610.0,
+    "line number": "(2073, 40)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@2073,12>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: boundaries@2073,23>, <Operator: ,>, <Name: list@2073,35>]), <Operator: )>])])])",
+    "related code": "    if (not isinstance(boundaries, list) and\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.731707\n",
+    "training time": 608.0,
+    "line number": "(2073, 11)",
+    "node content": "<Keyword: not>",
+    "related code": "    if (not isinstance(boundaries, list) and\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.728893\n",
+    "training time": 485.0,
+    "line number": "(2557, 29)",
+    "node content": "<Operator: ==>",
+    "related code": "      return self.__dict__ == other.__dict__\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.73546\n",
+    "training time": 472.0,
+    "line number": "(1008, 69)",
+    "node content": "<Operator: ->",
+    "related code": "    return math_ops.reduce_sum(one_hot_id_tensor, axis=[output_rank - 1])\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.725141\n",
+    "training time": 453.0,
+    "line number": "(1008, 71)",
+    "node content": "<Number: 1>",
+    "related code": "    return math_ops.reduce_sum(one_hot_id_tensor, axis=[output_rank - 1])\n"
+  }
+]
