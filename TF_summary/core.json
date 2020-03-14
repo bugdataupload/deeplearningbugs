@@ -1,5 +1,13 @@
 [
   {
+    "node type": "not_test",
+    "accuracy": "0.731707\n",
+    "training time": 460.0,
+    "line number": "(479, 43)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@479,11>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: other@479,22>, <Operator: ,>, <Name: LabeledTensor@479,29>]), <Operator: )>])])])",
+    "related code": "    if not isinstance(other, LabeledTensor):\n"
+  },
+  {
     "node type": "or_test",
     "accuracy": "0.72045\n",
     "training time": 467.0,
@@ -78,5 +86,13 @@
     "line number": "(337, 30)",
     "node content": "<Operator: *>",
     "related code": "    axes_repr = (',\\n' + ' ' * len(' axes=[')).join(axes)\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.725141\n",
+    "training time": 471.0,
+    "line number": "(140, 53)",
+    "node content": "<Operator: %>",
+    "related code": "      raise ValueError('axis %r has unknown length' % self.name)\n"
   }
 ]

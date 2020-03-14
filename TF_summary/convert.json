@@ -1,10 +1,26 @@
 [
   {
+    "node type": "and_test",
+    "accuracy": "0.731707\n",
+    "training time": 477.0,
+    "line number": "(48, 69)",
+    "node content": "PythonNode(and_test, [<Name: _toco_from_proto_bin@48,3>, <Keyword: and>, PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: _os@48,32>, PythonNode(trailer, [<Operator: .>, <Name: path@48,36>]), PythonNode(trailer, [<Operator: .>, <Name: exists@48,41>]), PythonNode(trailer, [<Operator: (>, <Name: _toco_from_proto_bin@48,48>, <Operator: )>])])])])",
+    "related code": "if _toco_from_proto_bin and not _os.path.exists(_toco_from_proto_bin):\n"
+  },
+  {
     "node type": "not_test",
     "accuracy": "0.731707\n",
     "training time": 491.0,
     "line number": "(48, 69)",
     "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: _os@48,32>, PythonNode(trailer, [<Operator: .>, <Name: path@48,36>]), PythonNode(trailer, [<Operator: .>, <Name: exists@48,41>]), PythonNode(trailer, [<Operator: (>, <Name: _toco_from_proto_bin@48,48>, <Operator: )>])])])",
+    "related code": "if _toco_from_proto_bin and not _os.path.exists(_toco_from_proto_bin):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.721388\n",
+    "training time": 520.0,
+    "line number": "(48, 31)",
+    "node content": "<Keyword: not>",
     "related code": "if _toco_from_proto_bin and not _os.path.exists(_toco_from_proto_bin):\n"
   }
 ]

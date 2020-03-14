@@ -1,6 +1,14 @@
 [
   {
     "node type": "keyword",
+    "accuracy": "0.732645\n",
+    "training time": 414.0,
+    "line number": "(174, 49)",
+    "node content": "<Keyword: False>",
+    "related code": "def replicate(tensor, assign_tuple_sharding=False):\n"
+  },
+  {
+    "node type": "keyword",
     "accuracy": "0.727955\n",
     "training time": 412.0,
     "line number": "(181, 61)",
@@ -22,5 +30,13 @@
     "line number": "(196, 75)",
     "node content": "<Keyword: False>",
     "related code": "def split(tensor, split_dimension, num_devices, assign_tuple_sharding=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.714822\n",
+    "training time": 428.0,
+    "line number": "(123, 63)",
+    "node content": "<Keyword: False>",
+    "related code": "  def apply_to_tensor(self, tensor, assign_tuple_sharding=False):\n"
   }
 ]

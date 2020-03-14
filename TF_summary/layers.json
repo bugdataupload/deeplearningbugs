@@ -1,6 +1,14 @@
 [
   {
     "node type": "number",
+    "accuracy": "0.724203\n",
+    "training time": 491.0,
+    "line number": "(3150, 32)",
+    "node content": "<Number: 1>",
+    "related code": "def poincare_normalize(x, axis=1, epsilon=1e-5, name=None):\n"
+  },
+  {
+    "node type": "number",
     "accuracy": "0.74015\n",
     "training time": 647.0,
     "line number": "(3150, 46)",
@@ -29,6 +37,14 @@
     "training time": 480.0,
     "line number": "(3104, 36)",
     "node content": "<Operator: ->",
+    "related code": "def maxout(inputs, num_units, axis=-1, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.737336\n",
+    "training time": 497.0,
+    "line number": "(3104, 37)",
+    "node content": "<Number: 1>",
     "related code": "def maxout(inputs, num_units, axis=-1, scope=None):\n"
   }
 ]

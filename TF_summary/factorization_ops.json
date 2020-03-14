@@ -1,10 +1,26 @@
 [
   {
     "node type": "keyword",
+    "accuracy": "0.747655\n",
+    "training time": 521.0,
+    "line number": "(476, 54)",
+    "node content": "<Keyword: False>",
+    "related code": "  def _cached_copy(self, var, name, pass_through=False):\n"
+  },
+  {
+    "node type": "keyword",
     "accuracy": "0.73546\n",
     "training time": 457.0,
     "line number": "(676, 67)",
     "node content": "<Keyword: False>",
     "related code": "  def update_row_factors(self, sp_input=None, transpose_input=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.721388\n",
+    "training time": 455.0,
+    "line number": "(709, 67)",
+    "node content": "<Keyword: False>",
+    "related code": "  def update_col_factors(self, sp_input=None, transpose_input=False):\n"
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(686, 25)",
+    "node content": "<Operator: ==>",
+    "related code": "assert len(_ANY_TO_TF) == sum(\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.734522\n",
     "training time": 639.0,
@@ -141,6 +149,14 @@
     "training time": "",
     "line number": "(104, 44)",
     "node content": "<Operator: ->",
+    "related code": "      return _INTERN_TABLE[self._type_enum - 100]\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(104, 48)",
+    "node content": "<Number: 100>",
     "related code": "      return _INTERN_TABLE[self._type_enum - 100]\n"
   }
 ]

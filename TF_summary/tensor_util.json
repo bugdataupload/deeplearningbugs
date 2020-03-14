@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.741088\n",
+    "training time": 419.0,
+    "line number": "(77, 22)",
+    "node content": "<Operator: ==>",
+    "related code": "    if len(tensors) == 1:\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.725141\n",
     "training time": 411.0,
@@ -46,5 +54,13 @@
     "line number": "(272, 66)",
     "node content": "<Operator: %>",
     "related code": "          'Invalid dtype %s for shape %s expected of tensor %s.' % (\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.737336\n",
+    "training time": 504.0,
+    "line number": "(76, 46)",
+    "node content": "<Operator: %>",
+    "related code": "        math_ops.reduce_sum(t, name='%s/sum' % t.op.name) for t in tensors]\n"
   }
 ]

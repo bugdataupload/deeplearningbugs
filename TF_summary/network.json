@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "0.736398\n",
+    "training time": 542.0,
+    "line number": "(55, 38)",
+    "node content": "<Operator: +>",
+    "related code": "  return current_variable_scope.name + \"/\"\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.726079\n",
     "training time": 510.0,
@@ -45,6 +53,14 @@
     "training time": 441.0,
     "line number": "(384, 46)",
     "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: hasattr@384,15>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: layer@384,23>, <Operator: ,>, <String: \"_first_parent\">]), <Operator: )>])])])",
+    "related code": "        if not hasattr(layer, \"_first_parent\"):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.726079\n",
+    "training time": 452.0,
+    "line number": "(384, 14)",
+    "node content": "<Keyword: not>",
     "related code": "        if not hasattr(layer, \"_first_parent\"):\n"
   }
 ]

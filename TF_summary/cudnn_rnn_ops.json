@@ -1,6 +1,14 @@
 [
   {
     "node type": "number",
+    "accuracy": "0.736398\n",
+    "training time": 441.0,
+    "line number": "(47, 31)",
+    "node content": "<Number: 8>",
+    "related code": "CUDNN_LSTM_PARAMS_PER_LAYER = 8\n"
+  },
+  {
+    "node type": "number",
     "accuracy": "0.730769\n",
     "training time": 546.0,
     "line number": "(48, 30)",
@@ -70,5 +78,13 @@
     "line number": "(2061, 12)",
     "node content": "<Operator: +=>",
     "related code": "  __doc__ += _cudnn_rnn_common_doc_string\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "0.714822\n",
+    "training time": 493.0,
+    "line number": "(894, 56)",
+    "node content": "<Keyword: True>",
+    "related code": "  def _tf_canonical_name_prefix(self, layer, is_fwd=True):\n"
   }
 ]

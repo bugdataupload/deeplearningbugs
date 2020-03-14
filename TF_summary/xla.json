@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "node type": "number",
+    "accuracy": "0.734522\n",
+    "training time": 444.0,
+    "line number": "(42, 22)",
+    "node content": "<Number: 5>",
+    "related code": "_MAX_WARNING_LINES = 5\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.747655\n",
+    "training time": 458.0,
+    "line number": "(198, 33)",
+    "node content": "<Operator: %>",
+    "related code": "          '(operator name: %s)' % op.name)\n"
+  }
+]

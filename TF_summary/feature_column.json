@@ -1,6 +1,14 @@
 [
   {
     "node type": "not_test",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(1966, 35)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: isinstance@1966,9>, PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [<Name: dimension@1966,20>, <Operator: ,>, <Name: int@1966,31>]), <Operator: )>])])])",
+    "related code": "  if not isinstance(dimension, int):\n"
+  },
+  {
+    "node type": "not_test",
     "accuracy": "0.719512\n",
     "training time": 434.0,
     "line number": "(1975, 48)",
@@ -150,5 +158,13 @@
     "line number": "(1008, 71)",
     "node content": "<Number: 1>",
     "related code": "    return math_ops.reduce_sum(one_hot_id_tensor, axis=[output_rank - 1])\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(2317, 49)",
+    "node content": "<Keyword: in>",
+    "related code": "    sorted_columns = sorted([column for column in columns],\n"
   }
 ]

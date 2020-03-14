@@ -1,5 +1,13 @@
 [
   {
+    "node type": "number",
+    "accuracy": "0.733584\n",
+    "training time": 675.0,
+    "line number": "(218, 51)",
+    "node content": "<Number: 0>",
+    "related code": "def pack(labeled_tensors, new_axis, axis_position=0, name=None):\n"
+  },
+  {
     "node type": "operator",
     "accuracy": "0.739212\n",
     "training time": 668.0,
@@ -221,6 +229,14 @@
     "training time": "",
     "line number": "(106, 41)",
     "node content": "<Operator: +>",
+    "related code": "          stop = axis.index(value.stop) + 1\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(106, 43)",
+    "node content": "<Number: 1>",
     "related code": "          stop = axis.index(value.stop) + 1\n"
   }
 ]

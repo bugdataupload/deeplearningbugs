@@ -1,6 +1,14 @@
 [
   {
     "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(116, 52)",
+    "node content": "<Keyword: in>",
+    "related code": "      ops.convert_to_tensor(w, dtype=dtype) for w in embedding_weights\n"
+  },
+  {
+    "node type": "keyword",
     "accuracy": "0.734522\n",
     "training time": 487.0,
     "line number": "(136, 28)",
@@ -69,6 +77,14 @@
     "training time": 549.0,
     "line number": "(133, 65)",
     "node content": "<Operator: ->",
+    "related code": "            array_ops.slice(original_shape, [0], [original_rank - 1])),\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.739212\n",
+    "training time": 550.0,
+    "line number": "(133, 67)",
+    "node content": "<Number: 1>",
     "related code": "            array_ops.slice(original_shape, [0], [original_rank - 1])),\n"
   }
 ]

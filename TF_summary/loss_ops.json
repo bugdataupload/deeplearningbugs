@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.737336\n",
+    "training time": 473.0,
+    "line number": "(125, 49)",
+    "node content": "<Keyword: False>",
+    "related code": "def _num_present(losses, weights, per_batch=False):\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.726079\n",
     "training time": 444.0,
@@ -46,5 +54,13 @@
     "line number": "(415, 64)",
     "node content": "<Number: 1e-7>",
     "related code": "def log_loss(predictions, labels=None, weights=1.0, epsilon=1e-7, scope=None):\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.731707\n",
+    "training time": 439.0,
+    "line number": "(487, 60)",
+    "node content": "<Number: 1.0>",
+    "related code": "def mean_squared_error(predictions, labels=None, weights=1.0, scope=None):\n"
   }
 ]

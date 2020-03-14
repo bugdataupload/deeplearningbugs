@@ -1,5 +1,13 @@
 [
   {
+    "node type": "keyword",
+    "accuracy": "0.742964\n",
+    "training time": 462.0,
+    "line number": "(85, 30)",
+    "node content": "<Keyword: True>",
+    "related code": "LIMIT_PYTHON_ITERATIONS = True\n"
+  },
+  {
     "node type": "number",
     "accuracy": "0.745779\n",
     "training time": 471.0,
@@ -85,6 +93,14 @@
     "training time": 531.0,
     "line number": "(450, 42)",
     "node content": "<Number: 0>",
+    "related code": "            math_ops.logical_and(delta < 0, iterate > limit))\n"
+  },
+  {
+    "node type": "operator",
+    "accuracy": "0.713884\n",
+    "training time": 464.0,
+    "line number": "(450, 53)",
+    "node content": "<Operator: >>",
     "related code": "            math_ops.logical_and(delta < 0, iterate > limit))\n"
   }
 ]

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "node type": "keyword",
+    "accuracy": "0.73546\n",
+    "training time": 491.0,
+    "line number": "(367, 53)",
+    "node content": "<Keyword: False>",
+    "related code": "def standard_analysis(node, context, is_initial=False):\n"
+  },
+  {
+    "node type": "keyword",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(169, 27)",
+    "node content": "<Keyword: is>",
+    "related code": "    if optional_features is None:\n"
+  }
+]

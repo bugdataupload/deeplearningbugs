@@ -1,5 +1,13 @@
 [
   {
+    "node type": "not_test",
+    "accuracy": "0.750469\n",
+    "training time": 560.0,
+    "line number": "(246, 30)",
+    "node content": "PythonNode(not_test, [<Keyword: not>, PythonNode(atom_expr, [<Name: is_frozen_graph@246,9>, PythonNode(trailer, [<Operator: (>, <Name: sess@246,25>, <Operator: )>])])])",
+    "related code": "  if not is_frozen_graph(sess):\n"
+  },
+  {
     "node type": "keyword",
     "accuracy": "0.727955\n",
     "training time": 601.0,
@@ -13,6 +21,14 @@
     "training time": 568.0,
     "line number": "(80, 20)",
     "node content": "<Operator: ->",
+    "related code": "        len(parts) - 1))\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "0.730769\n",
+    "training time": 551.0,
+    "line number": "(80, 22)",
+    "node content": "<Number: 1>",
     "related code": "        len(parts) - 1))\n"
   }
 ]

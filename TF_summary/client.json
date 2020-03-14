@@ -1,5 +1,13 @@
 [
   {
+    "node type": "operator",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(195, 14)",
+    "node content": "<Operator: ==>",
+    "related code": "if __name__ == '__main__':\n"
+  },
+  {
     "node type": "number",
     "accuracy": "",
     "training time": "",
@@ -254,5 +262,13 @@
     "line number": "(86, 47)",
     "node content": "<Number: 1>",
     "related code": "                sequence_length=x_train.shape[1],\n"
+  },
+  {
+    "node type": "number",
+    "accuracy": "",
+    "training time": "",
+    "line number": "(87, 43)",
+    "node content": "<Number: 1>",
+    "related code": "                num_classes=y_train.shape[1],\n"
   }
 ]
