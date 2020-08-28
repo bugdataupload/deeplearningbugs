@@ -81,6 +81,9 @@ For example, a bug summary in base_layer of Keras is recorded as following:
 >  }  
 
 [1] N. Humbatova, G. Jahangirova, G. Bavota, V. Riccio, A. Stocco, and P. Tonella. Taxonomy of real faults in deep learning systems. In Proc. ICSE, page to appear, 2020.
+
 [2] M. J. Islam, G. Nguyen, R. Pan, and H. Rajan. A comprehensive study on deep learning bug characteristics. In Pro. ESEC/FSE, pages 510–520, 2019.
+
 [3] L. Jia, H. Zhong, X. Wang, L. Huang, and X. Lu. An empirical study on bugs inside tensorflow. In Proc. DASFAA, page to appear, 2020.
+
 [4] Y. Zhang, Y. Chen, S. Cheung, Y. Xiong, and L. Zhang. An empirical study on TensorFlow program bugs. In Proc. ISSTA, pages 129–140, 2018.
