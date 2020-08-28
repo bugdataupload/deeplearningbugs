@@ -5,7 +5,7 @@
 Researchers [1]–[4] conducted various empirical studies on bugs in deep learning systems. In these studies, researchers read source files, bug reports, pull requests, fixes, and Stack Overflow discussions of deep learning bugs. In this project, we analyze how bugs can affect the results of deep learning. To achieve this goal, we instrument bugs into deep learning software, and analyze how the results of buggy versions differ from those of clean versions. 
 
 ## Setting
-### Our analyzed deep learning software
+### Our analyzed deep learning application
 
 Our deep learning software is an application of sentence sentiment classification based on CNN. It has three versions: [Theano version](https://github.com/yoonkim/CNN_sentence), [TensorFlow version](https://github.com/dennybritz/cnn-text-classification-tf), and [Keras version](https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras)
 
