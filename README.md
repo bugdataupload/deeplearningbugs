@@ -64,7 +64,7 @@ The accuracy is obtained from the end and the training time can be calculated by
 
 ### Our summaries
 
-The summaries can be found in [Theano_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/Theano_summary), [TF_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/TF_summary) and [Keras_summary](https://github.com/bugdataupload/deeplearningbugs/tree/master/Keras_summary) directories, and we store them in json files.
+The summaries can be found in [Theano_summary](https://github.com/bugdataupload/deeplearningbugs/Theano_summary), [TF_summary](https://github.com/bugdataupload/deeplearningbugs/TF_summary) and [Keras_summary](https://github.com/bugdataupload/deeplearningbugs/Keras_summary) directories, and we store them in json files.
 
 The entries of summary are mutation node type, accuarcy, training time, mutation line number, node content and related code.
 
