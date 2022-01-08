@@ -20,7 +20,7 @@ The dataset can be downloaded from www.cs.cornell.edu/people/pabo/movie-review-d
 In our study, we choose [mutmut](https://github.com/boxed/mutmut) to instrument bugs. We use [coveragepy](https://github.com/nedbat/coveragepy) to record all executed code lines in clean versions. When we generate buggy versions, we instrument only those executed code lines.
 
 ## Result
-### Our instrumented bugs
+### Our injected bugs
 
 In total, we constructed 1,820 bugs, and inject them to deep learning applications built upon 3 libraries. The execution logs of the buggy and clearn versions can be found in [Theano_logs](https://github.com/bugdataupload/deeplearningbugs/Theano_logs), [TF_logs](https://github.com/bugdataupload/deeplearningbugs/TF_logs) and [Keras_logs](https://github.com/bugdataupload/deeplearningbugs/Keras_logs) directories.
 
